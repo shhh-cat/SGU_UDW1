@@ -1,0 +1,113 @@
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+$black: #000000;
+$white: #ffffff;
+
+$light-red: rgb(255, 99, 132);
+$light-orange: rgb(255, 159, 64);
+$light-yellow: rgb(255, 205, 86);
+$light-green: rgb(75, 192, 192);
+$light-blue: rgb(54, 162, 235);
+$light-purple: rgb(153, 102, 255);
+$light-grey: rgb(201, 203, 207);
+
+.badge-color-#{$light-red} {
+  background-color: $light-red;
+  color: #ffffff;
+}
+
+.badge-color-#{$light-orange} {
+  background-color: $light-orange;
+  color: #ffffff;
+}
+
+.badge-color-#{$light-yellow} {
+  background-color: $light-yellow;
+  color: #ffffff;
+}
+
+.badge-color-#{$light-green} {
+  background-color: $light-green;
+  color: #ffffff;
+}
+
+.badge-color-#{$light-blue} {
+  background-color: $light-blue;
+  color: #ffffff;
+}
+
+.badge-color-#{$light-purple} {
+  background-color: $light-purple;
+  color: #ffffff;
+}
+
+.badge-color-#{$light-grey} {
+  background-color: $light-grey;
+}
+
+
+@for $i from 1 through 10 {
+  .hr-b-#{$i} {
+    border-bottom: $i + px solid $light-grey;
+    padding-bottom: ($i + 1) +px;
+    margin-bottom: ($i*4) +px;
+    line-height: normal;
+  }
+}
+
+@for $i from 1 through 10 {
+  .hr-r-#{$i} {
+    border-right: $i + px solid $light-grey;
+    padding-right: ($i + 1) +px;
+    margin-right: ($i*4) +px;
+    line-height: normal;
+  }
+}
+
+
+@for $i from 0 through 10 {
+  $key: $i * 0.1;
+  .badge-color-red-#{$i} {
+    background-color: rgba(255, 99, 132, $key);
+  }
+
+  .badge-color-orange-#{$i} {
+    background-color: rgba(255, 159, 64, $key);
+  }
+
+  .badge-color-yellow-#{$i} {
+    background-color: rgba(255, 205, 86, $key);
+  }
+
+  .badge-color-green-#{$i} {
+    background-color: rgba(75, 192, 192, $key);
+  }
+
+  .badge-color-blue-#{$i} {
+    background-color: rgba(54, 162, 235, $key);
+  }
+
+  .badge-color-purple-#{$i} {
+    background-color: rgba(153, 102, 255, $key);
+  }
+
+  .badge-color-grey-#{$i} {
+    background-color: rgba(201, 203, 207, $key);
+  }
+}
+@for $i from 1 through 16 {
+  $size: 8*$i;
+
+  .fsize-#{$size} {
+    font-size: $size + px;
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "sgu_udw1",
+  "version": "0.0.1",
+  "description": "Phat trien ung dung web1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "load": "node-sass --watch _resources/sass --o ../public/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiensgith/SGU_UDW1.git"
+  },
+  "author": "Meoww",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiensgith/SGU_UDW1/issues"
+  },
+  "homepage": "https://github.com/thiensgith/SGU_UDW1#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "css-loader": "^4.3.0",
+    "hover.css": "^2.3.2",
+    "node-sass": "^4.14.1",
+    "sass": "^1.26.12",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.3.0",
+    "webpack": "^4.44.2"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.12"
+  }
+}
