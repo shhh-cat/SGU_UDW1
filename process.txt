@@ -1,0 +1,25 @@
+PAGE                                    DONE
+
+index									<%>
+	coffee 								<%>
+		bio-coffee						<%>
+		espresso-blends					<%>
+		green-coffee					<%>
+		single-origins					<%>
+	tools								<%>				
+		barista							<%>
+		brewing							<%>
+			brewers						<%>
+			filters						<%>
+			grinders-and-accessories	<%>
+			kattles-and-scales			<%>
+	cart								<%>
+	confirm-order						<%>
+	login								<%>
+	register							<%>
+	forgot-password						<%>
+	verify-email						<%>
+	reset-password						<%>
+	admin								<%>
+		login							<%>
+		register						<%>
