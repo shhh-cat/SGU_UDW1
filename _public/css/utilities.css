@@ -442,6 +442,3 @@
 .subnav:hover .subnav-content {
   display: block; }
 
-a.search-icon:focus {
-  display: none;
-}

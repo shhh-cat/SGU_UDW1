@@ -15,8 +15,8 @@ index									<%>
 			kattles-and-scales			<%>
 	cart								<%>
 	confirm-order						<%>
-	login								<%>
-	register							<%>
+	login								<%> <THIÊN> <đã thêm navbar>
+	register							<%>	<THIÊN> <đã thêm navbar>
 	forgot-password						<%>
 	verify-email						<%>
 	reset-password						<%>
