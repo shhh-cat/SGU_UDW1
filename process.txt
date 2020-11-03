@@ -15,11 +15,11 @@ index									<%>
 			kattles-and-scales			<%>
 	cart								<%>
 	confirm-order						<%>
-	login								<%> <THIÊN> <đã thêm navbar>
+	login								<80%> <THIÊN> <đã thêm navbar>
 	register							<%>	<THIÊN> <đã thêm navbar>
-	forgot-password						<%>
-	verify-email						<%>
-	reset-password						<%>
+	forgot-password						<%>	<THIÊN>
+	verify-email						<%>	<THIÊN>
+	reset-password						<%>	<THIÊN>
 	admin								<%>
 		login							<%>
 		register						<%>
