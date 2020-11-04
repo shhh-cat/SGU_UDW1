@@ -446,3 +446,6 @@
 .bg-black {
   background-color: black !important;
 }
+.productlist{
+  display: inline-block;
+}
