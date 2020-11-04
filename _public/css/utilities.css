@@ -458,10 +458,6 @@
 .bg-black {
   background-color: black !important;
 }
-
-.productlist{
-  display: inline-block;
-
 html,body{
   font-family: 'deptrai';
   font-size: 20px;
