@@ -1,3 +1,13 @@
+requirejs.config({
+    paths: {
+        jquery : 'lib/jquery-3.5.1.min',
+        bootstrap : '../bootstrap/js/bootstrap.bundle.min',
+    }
+});
+
+requirejs(['jquery','bootstrap'], function($,bootstrap) {
+});
+
 function magic() {
   var z, i, elmnt, file, xhttp;
   /* Loop through a collection of all HTML elements: */
@@ -25,4 +35,6 @@ function magic() {
     }
   }
 }
+
+magic();
 /*THANK YOU W3 SCHOOL*/
