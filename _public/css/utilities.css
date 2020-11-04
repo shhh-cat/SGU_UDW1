@@ -455,8 +455,8 @@
   display: block; }
 
 
-.bg-black {
-  background-color: black !important;
+.bg-brown {
+  background-color: #bb6b24 !important;
 }
 html,body{
   font-family: 'deptrai';
