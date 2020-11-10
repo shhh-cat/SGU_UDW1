@@ -1,3 +1,8 @@
-.product-card{
-	cursor:pointer;
+div.product-card:hover {
+	box-shadow: 0 0 20px rgba(0,0,0,.1);
+	z-index: 1;
+}
+
+div.container .row, .card-body a{
+	font-size: 16px;
 }
