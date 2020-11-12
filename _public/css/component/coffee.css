@@ -1,0 +1,17 @@
+.test {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.test img {vertical-align: middle;}
+
+.test .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(1, 1, 1); /* Fallback color */
+  background: rgba(1, 1, 1, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
