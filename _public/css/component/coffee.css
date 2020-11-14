@@ -1,17 +1,56 @@
-.test {
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-}
+  .container content, .container aside {
+    position: relative;
+  }
 
-.test img {vertical-align: middle;}
-
-.test .content {
-  position: absolute;
-  bottom: 0;
-  background: rgb(1, 1, 1); /* Fallback color */
-  background: rgba(1, 1, 1, 0.5); /* Black background with 0.5 opacity */
-  color: #f1f1f1;
-  width: 100%;
-  padding: 20px;
-}
+  figure {
+    width: 100%;
+    position: relative;
+  }
+  
+  figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+  } 
+  figure h4 {
+    position: absolute;
+    top: calc(100% - 50px);
+    left: 0;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+    margin: 0;
+    text-indent: 10px;
+  } 
+  figure .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.6);
+        -webkit-transition: .6s ease;
+        transition: .6s ease;
+  }
+  figure .overlay .description {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  figure:hover h4 {
+    display: none;
+  } 
+  figure:hover .overlay {
+    display: block;
+    height: 100%;
+  }
