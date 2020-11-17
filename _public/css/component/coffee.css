@@ -18,10 +18,10 @@
   } 
   figure h4 {
     position: absolute;
-    top: calc(100% - 50px);
+    top: calc(100% - 100px);
     left: 0;
     width: 100%;
-    height: 50px;
+    height: 100px;
     color: #fff;
     background: rgba(0, 0, 0, 0.6);
     margin: 0;
@@ -55,6 +55,5 @@
     display: none;
   } 
   figure:hover .overlay {
-    display: block;
     height: 100%;
   }
