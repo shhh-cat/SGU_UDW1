@@ -6,6 +6,15 @@ requirejs.config({
 });
 
 requirejs(['jquery','bootstrap'], function($,bootstrap) {
+    $( "form#user-login-form" ).submit(function( event ) {
+    if ( $( "input#user-username" ).val() === "user" && $( "input#user-password" ).val() === "123") {
+      window.location.href = '/SGU_UDW1/';
+    }
+    else {
+      $("div.alert").text("This account is invalid").show();
+    }
+    event.preventDefault();
+  });
 });
 
 function magic() {

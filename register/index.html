@@ -1,12 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="public/css/app.css">
-	<title>Wanted Coffee</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/SGU_UDW1/_public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/component/register.css">
+    <title>Register - Wanted Coffee</title>
 </head>
+
 <body>
-	ok
+    <!-- ============= MENU ============== -->
+    <div insert-html="/SGU_UDW1/_template/navbar.html"></div>
+    <!-- =========================== -->
+    <main class="mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col"></div>
+                <div class="col-md-5">
+                    <div class="login-form border p-4">
+                        <form>
+                            <h3 class="text-center pb-2">Sign up</h3>
+                            <div class="row">
+                            	<a class="btn btn-outline-primary col-sm mx-1" href="#"><i class="fab fa-facebook-f mx-2"></i>Sign in with <b>Facebook</b></a>
+                            	<a class="btn btn-outline-danger col-sm mx-1" href="#"><i class="fab fa-google mx-2"></i>Sign in with <b>Google</b></a>
+                            </div>
+                            <div class="or-seperator"><i>or</i></div>
+                            <div class="form-group row">
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-user-tag"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Full name">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-user"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-lock"></i></div>
+                                        </div>
+                                        <input type="password" class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-map-marker-alt"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Address">
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <div class="input-group-text"><i class="fas fa-phone-alt"></i></div>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="Phone number">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <span class="text-brown">Already have an account?</span> <a href="/SGU_UDW1/login" class="text- text-decoration-none">Sign in</a>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col">
+                                    <button type="submit" class="btn btn-outline-dark">Sign up</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                </div>
+                <div class="col"></div>
+            </div>
+        </div>
+    </main>
+
+    <script type="text/javascript">
+        // $.getJSON( "../data.json", function( data ) {
+        //     alert(data.logged);
+        // });
+    </script>
+    <div insert-html="/SGU_UDW1/_template/footer.html"></div>
+    <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
 </body>
+
 </html>
