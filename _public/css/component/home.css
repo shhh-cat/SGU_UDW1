@@ -19,6 +19,12 @@ h2{
     width: 100%;
     height: auto;
   } 
+
+  .highlights figure img {
+    display: block;
+    width: 100%;
+    height: calc(200px - .25rem);
+  } 
   figure h4 {
     position: absolute;
     top: calc(100% - 50px);
@@ -26,7 +32,7 @@ h2{
     width: 100%;
     height: 50px;
     color: #fff;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
     margin: 0;
     text-indent: 10px;
   } 
@@ -39,7 +45,7 @@ h2{
     width: 100%;
     height: 0;
     color: #fff;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.3);
         -webkit-transition: .6s ease;
         transition: .6s ease;
   }
@@ -60,4 +66,3 @@ h2{
   figure:hover .overlay {
     height: 100%;
   }
-
