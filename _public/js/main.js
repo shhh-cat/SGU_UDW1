@@ -3,10 +3,15 @@ requirejs.config({
         jquery : 'lib/jquery-3.5.1.min',
         bootstrap : '../bootstrap/js/bootstrap.bundle.min',
         zoomImage: 'lib/zoom-image',
+        inputSpinner : 'lib/bootstrap-input-spinner',
     }
 });
 
-requirejs(['jquery','bootstrap','zoomImage'], function($,bootstrap,zoomImage) {
+requirejs(['jquery','bootstrap','zoomImage','inputSpinner'], function($,bootstrap,zoomImage,inputSpinner) {
+  var cfgInSpiner = {
+      buttonsWidth: "1rem",
+  }
+  $("input[type='number'].input-spinner").inputSpinner(cfgInSpiner);
   //LOGIN PAGE
     $( "form#user-login-form" ).submit(function( event ) {
     if ( $( "input#user-username" ).val() === "user" && $( "input#user-password" ).val() === "123") {
@@ -28,7 +33,7 @@ requirejs(['jquery','bootstrap','zoomImage'], function($,bootstrap,zoomImage) {
     }
   });
 
-  imageZoom("zimage", "zimageResult");
+  imageZoom("zimage", "zimageResult");    
 });
 
 function magic() {
@@ -61,3 +66,4 @@ function magic() {
 
 magic();
 /*THANK YOU W3 SCHOOL*/
+

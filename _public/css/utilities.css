@@ -514,4 +514,24 @@ div.product-card:hover, a.product-card:hover {
   z-index: 1;
 }
 
+i.fa-shopping-cart {
+  position: relative;
+}
+span.num {
+  text-align: center;
+  width: 16px;
+  height: 16px;
+  padding: .15rem;
+  border-radius: 50%;
+  position: absolute;
+  font-size: 0.6em;
+  top: -10px;
+  color: #fff;
+  right: -6px;
+}
 
+.card-shadow .card{
+  -webkit-box-shadow: 0 10px 20px 0 rgba(0,0,0,0.05);
+    box-shadow: 0 10px 20px 0 rgba(0,0,0,0.05);
+  border:0;
+}
