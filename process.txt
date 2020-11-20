@@ -13,7 +13,7 @@ index									<%>
 			filters						<%>
 			grinders-and-accessories	<%>
 			kattles-and-scales			<%>
-	cart								<%>
+	cart								<80%>
 	confirm-order						<%>
 	login								<80%> <THIÊN> <đã thêm navbar>
 	register							<%>	<THIÊN> <đã thêm navbar>

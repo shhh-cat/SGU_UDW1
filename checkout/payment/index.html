@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/component/checkout.css">
+	<title>Wanted Coffee</title>
+</head>
+<body>
+    <!-- ============= MENU ============== -->
+    <div insert-html="/SGU_UDW1/_template/navbar.html"></div>
+    <!-- =========================== -->
+    
+
+    <div class="container bg-white py-3 mt-4">
+        <!--Section: Block Content-->
+<section>
+
+  <!--Grid row-->
+  <div class="row card-shadow">
+
+    <!--Grid column-->
+    <div class="col-lg-8">
+
+      <!-- Card -->
+      <div class="card mb-3">
+        <div class="card-body pt-4">
+
+          <h5 class="mb-4">Billing address</h5>
+
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputFname">First name</label>
+                <input type="text" class="form-control form-control-sm" id="inputFname">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputLname">Last name</label>
+                <input type="text" class="form-control form-control-sm" id="inputLname">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="inputPhone">Phone number</label>
+              <input type="text" class="form-control form-control-sm" id="inputPhone" placeholder="+84987654321">
+            </div>
+            <div class="form-group">
+              <label for="inputAddress">Address</label>
+              <input type="text" class="form-control form-control-sm" id="inputAddress" placeholder="1234 Main St">
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputCity">Province/City</label>
+                <select class="form-control form-control-sm" id="inputCity">
+                  <option value="VN-44">An Giang</option>
+                  <option value="VN-43">Bà Rịa–Vũng Tàu</option>
+                  <option value="VN-54">Bắc Giang</option>
+                  <option value="VN-53">Bắc Kạn</option>
+                  <option value="VN-55">Bạc Liêu</option>
+                  <option value="VN-56">Bắc Ninh</option>
+                  <option value="VN-50">Bến Tre</option>
+                  <option value="VN-31">Bình Định</option>
+                  <option value="VN-57">Bình Dương</option>
+                  <option value="VN-58">Bình Phước</option>
+                  <option value="VN-40">Bình Thuận</option>
+                  <option value="VN-59">Cà Mau</option>
+                  <option value="VN-CT">Cần Thơ</option>
+                  <option value="VN-04">Cao Bằng</option>
+                  <option value="VN-DN">Đà Nẵng</option>
+                  <option value="VN-33">Đắk Lắk</option>
+                  <option value="VN-72">Đắk Nông</option>
+                  <option value="VN-71">Điện Biên</option>
+                  <option value="VN-39">Đồng Nai</option>
+                  <option value="VN-45">Đồng Tháp</option>
+                  <option value="VN-30">Gia Lai</option>
+                  <option value="VN-03">Hà Giang</option>
+                  <option value="VN-63">Hà Nam</option>
+                  <option value="VN-HN">Hà Nội</option>
+                  <option value="VN-23">Hà Tĩnh</option>
+                  <option value="VN-61">Hải Dương</option>
+                  <option value="VN-HP">Hải Phòng</option>
+                  <option value="VN-73">Hậu Giang</option>
+                  <option value="VN-SG">Hồ Chí Minh</option>
+                  <option value="VN-14">Hòa Bình</option>
+                  <option value="VN-66">Hưng Yên</option>
+                  <option value="VN-34">Khánh Hòa</option>
+                  <option value="VN-47">Kiên Giang</option>
+                  <option value="VN-28">Kon Tum</option>
+                  <option value="VN-01">Lai Châu</option>
+                  <option value="VN-35">Lâm Đồng</option>
+                  <option value="VN-09">Lạng Sơn</option>
+                  <option value="VN-02">Lào Cai</option>
+                  <option value="VN-41">Long An</option>
+                  <option value="VN-67">Nam Định</option>
+                  <option value="VN-22">Nghệ An</option>
+                  <option value="VN-18">Ninh Bình</option>
+                  <option value="VN-36">Ninh Thuận</option>
+                  <option value="VN-68">Phú Thọ</option>
+                  <option value="VN-32">Phú Yên</option>
+                  <option value="VN-24">Quảng Bình</option>
+                  <option value="VN-27">Quảng Nam</option>
+                  <option value="VN-29">Quảng Ngãi</option>
+                  <option value="VN-13">Quảng Ninh</option>
+                  <option value="VN-25">Quảng Trị</option>
+                  <option value="VN-52">Sóc Trăng</option>
+                  <option value="VN-05">Sơn La</option>
+                  <option value="VN-37">Tây Ninh</option>
+                  <option value="VN-20">Thái Bình</option>
+                  <option value="VN-69">Thái Nguyên</option>
+                  <option value="VN-21">Thanh Hóa</option>
+                  <option value="VN-26">Thừa Thiên–Huế</option>
+                  <option value="VN-46">Tiền Giang</option>
+                  <option value="VN-51">Trà Vinh</option>
+                  <option value="VN-07">Tuyên Quang</option>
+                  <option value="VN-49">Vĩnh Long</option>
+                  <option value="VN-70">Vĩnh Phúc</option>
+                  <option value="VN-06">Yên Bái</option>      
+                </select>
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputDistrict">District</label>
+                <input type="text" class="form-control form-control-sm" id="inputDistrict">
+              </div>
+              <div class="form-group col-md-3">
+                <label for="inputWard">Ward/Commune</label>
+                <input type="text" class="form-control form-control-sm" id="inputWard">
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="d-block">Address type</label>
+              <div class="form-check form-check-inline fsize-16">
+                <input class="form-check-input" type="radio" name="addressType" id="inlineRadio1" value="option1">
+                <label class="form-check-label" for="inlineRadio1">Private Houses / Condominiums</label>
+              </div>
+              <div class="form-check form-check-inline fsize-16">
+                <input class="form-check-input" type="radio" name="addressType" id="inlineRadio2" value="option2">
+                <label class="form-check-label" for="inlineRadio2">Agency/Company</label>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- Card -->
+
+      <!-- Card -->
+      <div class="card">
+        <div class="card-body pt-4">
+
+          <h5 class="mb-4">Payment</h5>
+
+          <div class="form-group">
+              <div class="form-check fsize-20">
+                <input class="form-check-input" type="radio" name="addressType" id="cashPayment" value="option1">
+                <label class="form-check-label" for="cashPayment"><i class="far fa-money-bill-alt mr-2"></i>Cash payment upon delivery</label>
+              </div>
+              <div class="form-check fsize-20">
+                <input class="form-check-input" type="radio" name="addressType" id="cardPayment" value="option2">
+                <label class="form-check-label" for="cardPayment"><i class="far fa-credit-card mr-2"></i>International card payment Visa, Master, JC / Paypal
+                  <div class="d-block">
+                    <img width="24" src="/SGU_UDW1/_public/images/payment/visa.svg" alt="visa">
+                    <img width="24" src="/SGU_UDW1/_public/images/payment/mastercard.svg" alt="mastercard">
+                    <img width="24" src="/SGU_UDW1/_public/images/payment/jcb.svg" alt="jcb">
+                    /
+                    <i class="fab fa-cc-paypal"></i>
+                  </div>
+                </label>
+                
+              </div>
+              <div class="form-check fsize-20">
+                <input class="form-check-input" type="radio" name="addressType" id="momoPayment" value="option2">
+                <label class="form-check-label" for="momoPayment"><img class="mr-2" width="24" src="/SGU_UDW1/_public/images/payment/momo.svg" alt="momo">MoMo wallet payment</label>
+              </div>
+              <div class="form-check fsize-20">
+                <input class="form-check-input" type="radio" name="addressType" id="zaloPayment" value="option2">
+                <label class="form-check-label" for="zaloPayment"><img class="mr-2" width="24" src="/SGU_UDW1/_public/images/payment/zalopay.svg" alt="zalo">Zalopay wallet payment</label>
+              </div>
+            </div>
+
+            <button type="button" class="btn btn-danger btn-block">ORDER</button>
+        </div>
+      </div>
+      <!-- Card -->
+
+      <!-- Card -->
+      <!-- <div class="card mb-3">
+        <div class="card-body pt-4">
+
+          <h5 class="mb-4">We accept</h5>
+
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/visa.svg"
+            alt="Visa">
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/amex.svg"
+            alt="American Express">
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce-gateway-stripe/assets/images/mastercard.svg"
+            alt="Mastercard">
+          <img class="mr-2" width="45px"
+            src="https://mdbootstrap.com/wp-content/plugins/woocommerce/includes/gateways/paypal/assets/images/paypal.png"
+            alt="PayPal acceptance mark">
+        </div>
+      </div> -->
+      <!-- Card -->
+
+    </div>
+    <!--Grid column-->
+
+    <!--Grid column-->
+    <div class="col-lg-4">
+
+      <!-- Card -->
+      <div class="card mb-3">
+        <div class="card-body pt-4">
+
+          <h5 class="mb-3">The total amount of</h5>
+
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
+              Temporary amount
+              <span>$78,208.00</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+              Shipping
+              <span>Gratis</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center border-0 px-0">
+              <div>
+                <strong>The total amount of</strong>
+                <strong>
+                  <p class="mb-0">(including VAT)</p>
+                </strong>
+              </div>
+              <span><strong>$78,208.00</strong></span>
+            </li>
+          </ul>
+
+          
+
+        </div>
+      </div>
+      <!-- Card -->
+
+      <!-- Card -->
+      <div class="card mb-3">
+        <div class="card-body pt-4">
+
+          <a class="dark-grey-text d-flex justify-content-between" data-toggle="collapse" href="#collapseExample"
+            aria-expanded="false" aria-controls="collapseExample">
+            Add a discount code (optional)
+            <span><i class="fas fa-chevron-down pt-1"></i></span>
+          </a>
+
+          <div class="collapse" id="collapseExample">
+            <div class="mt-3">
+              <div class="md-form md-outline mb-0">
+                <input type="text" id="discount-code" class="form-control font-weight-light"
+                  placeholder="Enter discount code">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Card -->
+
+    </div>
+    <!--Grid column-->
+
+  </div>
+  <!-- Grid row -->
+
+</section>
+<!--Section: Block Content-->
+    </div>
+        <div insert-html="/SGU_UDW1/_template/footer.html"></div>
+        <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
+        <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
+</body>
+</html>
