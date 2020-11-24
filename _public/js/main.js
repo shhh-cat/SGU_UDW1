@@ -32,7 +32,6 @@ requirejs(['jquery','bootstrap','inputSpinner','data'], function($,bootstrap,inp
         $( "nav.navbar" ).removeClass( "fixed-top" );
     }
   });
-   
 });
 
 function magic() {

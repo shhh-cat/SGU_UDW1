@@ -499,6 +499,10 @@ html,body{
   background-color: #f1f1f1;
 }
 
+.opensans {
+  font-family: 'Open Sans';
+}
+
 nav.navbar .hvr-underline-from-left:before {
   background-color: #ffffff
 }
