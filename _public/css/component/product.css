@@ -1,28 +1,7 @@
-* {box-sizing: border-box;}
-
-.img-zoom-container {
-  position: relative;
+.opensans {
+  font-family: 'Open Sans';
 }
 
-.img-zoom-lens {
-  position: absolute;
-  /*set the size of the lens:*/
-  width: 60px;
-  height: 60px;
-}
-
-.img-zoom-container:hover .img-zoom-lens {
-  border: 1px solid #d4d4d4;
-}
-
-.img-zoom-result {
-  display: none;
-  border: 1px solid #d4d4d4;
-  /*set the size of the result div:*/
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  width: 500px;
-  height: 500px;
-  z-index: 10;
+.product-name strong{
+  font-weight: bolder;
 }

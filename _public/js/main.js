@@ -2,12 +2,12 @@ requirejs.config({
     paths: {
         jquery : 'lib/jquery-3.5.1.min',
         bootstrap : '../bootstrap/js/bootstrap.bundle.min',
-        zoomImage: 'lib/zoom-image',
         inputSpinner : 'lib/bootstrap-input-spinner',
+        data: '../../_data/data',
     }
 });
 
-requirejs(['jquery','bootstrap','zoomImage','inputSpinner'], function($,bootstrap,zoomImage,inputSpinner) {
+requirejs(['jquery','bootstrap','inputSpinner','data'], function($,bootstrap,inputSpinner,data) {
   var cfgInSpiner = {
       buttonsWidth: "1rem",
   }
@@ -32,8 +32,7 @@ requirejs(['jquery','bootstrap','zoomImage','inputSpinner'], function($,bootstra
         $( "nav.navbar" ).removeClass( "fixed-top" );
     }
   });
-
-  imageZoom("zimage", "zimageResult");    
+   
 });
 
 function magic() {

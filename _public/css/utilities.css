@@ -2,23 +2,40 @@
   DÙNG CHUNG CÁC PAGE
 */
 
-
-/* vietnamese */
 @font-face {
-  font-family: 'deptrai';
+  font-family: 'Open Sans';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(/SGU_UDW1/_public/font/Itim-vi.woff2) format('woff2');
+  src: url(/SGU_UDW1/_public/font/OpenSans-vi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/SGU_UDW1/_public/font/OpenSans-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* vietnamese */
+@font-face {
+  font-family: 'Itim';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(/SGU_UDW1/_public/font/Itim-vi.woff2) format('woff2');
   unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
 }
 /* latin */
 @font-face {
-  font-family: 'deptrai';
+  font-family: 'Itim';
   font-style: normal;
   font-weight: 300;
   font-display: swap;
-  src: local('Open Sans Light'), local('OpenSans-Light'), url(/SGU_UDW1/_public/font/Itim-latin.woff2) format('woff2');
+  src:  url(/SGU_UDW1/_public/font/Itim-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
@@ -477,7 +494,7 @@
   color: #bb6b24 !important;
 }
 html,body{
-  font-family: 'deptrai';
+  font-family: 'Itim';
   font-size: 20px;
   background-color: #f1f1f1;
 }
@@ -536,3 +553,58 @@ span.num {
     box-shadow: 0 10px 20px 0 rgba(0,0,0,0.05);
   border:0;
 }
+
+.card-border-0 .card {
+  border: 0;
+}
+
+.spinner-width .input-group{
+  width: 150px !important;
+}
+
+.btn-outline-brown {
+color: #bb6b24;
+border-color: #bb6b24; }
+.btn-outline-brown:hover {
+color: #fff;
+background-color: #bb6b24;
+border-color: #bb6b24; }
+.btn-outline-brown:focus, .btn-outline-brown.focus {
+box-shadow: 0 0 0 0.2rem rgba(187, 107, 36, 0.5); }
+.btn-outline-brown.disabled, .btn-outline-brown:disabled {
+color: #bb6b24;
+background-color: transparent; }
+.btn-outline-brown:not(:disabled):not(.disabled):active, .btn-outline-brown:not(:disabled):not(.disabled).active,
+.show > .btn-outline-brown.dropdown-toggle {
+color: #fff;
+background-color: #bb6b24;
+border-color: #bb6b24; }
+.btn-outline-brown:not(:disabled):not(.disabled):active:focus, .btn-outline-brown:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-brown.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(187, 107, 36, 0.5); }
+
+.btn-brown {
+color: #fff;
+background-color: #bb6b24;
+border-color: #bb6b24; }
+.btn-brown:hover {
+color: #fff;
+background-color: #a86020;
+border-color: #95551c; }
+.btn-brown:focus, .btn-brown.focus {
+color: #fff;
+background-color: #a86020;
+border-color: #95551c;
+box-shadow: 0 0 0 0.2rem rgba(193, 121, 57, 0.5); }
+.btn-brown.disabled, .btn-brown:disabled {
+color: #fff;
+background-color: #bb6b24;
+border-color: #bb6b24; }
+.btn-brown:not(:disabled):not(.disabled):active, .btn-brown:not(:disabled):not(.disabled).active,
+.show > .btn-brown.dropdown-toggle {
+color: #fff;
+background-color: #a86020;
+border-color: #95551c; }
+.btn-brown:not(:disabled):not(.disabled):active:focus, .btn-brown:not(:disabled):not(.disabled).active:focus,
+.show > .btn-brown.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(193, 121, 57, 0.5)  ; }
