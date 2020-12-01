@@ -1,12 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="public/css/app.css">
-	<title>Wanted Coffee</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/component/category.css">
+    <title>Wanted Coffee</title>
 </head>
 <body>
-	ok
+    <!-- ============= MENU ============== -->
+    <div insert-html="/SGU_UDW1/_template/navbar.html"></div>
+    <!-- =========================== -->
+    
+
+    <div class="container bg-white py-3 mt-4">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white">
+                    <li class="breadcrumb-item"><a href="/SGU_UDW1/index.html" class="text-brown">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#" class="text-brown">Tools</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Cups & Mugs</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row" id="category">
+
+        </div>
+        <nav aria-label="Page navigation example">
+            <ul class="pagination justify-content-center my-3">
+                <li class="page-item"><a class="page-link text-brown" href="#">Previous</a></li>
+                <li class="page-item"><a class="page-link text-brown" href="#">1</a></li>
+                <li class="page-item"><a class="page-link text-brown" href="#">2</a></li>
+                <li class="page-item"><a class="page-link text-brown" href="#">3</a></li>
+                <li class="page-item"><a class="page-link text-brown" href="#">Next</a></li>
+            </ul>
+        </nav>
+    </div>
+        <div insert-html="/SGU_UDW1/_template/footer.html"></div>
+        <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
+        <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
+        <script src="/SGU_UDW1/_data/data.js"></script>
+        <script type="text/javascript">
+            var e = document.getElementById('category');
+            var cupsAndMugs = product.cupsAndMugs;
+            for(var i in cupsAndMugs){
+                e.insertAdjacentHTML('beforeend','<a href="'+cupsAndMugs[i].id+'" class="text-decoration-none text-dark">'+
+                '<div class="col-md-3 card-deck product-card m-0 p-0 float-left">'+
+                    '<div class="card-body p-4">'+
+                        '<img src="'+cupsAndMugs[i].img+'" class="card-img-top" alt="test">'+
+                        '<h5 class="card-title text-brown opensans mt-3"><strong>'+cupsAndMugs[i].detail.Brand+'</strong> - '+cupsAndMugs[i].name+'</h5>'+
+                        '<div class="card-text fsize-24">$'+cupsAndMugs[i].price+'</div>'+
+                        '<div class="row no-gutters mt-3">'+
+                            '<a href="#" class="btn btn-outline-dark mr-1 col">Buy now</a>'+
+                            '<a href="#" class="btn btn-outline-brown col">Add to cart</a>'+
+                        '</div>'+
+                    '</div>'+
+                '</div>'+
+            '</a>');
+            }
+        </script>
 </body>
 </html>

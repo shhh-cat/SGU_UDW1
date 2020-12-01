@@ -23,7 +23,6 @@ h2{
   .highlights figure img {
     display: block;
     width: 100%;
-    height: calc(200px - .25rem);
   } 
   figure h4 {
     position: absolute;
