@@ -65,3 +65,9 @@ h2{
   figure:hover .overlay {
     height: 100%;
   }
+  .coffee img{
+    height: 300px !important;
+  }
+  h2{
+    text-align: center !important;
+  }
