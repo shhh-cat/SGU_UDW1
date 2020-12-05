@@ -72,3 +72,9 @@ h2{
   h2{
     text-align: center !important;
   }
+  .mhp-400{
+    max-height: 400px;
+  }
+  .mhp-200{
+    max-height: 200px;
+  }
