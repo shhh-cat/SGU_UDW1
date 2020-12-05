@@ -63,19 +63,34 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth'], function($,bootst
 
   //SHOW LOGGED
   var auth = document.getElementById('auth');
-  if (getCookie("username") === "user") {
-    auth.insertAdjacentHTML('afterbegin',
-    '<div class="dropdown">'+
-      '<a class="nav-link py-3 mr-2 text-light dropdown-toggle" href="#" id="usermenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="opensans fsize-16">Hi !</span> Mona Lisa</a>'+
-      '<div class="dropdown-menu dropdown-menu-right opensans fsize-16" aria-labelledby="usermenu">'+
-          '<a href="/SGU_UDW1/profile" class="dropdown-item"><i class="fas fa-user mr-2"></i>Profile</a>'+
-          '<a href="#" class="dropdown-item" id="logoutbtn"><i class="fas fa-sign-out-alt mr-2"></i>Log out</a>'+
-      '</div>'+
-    '</div>');
+  if (auth) {
+    if (getCookie("username") === "user") {
+      auth.insertAdjacentHTML('afterbegin',
+      '<div class="dropdown">'+
+        '<a class="nav-link py-3 mr-2 text-light dropdown-toggle" href="#" id="usermenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="opensans fsize-16">Hi !</span> Mona Lisa</a>'+
+        '<div class="dropdown-menu dropdown-menu-right opensans fsize-16" aria-labelledby="usermenu">'+
+            '<a href="/SGU_UDW1/profile" class="dropdown-item"><i class="fas fa-user mr-2"></i>Profile</a>'+
+            '<a href="#" class="dropdown-item" id="logoutbtn"><i class="fas fa-sign-out-alt mr-2"></i>Log out</a>'+
+        '</div>'+
+      '</div>');
+    }
+    else
+      auth.insertAdjacentHTML('afterbegin','<a class="nav-link py-3 mr-2 text-light" href="/SGU_UDW1/login">LOGIN</a>');
   }
-  else
-    auth.insertAdjacentHTML('afterbegin','<a class="nav-link py-3 mr-2 text-light" href="/SGU_UDW1/login">LOGIN</a>');
+  var authadmin = document.getElementById('admin-auth');
+  if(authadmin)
+    if (getCookie("admin") === "admin") {
+      authadmin.insertAdjacentHTML('afterbegin',
+      '<div class="dropdown">'+
+        '<a class="nav-link py-3 mr-2 text-light dropdown-toggle" href="#" id="usermenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="opensans fsize-16">Hi !</span> Admin</a>'+
+        '<div class="dropdown-menu dropdown-menu-right opensans fsize-16" aria-labelledby="usermenu">'+
+            '<a href="#" class="dropdown-item" id="logoutbtn-admin"><i class="fas fa-sign-out-alt mr-2"></i>Log out</a>'+
+        '</div>'+
+      '</div>');
+    }
+  
 
+  
   // enable
   logout('login');
   login();

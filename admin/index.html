@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/animate.min.css">
+    <title>Wanted Coffee</title>
+    <link rel="shortcut icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
+    <script src="/SGU_UDW1/_public/js/lib/chart.min.js"></script>
+</head>
+<body>
+    <!-- ============= MENU ============== -->
+    <div insert-html="/SGU_UDW1/_template/admin_navbar.html"></div>
+    <!-- =========================== -->
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card outer-card">
+                    <div class="card-body row">
+                        <a href="#" class="col-md mb-2 mb-md-0 mx-3 btn text-white badge-color-red-5 card zoom">
+                            <div class="card-body row align-items-center">
+                                <i class="fas fa-coins fsize-64"></i>
+                                <div class="col">
+                                    <h5 class="card-title">Sales</h5>
+                                    <h3 class="card-text">851036</h3>
+                                </div>
+                                <i class="fas fa-arrow-circle-right fsize-32"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="col-md mb-2 mb-md-0 mx-3 btn text-white badge-color-orange-5 card zoom">
+                            <div class="card-body row align-items-center">
+                                <i class="fas fa-receipt fsize-64"></i>
+                                <div class="col">
+                                    <h5 class="card-title">Orders</h5>
+                                    <h3 class="card-text">3185</h3>
+                                </div>
+                                <i class="fas fa-arrow-circle-right fsize-32"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="col-md mb-2 mb-md-0 mx-3 btn text-white badge-color-yellow-5 card zoom">
+                            <div class="card-body row align-items-center">
+                                <i class="fas fa-box fsize-64"></i>
+                                <div class="col">
+                                    <h5 class="card-title">Products</h5>
+                                    <h3 class="card-text">58443</h3>
+                                </div>
+                                <i class="fas fa-arrow-circle-right fsize-32"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="col-md mb-2 mb-md-0 mx-3 btn text-white badge-color-green-5 card zoom">
+                            <div class="card-body row align-items-center">
+                                <i class="fas fa-users fsize-64"></i>
+                                <div class="col">
+                                    <h5 class="card-title">Customers</h5>
+                                    <h3 class="card-text">86547</h3>
+                                </div>
+                                <i class="fas fa-arrow-circle-right fsize-32"></i>
+                            </div>
+                        </a>
+                        <a href="#" class="col-md mb-2 mb-md-0 mx-3 btn text-white badge-color-blue-5 card zoom">
+                            <div class="card-body row align-items-center">
+                                <i class="fas fa-store-alt fsize-64"></i>
+                                <div class="col">
+                                    <h5 class="card-title">Shops</h5>
+                                    <h3 class="card-text">48</h3>
+                                </div>
+                                <i class="fas fa-arrow-circle-right fsize-32"></i>
+                            </div>
+                        </a>
+                    </div>      
+                    <div class="card-body row">
+                        <div class="col-md mb-2 mb-md-0 mx-3 card">
+                            <canvas id="chart1" height="300"></canvas>                
+                        </div>
+                        <div class="col-md mb-2 mb-md-0 mx-3 card" >
+                            <canvas id="chart2" height="300"></canvas>                
+                        </div>
+                        <div class="col-md mb-2 mb-md-0 mx-3 card" >
+                            <canvas id="chart3" height="300"></canvas>                
+                        </div>
+                        <div class="col-md mb-2 mb-md-0 mx-3 card" >
+                            <canvas id="chart4" height="300"></canvas>                
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+        <div insert-html="/SGU_UDW1/_template/footer.html"></div>
+        <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
+        <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
+        <script type="text/javascript">
+        	function getCookie(cname) {
+			  var name = cname + "=";
+			  var decodedCookie = decodeURIComponent(document.cookie);
+			  var ca = decodedCookie.split(';');
+			  for(var i = 0; i <ca.length; i++) {
+			    var c = ca[i];
+			    while (c.charAt(0) == ' ') {
+			      c = c.substring(1);
+			    }
+			    if (c.indexOf(name) == 0) {
+			      return c.substring(name.length, c.length);
+			    }
+			  }
+			  return "";
+			}
+        	if (getCookie("admin") != "admin") {
+        		window.location = "/SGU_UDW1/admin/login";
+			  }
+
+        </script>
+        
+
+        <script type="text/javascript">
+            var colors = {
+                red: 'rgb(255, 99, 132)',
+                orange: 'rgb(255, 159, 64)',
+                yellow: 'rgb(255, 205, 86)',
+                green: 'rgb(75, 192, 192)',
+                blue: 'rgb(54, 162, 235)',
+                purple: 'rgb(153, 102, 255)',
+                grey: 'rgb(201, 203, 207)'
+            };
+            var ctx1 = document.getElementById('chart1');
+            var ctx2 = document.getElementById('chart2');
+            var ctx3 = document.getElementById('chart3');
+            var ctx4 = document.getElementById('chart4');
+            var color = Chart.helpers.color;
+            var chart1 = new Chart(ctx1.getContext('2d'), {
+                type: 'line',
+                data: {
+                    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
+                    datasets: [{
+                        label: '2018 Sales',
+                        data: [300, 700, 450, 750, 1200],
+                        borderColor: color(colors.orange).alpha(0.5).rgbString(),
+                        fill: false,
+                        },
+                        {
+                        label: '2017 Sales',
+                        data: [200, 450, 900, 600, 1000],
+                        borderColor: color(colors.green).alpha(0.5).rgbString(),
+                        fill: false,
+                        },
+                        {
+                        label: '2019 Sales',
+                        data: [400, 900, 1000, 500, 700],
+                        borderColor: color(colors.blue).alpha(0.5).rgbString(),
+                        fill: false,
+                        }],
+                },
+                options: {
+                    responsive: true,
+                    legend: {
+                    position: 'bottom',
+                    },
+                    title: {
+                    display: true,
+                    text: 'Sales Chart'
+                    }
+                }
+            });
+
+            var chart2 = new Chart(ctx2.getContext('2d'), {
+                type: 'doughnut',
+                data: {
+                    labels: [
+                        'Ho Chi Minh',
+                        'Ha Noi',
+                        'Da Nang'
+                    ],
+                    datasets: [{
+                        data: [10, 20, 30],
+                        backgroundColor: [
+                            color(colors.red).alpha(0.5).rgbString(),
+                            color(colors.green).alpha(0.5).rgbString(),
+                            color(colors.yellow).alpha(0.5).rgbString(),
+                        ],
+                        hoverBorderWidth: 8,
+                        hoverBorderColor: '#ffffff',
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    legend: {
+                        position: 'right',
+                    },
+                    title: {
+                        display: true,
+                        text: 'Location Chart'
+                    }
+                }
+            });
+
+            var chart3 = new Chart(ctx3.getContext('2d'), {
+                type: 'bar',
+                data: {
+                    labels: ['2017', '2018', '2019', '2020'],
+                    datasets: [{
+                        label: '< 20 age customer',
+                        data: [300, 700, 450, 750],
+                        backgroundColor: color(colors.red).alpha(0.5).rgbString(),
+                        fill: false,
+                        },
+                        {
+                        label: '20 - 60 age customer',
+                        data: [200, 450, 900, 600],
+                        backgroundColor: color(colors.blue).alpha(0.5).rgbString(),
+                        fill: false,
+                        },
+                        {
+                        label: '> 60 age customer',
+                        data: [400, 900, 1000, 500],
+                        backgroundColor: color(colors.green).alpha(0.5).rgbString(),
+                        fill: false,
+                        }],
+                },
+                options: {
+                    responsive: true,
+                    legend: {
+                    position: 'bottom',
+                    },
+                    title: {
+                    display: true,
+                    text: 'Customer Chart'
+                    }
+                }
+            });
+            var chart4 = new Chart(ctx4.getContext('2d'), {
+                type: 'polarArea',
+                data: {
+                    labels: ['Ho Chi Minh', 'Ha Noi', 'Can tho', 'Da nang', 'Hai Phong'],
+                    datasets: [{
+                        label: '< 20 age customer',
+                        data: [500,400,100,200,150],
+                        backgroundColor: [
+                            color(colors.red).alpha(0.5).rgbString(),
+                            color(colors.orange).alpha(0.5).rgbString(),
+                            color(colors.yellow).alpha(0.5).rgbString(),
+                            color(colors.green).alpha(0.5).rgbString(),
+                            color(colors.blue).alpha(0.5).rgbString(),
+                        ],
+                    }],
+                },
+                options: {
+                    responsive: true,
+                    legend: {
+                    position: 'right',
+                    },
+                    title: {
+                    display: true,
+                    text: 'Customer Chart'
+                    }
+                }
+            });
+            $( "#chart2" ).mouseover(
+            function(){
+                if (chart2.options.circumference === Math.PI) {
+                    chart2.options.circumference = 2 * Math.PI;
+                    chart2.options.rotation = -Math.PI / 2;
+                } else {
+                    chart2.options.circumference = Math.PI;
+                    chart2.options.rotation = -Math.PI;
+                }
+
+                chart2.update();
+            }).mouseout(
+            function(){
+                if (chart2.options.circumference === Math.PI) {
+                    chart2.options.circumference = 2 * Math.PI;
+                    chart2.options.rotation = -Math.PI / 2;
+                } else {
+                    chart2.options.circumference = Math.PI;
+                    chart2.options.rotation = -Math.PI;
+                }
+
+                chart2.update();
+            });
+            
+
+        </script>
+</body>
+</html>
