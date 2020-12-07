@@ -6,7 +6,9 @@ var product = {
 			"color" : ["blue","black","white"],
 			"price" : 7250,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/machine/core200-500x500.png"],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/machine/core200-500x500.png",
+			],
 			"detail" : {
 				"Brand" : "ASTORIA",
 				"Voltage" : "220-240V/380-415V",
@@ -23,7 +25,7 @@ var product = {
 			"id" : "core-600",
 			"name" : "Core 600",
 			"color" : ["blue","black","white"],
-			"price" : 10.778,
+			"price" : 10778,
 			"discount" : 20,
 			"img" : ["/SGU_UDW1/_public/images/tools/machine/core600-500x500.png"],
 			"detail" : {
@@ -43,7 +45,7 @@ var product = {
 			"name" : "Greta",
 			"color" : ["red","white"],
 			"price" : 2003,
-			"discount" : 0,
+			"discount" : 10,
 			"img" : ["/SGU_UDW1/_public/images/tools/machine/greta-500x500.png"],
 			"detail" : {
 				"Brand" : "ASTORIA",
