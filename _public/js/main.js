@@ -51,14 +51,14 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth'], function($,bootst
   
   //FIX NAVBAR
 
-    $(window).scroll(function() {
-    var currentScroll = $(window).scrollTop();
-    if (currentScroll >= 600) {
-        $( "nav.navbar" ).addClass( "fixed-top").fadeIn(1000);
-    } else {
-        $( "nav.navbar" ).removeClass( "fixed-top" );
-    }
-  });
+  //   $(window).scroll(function() {
+  //   var currentScroll = $(window).scrollTop();
+  //   if (currentScroll >= 0) {
+  //       $( "nav.navbar" ).addClass( "fixed-top").fadeIn(1000);
+  //   } else {
+  //       $( "nav.navbar" ).removeClass( "fixed-top" );
+  //   }
+  // });
 
 
   //SHOW LOGGED

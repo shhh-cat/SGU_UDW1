@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/component/product.css">
+	<title>Wanted Coffee</title>
+    <link rel="shortcut icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
+</head>
+<body>
+	<div id="zimageResult" class="img-zoom-result"></div>
+    <!-- ============= MENU ============== -->
+    <div insert-html="/SGU_UDW1/_template/navbar.html"></div>
+    <!-- =========================== -->
+
+    <div class="container bg-white py-3 mt-4">
+        <div class="col-12">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb bg-white">
+                    <li class="breadcrumb-item"><a href="/SGU_UDW1" class="text-brown">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/SGU_UDW1/tools" class="text-brown">Tools</a></li>
+                    <li class="breadcrumb-item"><a href="/SGU_UDW1/tools/machine" class="text-brown">Machine</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Core 200</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="row">
+			<div class="col-md-3">
+                <img id="zooming" src="/SGU_UDW1/_public/images/tools/machine/core200-500x500.png" class="img-fluid" data-zoom-image="/SGU_UDW1/_public/images/tools/machine/core200-500x500.png" />   
+            </div>
+			<div class="col-md-9">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h5 class="product-name text-brown mb-0 opensans" id="name"><strong id="brand">ASTORIA</strong> | Core 200</h5>
+                        <hr class="my-2">
+                    </div>
+
+                    <div class="col-md-7">
+                        <div class="d-block bg-light p-3">
+                            <span class="h3">$7,250.00<del class="fsize-16 ml-2">$9,062.00</del><span class="fsize-16 ml-2 text-danger font-weight-bold">-20%</span></span>
+                        </div>
+                        <div id="option">
+                            <div class="pt-2">
+                                <button class="btn btn-sm text-white" style="background-color: black;">Black</button>
+                                <button class="btn btn-sm text-white" style="background-color: red;">Red</button>
+
+                            </div>
+                            <div class="spinner-width py-2">
+                                <span>Amount:</span>
+                                <input class="input-spinner form-control-sm" type="number" value="1" min="1" max="100" step="1"/>
+                            </div>
+                        </div>
+                        
+                        <a href="#" class="btn btn-brown btn-block">Add to cart</a>
+                        <a href="#" class="btn btn-danger btn-block">Buy now</a>
+                        
+                    </div>
+                    <div class="col-md-5">
+                        <h5>Details</h5>
+                        <div class="table-responsive fsize-16 opensans">
+                            <table class="table">
+                                <tbody id="detail">
+
+                                </tbody>      
+                            </table>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>
+    </div>
+        <div insert-html="/SGU_UDW1/_template/footer.html"></div>
+        <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
+        <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
+        <script src="/SGU_UDW1/_public/js/lib/image-zoom.js"></script>
+        <script src="/SGU_UDW1/_data/data.js"></script>
+        <script type="text/javascript">
+            $("#zooming").ezPlus({
+                scrollZoom: true,
+                borderSize: 2,
+                borderColour: "#bb6b24",
+            });
+            var id = "core-200";
+            
+            var machine = product.brewer;
+            var i;
+            //GET position of product
+            for (var find in machine) {
+                if (machine[find].id === id) {
+                    i = find;
+                    break;
+                }
+            }
+            //GET DATA
+            var brand = product.machine[i].detail.Brand;
+            var name = product.machine[i].name;
+            var detail = product.machine[i].detail;
+
+            //GET ELEMENT OF HTML TO ADD DATA
+            var eDetail = document.getElementById('detail');
+            var eBrand = document.getElementById('brand');
+            var eName = document.getElementById('name');
+
+
+            for(var i in detail){
+                eDetail.insertAdjacentHTML('beforeend','<tr><th scope="row">'+i+'</th><td>'+detail[i]+'</td></tr>');
+            }
+        </script>
+</body>
+</html>

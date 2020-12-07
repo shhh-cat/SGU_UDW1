@@ -1,27 +1,3 @@
-var data= {
-	"currency_unit" : "$",
-	"tools" : {
-		"barista" : [],
-		"brewing" : [],
-		"machine" : [
-			{
-				"name" : "Core 200",
-				"color" : ["blue","black","white"],
-				"price" : 7250,
-				"img" : "/SGU_UDW1/_public/images/tools/machine/core200.png"
-			},
-			{
-				"name" : "Core 600",
-				"color" : ["steel","red","white"],
-				"price" : 10778,
-				"img" : "/SGU_UDW1/_public/images/tools/machine/core600.png"
-			}
-		],
-		"roasting" : [],
-	}
-};
-
-
 var product = {
 	"machine": [
 		{
@@ -29,7 +5,8 @@ var product = {
 			"name" : "Core 200",
 			"color" : ["blue","black","white"],
 			"price" : 7250,
-			"img" : "/SGU_UDW1/_public/images/tools/machine/core200-500x500.png",
+			"discount" : 20,
+			"img" : ["/SGU_UDW1/_public/images/tools/machine/core200-500x500.png"],
 			"detail" : {
 				"Brand" : "ASTORIA",
 				"Voltage" : "220-240V/380-415V",
@@ -47,7 +24,8 @@ var product = {
 			"name" : "Core 600",
 			"color" : ["blue","black","white"],
 			"price" : 10.778,
-			"img" : "/SGU_UDW1/_public/images/tools/machine/core600-500x500.png",
+			"discount" : 20,
+			"img" : ["/SGU_UDW1/_public/images/tools/machine/core600-500x500.png"],
 			"detail" : {
 				"Brand" : "ASTORIA",
 				"Voltage" : "220-240V/380-415V",
@@ -65,7 +43,8 @@ var product = {
 			"name" : "Greta",
 			"color" : ["red","white"],
 			"price" : 2003,
-			"img" : "/SGU_UDW1/_public/images/tools/machine/greta-500x500.png",
+			"discount" : 0,
+			"img" : ["/SGU_UDW1/_public/images/tools/machine/greta-500x500.png"],
 			"detail" : {
 				"Brand" : "ASTORIA",
 				"Voltage" : "120/230/240V",
@@ -84,7 +63,8 @@ var product = {
 			"name" : "Plus 4 You TS",
 			"color" : ["red,steel","white,black","gray,black"],
 			"price" : 9680,
-			"img" : "/SGU_UDW1/_public/images/tools/machine/plus4youts.png",
+			"discount" : 20,
+			"img" : ["/SGU_UDW1/_public/images/tools/machine/plus4youts.png"],
 			"detail" : {
 				"Brand" : "ASTORIA",
 				"Voltage" : "230 - 400 V / 240 V",
@@ -105,7 +85,8 @@ var product = {
 			"name" : "Tanya R",
 			"color" : ["red,steel","white,black","gray,black"],
 			"price" : 9680,
-			"img" : "/SGU_UDW1/_public/images/tools/machine/tanyar.png",
+			"discount" : 20,
+			"img" : ["/SGU_UDW1/_public/images/tools/machine/tanyar.png"],
 			"detail" : {
 				"Brand" : "ASTORIA",
 				"Voltage" : "120 / 230-400 / 240 V",
@@ -119,4 +100,28 @@ var product = {
 			},
 		},
 	],
+	"brewers": [
+		{
+			"id" : "kalita-wave-185-glass-kit",
+			"name" : "KALITA WAVE 185 GLASS KIT",
+			"color" : [],
+			"price" : 74.93,
+			"discount": 15,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/_1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/_2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/_3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/_4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/_5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/_6.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Includes" : "1 x Kalita Wave Glass Dripper Size 185",
+				"" : "1 x Kalita Wave Filter for Size 185 Drippers, 100 Count",
+				"" : "1x Kalita Glass Server with 500ml Capacity",
+				"" : "1x This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+	]
 };
