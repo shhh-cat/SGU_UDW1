@@ -34,7 +34,7 @@
             var discount = category[i].discount;
             var color = category[i].color;
             var image = category[i].img;
-            
+            var desc = category[i].desc;
 
             //GET ELEMENT OF HTML
             var eDetail = document.getElementById('detail');
@@ -42,6 +42,7 @@
             var ePrice = document.getElementById('price');
             var eColor = document.getElementById('color');
             var eImage = document.getElementById('image');
+            var eDesc = document.getElementById('description');
             var breadcrumbCategory = document.getElementById('bCategory');
             var breadcrumbProduct = document.getElementById('bProduct');
 
@@ -79,6 +80,7 @@
                     eColor.insertAdjacentHTML('beforeend','<div class="form-check form-check-inline"><input class="form-check-input" type="radio" name="color" id="color-'+color[i]+'" value="'+color[i]+'"><label class="form-check-label sm-square" for="color-'+color[i]+'" style="background-color:'+color[i]+';"></label></div>');
                 }
             }
+            eDesc.insertAdjacentHTML('beforeend',desc);
 
             //XZOOM PLUGIN
             (function ($) {
