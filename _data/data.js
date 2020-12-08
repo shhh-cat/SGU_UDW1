@@ -147,30 +147,30 @@ var product = {
 			},
 		},
 	],
-	"brewers": [
-		{
-			"id" : "kalita-wave-185-glass-kit",
-			"name" : "KALITA WAVE 185 GLASS KIT",
-			"color" : [],
-			"price" : 74.93,
-			"discount": 15,
-			"img" : [
-				"/SGU_UDW1/_public/images/tools/brewers/_1.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/_2.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/_3.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/_4.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/_5.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/_6.jpg",
-			],
-			"detail" : {
-				"Brand" : "KALITA",
-				"Includes" : "1 x Kalita Wave Glass Dripper Size 185",
-				"" : "1 x Kalita Wave Filter for Size 185 Drippers, 100 Count",
-				"" : "1x Kalita Glass Server with 500ml Capacity",
-				"" : "1x This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
-			},
-		},
-	],
+	// "brewers": [
+	// 	{
+	// 		"id" : "kalita-wave-185-glass-kit",
+	// 		"name" : "KALITA WAVE 185 GLASS KIT",
+	// 		"color" : [],
+	// 		"price" : 74.93,
+	// 		"discount": 15,
+	// 		"img" : [
+	// 			"/SGU_UDW1/_public/images/tools/brewers/_1.jpg",
+	// 			"/SGU_UDW1/_public/images/tools/brewers/_2.jpg",
+	// 			"/SGU_UDW1/_public/images/tools/brewers/_3.jpg",
+	// 			"/SGU_UDW1/_public/images/tools/brewers/_4.jpg",
+	// 			"/SGU_UDW1/_public/images/tools/brewers/_5.jpg",
+	// 			"/SGU_UDW1/_public/images/tools/brewers/_6.jpg",
+	// 		],
+	// 		"detail" : {
+	// 			"Brand" : "KALITA",
+	// 			"Includes" : "1 x Kalita Wave Glass Dripper Size 185",
+	// 			"" : "1 x Kalita Wave Filter for Size 185 Drippers, 100 Count",
+	// 			"" : "1x Kalita Glass Server with 500ml Capacity",
+	// 			"" : "1x This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+	// 		},
+	// 	},
+	// ],
 	"roasting" : [
 		{
 			"id" : "ascaso-steel-grinder-black",
