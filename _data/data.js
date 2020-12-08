@@ -1,4 +1,202 @@
 var product = {
+	"books": [
+		{
+			"id" : "coffee-for-life",
+			"name" : "Coffee for life",
+			"price" : 59,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/book/book1.png",
+			],
+			"desc" : "Coffee for Life is a great book written by T.L.A.",
+			"detail" : {
+				"Brand" : "Book",
+				"Author" : "Team Laziest Animal",
+				"SKU" : "EB11BOOK",
+				"Size" : "short",
+			},
+		},
+		{
+			"id" : "the-best-coffee",
+			"name" : "The best coffee",
+			"price" : 49,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/book/book2.png",
+			],
+			"desc" : "The Best Coffee is a great book written by T.L.A.",
+			"detail" : {
+				"Brand" : "Book",
+				"Author" : "Team Laziest Animal",
+				"SKU" : "EB12BOOK",
+				"Size" : "short",
+			},
+		},
+		{
+			"id" : "wanted-coffee",
+			"name" : "Wanted Coffee",
+			"price" : 59,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/book/book3.png",
+			],
+			"desc" : "Wanted Coffee is a great book written by T.L.A.",
+			"detail" : {
+				"Brand" : "Book",
+				"Author" : "Team Laziest Animal",
+				"SKU" : "EB13BOOK",
+				"Size" : "short",
+			},
+		},
+		{
+			"id" : "f-j",
+			"name" : "Food and Juice",
+			"price" : 59,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/book/book4.png",
+			],
+			"desc" : "Food and Juice is a great book written by T.L.A.",
+			"detail" : {
+				"Brand" : "Book",
+				"Author" : "Team Laziest Animal",
+				"SKU" : "EB14BOOK",
+				"Size" : "short",
+			},
+		},
+	],
+	"cups-and-mugs": [
+		{
+			"id" : "ep-porcelain",
+			"name" : "EP PORCELAIN",
+			"price" : 22,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/4.jpg",
+			],
+			"desc" : "The EP Porcelain diner coffee mug is a high-quality porcelain mug that has been manufactured to our exact specifications by one of the best porcelain manufacturers in the world.",
+			"detail" : {
+				"Brand" : "DINER MUG",
+				"Material" : "porcelain",
+				"Volumetric " : "305ml",
+				"Fired " : "1300",
+				
+			},
+		},
+		{
+			"id" : "demitasse",
+			"name" : "DEMITASSE",
+			"price" : 12,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/4.jpg",
+			],
+			"desc" : "The EP Porcelain diner coffee mug is a high-quality porcelain mug that has been manufactured to our exact specifications by one of the best porcelain manufacturers in the world.",
+			"detail" : {
+				"Brand" : "CUP & SAUCER BLACK WANTED",
+				"Material" : "porcelain",
+				"Volumetric " : "540ml",
+				"Diameter" :"3.15\"",
+			},
+		},
+		{
+			"id" : "cup-and-saucer-black-wanted",
+			"name" : "CUP & SAUCER BLACK WANTED",
+			"price" : 12,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/4.jpg",
+			],
+			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
+			"detail" : {
+				"Brand" : "DEMITASSE",
+				"Material" : "porcelain",
+				"Volumetric " : "74ml",
+				"Diameter" :"2.5\"",
+			},
+		},
+		{
+			"id" : "cup-and-saucer-creamy-white",
+			"name" : "CUP & SAUCER CREAMY WHITE",
+			"price" : 24,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/4.jpg",
+			],
+			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
+			"detail" : {
+				"Brand" : "DEMITASSE",
+				"Material" : "porcelain",
+				"Volumetric " : "148ml",
+				"Diameter" :"2.5\"",
+			},
+		},
+		{
+			"id" : "mug-creamy-white",
+			"name" : "MUG CREAMY WHITE",
+			"price" : 29,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/cupwanted/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/cupwanted/2.jpg",
+			],
+			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
+			"detail" : {
+				"Brand" : "DINER MUG",
+				"Material" : "porcelain",
+				"Volumetric " : "305ml",
+				"Diameter" :"2.8\"",
+			},
+		},
+		{
+			"id" : "cupping-bowl",
+			"name" : "CUPPING BOWL",
+			"price" : 24,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/3.jpg",
+			],
+			"desc" : "Working with the Specialty Coffee Association (SCA), we have produced the next generation of cupping bowls.",
+			"detail" : {
+				"Brand" : "ESPRESSO PARTS",
+				"Material" : "porcelain",
+				"Volumetric " : "228 ml",
+				"Diameter" :"3.15\"",
+			},
+		},
+		{
+			"id" : "cupping-bowl",
+			"name" : "CUPPING BOWL",
+			"price" : 24,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/3.jpg",
+			],
+			"desc" : "Working with the Specialty Coffee Association (SCA), we have produced the next generation of cupping bowls.",
+			"detail" : {
+				"Brand" : "ESPRESSO PARTS",
+				"Material" : "porcelain",
+				"Volumetric " : "228 ml",
+				"Diameter" :"3.15\"",
+			},
+		},
+	],
 	"machine": [
 		{
 			"id" : "core-200",
@@ -147,6 +345,7 @@ var product = {
 			},
 		},
 	],
+	
 	// "brewers": [
 	// 	{
 	// 		"id" : "kalita-wave-185-glass-kit",
@@ -171,6 +370,7 @@ var product = {
 	// 		},
 	// 	},
 	// ],
+	
 	"roasting" : [
 		{
 			"id" : "ascaso-steel-grinder-black",
