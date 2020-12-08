@@ -4,3 +4,13 @@
   background-color: #01edfa !important; }
 .bg-loc {
   background-color: #ffd452 !important; }
+.display_flex {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+.flex_direction_column {
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+}
