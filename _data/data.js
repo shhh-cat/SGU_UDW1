@@ -67,10 +67,83 @@ var product = {
 	],
 	"cups-and-mugs": [
 		{
+			"id" : "v60-02",
+			"name" : "V60-02",
+			"price" : 79,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/hario/1.jpg",
+			],
+			"desc" : "The Hario V60 Single-Serve Kit is ideal for brewing 16-20oz of flavorful, full-bodied coffee.",
+			"detail" : {
+				"Brand" : "Hario",
+				"Material" : "glass and porcelain",
+				"Include" : "HARIO_V60_02CR,\nHARIO_FILTER_W,\nHARIO_V60_RANGE,\n175DBLCLEAR,\nEP33BOOK."
+			},
+		},
+		{
+			"id" : "400z",
+			"name" : "400Z",
+			"price" : 41,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/4.jpg",
+			],
+			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 40 oz of flavorful, full-bodied tea.",
+			"detail" : {
+				"Brand" : "Yama Tea Pot",
+				"Material" : "glass",
+				"Include" : "YAMT17,\nYAMES1,\n2x 175DBLCLEAR."
+				
+			},
+		},
+		{
+			"id" : "120z",
+			"name" : "12OZ ",
+			"price" : 41,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/4.jpg",
+			],
+			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 12 oz of flavorful, full-bodied tea.",
+			"detail" : {
+				"Brand" : "Yama Tea Brewing",
+				"Material" : "glass",
+				"Include" : "YAMEP5,\nYAMES1,\n2x 175DBLCLEAR."
+				
+			},
+		},
+		{
+			"id" : "220z",
+			"name" : "22OZ ",
+			"price" : 51,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/4.jpg",
+			],
+			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 22 oz of flavorful, full-bodied tea.",
+			"detail" : {
+				"Brand" : "Yama Tea Brewing",
+				"Material" : "glass",
+				"Include" : "YAMLC500,\nYAMES1,\n2x 175DBLCLEAR."
+				
+			},
+		},
+		{
 			"id" : "ep-porcelain",
-			"name" : "EP PORCELAIN",
+			"name" : "Ep Porcelain",
 			"price" : 22,
 			"discount" : 20,
+			"color" : ["brown","black","blue","gray",],
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/1.jpg",
 				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/2.jpg",
@@ -79,7 +152,7 @@ var product = {
 			],
 			"desc" : "The EP Porcelain diner coffee mug is a high-quality porcelain mug that has been manufactured to our exact specifications by one of the best porcelain manufacturers in the world.",
 			"detail" : {
-				"Brand" : "DINER MUG",
+				"Brand" : "Dinner Mug",
 				"Material" : "porcelain",
 				"Volumetric " : "305ml",
 				"Fired " : "1300",
@@ -87,27 +160,27 @@ var product = {
 			},
 		},
 		{
-			"id" : "demitasse",
-			"name" : "DEMITASSE",
+			"id" : "cup-and-saucer-brown-and-white",
+			"name" : "Cup & Saucer Brown and White",
 			"price" : 12,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/4.jpg",
 			],
-			"desc" : "The EP Porcelain diner coffee mug is a high-quality porcelain mug that has been manufactured to our exact specifications by one of the best porcelain manufacturers in the world.",
+			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
-				"Brand" : "CUP & SAUCER BLACK WANTED",
+				"Brand" : "Demitasse",
 				"Material" : "porcelain",
-				"Volumetric " : "540ml",
-				"Diameter" :"3.15\"",
+				"Volumetric " : "74ml",
+				"Diameter" :"2.5\"",
 			},
 		},
 		{
 			"id" : "cup-and-saucer-black-wanted",
-			"name" : "CUP & SAUCER BLACK WANTED",
+			"name" : "Cup & Saucer Black Wanted",
 			"price" : 12,
 			"discount" : 20,
 			"img" : [
@@ -137,7 +210,7 @@ var product = {
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
-				"Brand" : "DEMITASSE",
+				"Brand" : "Demitasse",
 				"Material" : "porcelain",
 				"Volumetric " : "148ml",
 				"Diameter" :"2.5\"",
@@ -145,7 +218,7 @@ var product = {
 		},
 		{
 			"id" : "mug-creamy-white",
-			"name" : "MUG CREAMY WHITE",
+			"name" : "Mug Creamy White",
 			"price" : 29,
 			"discount" : 20,
 			"img" : [
@@ -154,7 +227,7 @@ var product = {
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
-				"Brand" : "DINER MUG",
+				"Brand" : "Dinner Mug",
 				"Material" : "porcelain",
 				"Volumetric " : "305ml",
 				"Diameter" :"2.8\"",
@@ -162,7 +235,7 @@ var product = {
 		},
 		{
 			"id" : "cupping-bowl",
-			"name" : "CUPPING BOWL",
+			"name" : "Cupping Bowl",
 			"price" : 24,
 			"discount" : 20,
 			"img" : [
@@ -172,28 +245,45 @@ var product = {
 			],
 			"desc" : "Working with the Specialty Coffee Association (SCA), we have produced the next generation of cupping bowls.",
 			"detail" : {
-				"Brand" : "ESPRESSO PARTS",
+				"Brand" : "Espresso Parts",
 				"Material" : "porcelain",
 				"Volumetric " : "228 ml",
 				"Diameter" :"3.15\"",
 			},
 		},
 		{
-			"id" : "cupping-bowl",
-			"name" : "CUPPING BOWL",
-			"price" : 24,
+			"id" : "lino-coffee-mug",
+			"name" : "Lino Coffee Mug",
+			"price" : 32,
+			"discount" : 20,
+			"color" : ["yellow","brown","black","blue","gray","white",],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/lino/1.jpg",
+			],
+			"desc" : "LINO was designed by notNeutral in collaboration with award-winning baristas to create the perfect cups for specialty coffee.",
+			"detail" : {
+				"Brand" : "Notneutral",
+				"Material" : "porcelain",
+				"Volumetric " : "300ml",
+				"Diameter" :"2.6\"",
+			},
+		},
+		{
+			"id" : "hutch-coffee-mug",
+			"name" : "Hutch Coffee Mug",
+			"price" : 32,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/loveramics/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/loveramics/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cupsandmugs/loveramics/3.jpg",
 			],
-			"desc" : "Working with the Specialty Coffee Association (SCA), we have produced the next generation of cupping bowls.",
+			"desc" : "he Loveramics 250 ml Hutch Coffee Mug takes a contemporary spin on a classic diner mug design.",
 			"detail" : {
-				"Brand" : "ESPRESSO PARTS",
+				"Brand" : "Loveramics",
 				"Material" : "porcelain",
-				"Volumetric " : "228 ml",
-				"Diameter" :"3.15\"",
+				"Volumetric " : "250 ml",
+				"Diameter" :"3.3\"",
 			},
 		},
 	],
@@ -466,5 +556,6 @@ var product = {
 				"":"Fast grinding–one pound in under 30 seconds",
 			},
 		},
+
 ],
 };
