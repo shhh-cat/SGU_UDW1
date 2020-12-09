@@ -33,6 +33,14 @@ function checkCookie() {
   }
 }
 
+function updateCart() {
+  //Count Product for icon navbar
+  if (getCookie("cartData")) {
+    pnumber = JSON.parse(getCookie("cartData")).length;
+    $("#iconCartCount").html('<span class="num bg-success" id="iconCartCount">'+pnumber+'</span>');
+  }
+
+}
 requirejs.config({
     paths: {
         jquery : 'lib/jquery-3.5.1.min',
@@ -59,12 +67,7 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth'], function($,bootst
   //       $( "nav.navbar" ).removeClass( "fixed-top" );
   //   }
   // });
-  //Count Product for icon navbar
-  if (getCookie("cartData")) {
-    pnumber = JSON.parse(getCookie("cartData")).length;
-    $("#iconCartCount").html('<span class="num bg-success" id="iconCartCount">'+pnumber+'</span>');
-  }
-  
+  updateCart();
   //SHOW LOGGED
   var auth = document.getElementById('auth');
   if (auth) {
