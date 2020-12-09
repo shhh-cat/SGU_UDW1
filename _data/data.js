@@ -223,7 +223,7 @@ var product = {
 			"price" : 79,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/hario/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/v60-02/1.jpg",
 			],
 			"desc" : "The Hario V60 Single-Serve Kit is ideal for brewing 16-20oz of flavorful, full-bodied coffee.",
 			"detail" : {
@@ -238,10 +238,10 @@ var product = {
 			"price" : 41,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamateapot/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/4.jpg",
 			],
 			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 40 oz of flavorful, full-bodied tea.",
 			"detail" : {
@@ -257,10 +257,10 @@ var product = {
 			"price" : 41,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/yamteabrewing/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/4.jpg",
 			],
 			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 12 oz of flavorful, full-bodied tea.",
 			"detail" : {
@@ -276,10 +276,10 @@ var product = {
 			"price" : 51,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/220z/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/4.jpg",
 			],
 			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 22 oz of flavorful, full-bodied tea.",
 			"detail" : {
@@ -296,10 +296,10 @@ var product = {
 			"discount" : 20,
 			"color" : ["brown","black","blue","gray",],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/dinner-mug/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/4.jpg",
 			],
 			"desc" : "The EP Porcelain diner coffee mug is a high-quality porcelain mug that has been manufactured to our exact specifications by one of the best porcelain manufacturers in the world.",
 			"detail" : {
@@ -316,10 +316,10 @@ var product = {
 			"price" : 12,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/eyeblack/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/4.jpg",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -335,10 +335,10 @@ var product = {
 			"price" : 12,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedblack/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/4.jpg",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -354,10 +354,10 @@ var product = {
 			"price" : 24,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/3.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/wantedwhite/4.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/4.jpg",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -373,8 +373,8 @@ var product = {
 			"price" : 29,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/cupwanted/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/cupwanted/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/mug-creamy-white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/mug-creamy-white/2.jpg",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -390,9 +390,9 @@ var product = {
 			"price" : 24,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/whitecup/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cupping-bowl/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cupping-bowl/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cupping-bowl/3.jpg",
 			],
 			"desc" : "Working with the Specialty Coffee Association (SCA), we have produced the next generation of cupping bowls.",
 			"detail" : {
@@ -409,7 +409,7 @@ var product = {
 			"discount" : 20,
 			"color" : ["yellow","brown","black","blue","gray","white",],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/lino/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/lino-coffee-mug/1.jpg",
 			],
 			"desc" : "LINO was designed by notNeutral in collaboration with award-winning baristas to create the perfect cups for specialty coffee.",
 			"detail" : {
@@ -425,11 +425,11 @@ var product = {
 			"price" : 32,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/loveramics/1.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/loveramics/2.jpg",
-				"/SGU_UDW1/_public/images/tools/cupsandmugs/loveramics/3.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/hutch-coffee-mug/1.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/hutch-coffee-mug/2.jpg",
+				"/SGU_UDW1/_public/images/tools/cups-and-mugs/hutch-coffee-mug/3.jpg",
 			],
-			"desc" : "he Loveramics 250 ml Hutch Coffee Mug takes a contemporary spin on a classic diner mug design.",
+			"desc" : "The Loveramics 250 ml Hutch Coffee Mug takes a contemporary spin on a classic diner mug design.",
 			"detail" : {
 				"Brand" : "Loveramics",
 				"Material" : "porcelain",
@@ -437,6 +437,344 @@ var product = {
 				"Diameter" :"3.3\"",
 			},
 		},
+	],
+	"milk-jugs-and-latte-art" : [
+		{
+			"id" : "coffee-accessories",
+			"name" : "Coffee -accessories",
+			"price" : 39,
+			"discount" : 20,
+			"color" : ["black","white",],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/1.jpg",
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/2.jpg",
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/3.jpg",
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/4.jpg",
+			],
+			"desc" : "These new milk jugs by Coffee Accessories are made from stainless steel and finished in an automotive grade paint (black & white). Durable and hard wearing these jugs are perfect for home or cafe use.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "330 ml",
+				"Diameter" :"3.3\"",
+			},
+		},
+		{
+			"id" : "rhino-pro-milk-pitcher-gold",
+			"name" : "Rhino Pro Milk Pitcher Gold",
+			"price" : 49,
+			"discount" : 20,
+			"color" : ["yellow	","white",],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhino-pro-milk-pitcher-gold/1.jpg",
+			],
+			"desc" : "The Rhino Pro Milk Pitcher Gold is designed by baristas, for baristas.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"3.8\"",
+			},
+		},
+		{
+			"id" : "rhinowares-stealth-milk-pitcher-white",
+			"name" : "Rhinowares Stealth Milk Pitcher – White",
+			"price" : 54,
+			"discount" : 20,
+			"color" : ["white","pink",],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/2.jpg",
+			],
+			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – White.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "740 ml",
+				"Diameter" :"4.2\"",
+			},
+		},
+		{
+			"id" : "rhinowares-stealth-milk-pitcher-red",
+			"name" : "Rhinowares Stealth Milk Pitcher – Red",
+			"price" : 79,
+			"discount" : 20,
+			"color" : ["red"],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/1.jpg",
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/2.jpg",
+			],
+			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – White.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "740 ml",
+				"Diameter" :"4.2\"",
+			},
+		},
+		{
+			"id" : "rhinowares-pro-20z",
+			"name" : "Rhinowares Pro 20z",
+			"price" : 29,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-pro-20z/1.jpg",
+			],
+			"desc" : "The Rhinowares Professional Milk Jug 600ml is designed by baristas, for baristas.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"4.2\"",
+			},
+		},
+		{
+			"id" : "rhinowares-stealth-20x",
+			"name" : "Rhinowares Stealth 20x",
+			"price" : 44,
+			"discount" : 20,
+			"color" : ["green"],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20x/1.jpg",
+			],
+			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Jug – 600ml/20oz – Green.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"4.2\"",
+			},
+		},
+		{
+			"id" : "rhinowares-stealth-20y",
+			"name" : "Rhinowares Stealth 20y",
+			"price" : 44,
+			"discount" : 20,
+			"color" : ["red"],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20y/1.jpg",
+			],
+			"desc" : "Designed by baristas in busy cafes, the Rhinowares Black Stealth Milk Jug 600ml is built to maintain your high standards for hours and hours.",
+			"detail" : {
+				"Brand" : "Milk Pitcher",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"4.2\"",
+			},
+		},
+		{
+			"id" : "rhinowares-stealth-20z",
+			"name" : "Rhinowares Stealth 20Z",
+			"price" : 29,
+			"discount" : 20,
+			"color" : ["blue"],
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20z/1.jpg",
+			],
+			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – 600ml/20oz – Blue.",
+			"detail" : {
+				"Brand" : "Milk Pitcher",
+				"Material" : "Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"4.2\"",
+			},
+		},
+		{
+			"id" : "latte-pro-stainless-stee",
+			"name" : "Latte Pro Stainless Steel",
+			"price" : 51,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-stainless-stee/1.jpg",
+			],
+			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "304 Stainless Steel",
+				"Volumetric " : "600ml",
+				"Diameter" :"4\"",
+			},
+		},
+		{
+			"id" : "latte-pro-matte-black",
+			"name" : "Latte Pro Matte Black",
+			"price" : 51,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-matte-black/1.jpg",
+			],
+			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "304 Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"4\"",
+			},
+		},
+		{
+			"id" : "latte-pro-gold",
+			"name" : "Latte Pro Gold",
+			"price" : 79,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-gold/1.jpg",
+			],
+			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "304 Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"4\"",
+			},
+		},
+		{
+			"id" : "latte-pro-copper",
+			"name" : "Latte Pro Copper",
+			"price" : 59,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-copper/1.jpg",
+			],
+			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
+			"detail" : {
+				"Brand" : "Milk Jug",
+				"Material" : "304 Stainless Steel",
+				"Volumetric " : "600 ml",
+				"Diameter" :"4\"",
+			},
+		},
+	],
+	"tampers": [
+		{
+			"id" : "black",
+			"name" : "Black",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/black/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/black/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/black/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+		{
+			"id" : "white",
+			"name" : "white",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/white/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/white/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+		{
+			"id" : "basics-flat",
+			"name" : "Basics Flat",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/basics-flat/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/basics-flat/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/basics-flat/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+		{
+			"id" : "walnut-wood",
+			"name" : "Walnut Wood",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/walnut-wood/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/walnut-wood/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/walnut-wood/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+		{
+			"id" : "basics",
+			"name" : "Basics",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/basics/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/basics/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/basics/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+		
+		{
+			"id" : "bocote-wood",
+			"name" : "Bocote Wood",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+		{
+			"id" : "bocote-wood-pro",
+			"name" : "Bocote Wood Pro",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood-pro/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood-pro/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood-pro/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+		{
+			"id" : "kino-wood",
+			"name" : "Kino Wood",
+			"price" : 69,
+			"discount" : 20,
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/tamper/kino-wood/1.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/kino-wood/2.jpg",
+				"/SGU_UDW1/_public/images/tools/tamper/blkino-woodack/3.jpg",
+			],
+			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
+			"detail" : {
+				"Brand" : "Espresso Tamper",
+				"Material" : "304 Stainless Steel",
+			},
+		},
+
 	],
 	"machine": [
 		{
