@@ -55,7 +55,7 @@
             if (image.length > 1) {
                 eImage.insertAdjacentHTML('beforeend','<div class="row mt-2 no-gutters" id="thumb">');
                 for (var i in image) {
-                    eImage.insertAdjacentHTML('beforeend','<a href="'+image[i]+'" class="col"><img class="xzoom-gallery" src="'+image[i]+'" width="80"/></a>');
+                    eImage.insertAdjacentHTML('beforeend','<a href="'+image[i]+'" class="col"><img class="xzoom-gallery" src="'+image[i]+'" width="22%"/></a>');
                 }
                 eImage.insertAdjacentHTML('beforeend','</div">');
             }

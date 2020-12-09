@@ -6,10 +6,10 @@ var product = {
             "price" : 222,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/rica/1.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/rica/2.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/rica/3.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/rica/4.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/4.jpg",
             ],
             "desc" : "Made with Stainless Steel and built to last! With the RINSER, any vessel with a diameter from 1 to 3.6 inches can now be rinsed in seconds. In most homes, restaurants, coffee shops, and cafes, the rinsing of wine glasses, baby bottles, travel cups, pitchers, and cups is a task that is repeated many times a day. We have developed the rinser to save you time and money, making the rinse process an effortless task.",
             "detail" : {
@@ -21,14 +21,14 @@ var product = {
             },
         },
         {
-            "id" : "squeeze=bottle",
+            "id" : "squeeze-bottle",
             "name" : "Squeeze Bottle",
             "price" : 12,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/ox/1.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/ox/2.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/ox/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/squeeze-bottle/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/squeeze-bottle/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/squeeze-bottle/3.jpg",
                 //"/SGU_UDW1/_public/images/tools/barista-tools/ox/4.jpg",
             ],
             "desc" : "Whether you’re adding house made vanilla syrup to that crated latte, drizzling chocolate on whipcream, or squeezing honey into tea, the OXO Good Grips Chef’s Squeeze Bottles provide one-handed precision.",
@@ -39,15 +39,15 @@ var product = {
             },
         },
         {
-            "id" : "3117300",
-            "name" : "3117300",
-            "price" : 29,
+            "id" : "3117300-oxo-cocktail-shaker-stainless",
+            "name" : "(3117300) OXO Cocktail Shaker (Stainless)",
+            "price" : 19,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/1.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/2.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/3.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/4.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/4.jpg",
             ],
             "desc" : "OXO Cocktail Shaker Single-wall Stainless Steel cocktail Shaker features two silicone gaskets to create a leak-proof seal in a18oz capacity.",
             "detail" : {
@@ -63,9 +63,9 @@ var product = {
             "price" : 499,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/drawer/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/drawer/2.png",
-				"/SGU_UDW1/_public/images/tools/barista-tools/drawer/3.png",
+                "/SGU_UDW1/_public/images/tools/barista-tools/down-knock-box-drawer/1.png",
+                "/SGU_UDW1/_public/images/tools/barista-tools/down-knock-box-drawer/2.png",
+				"/SGU_UDW1/_public/images/tools/barista-tools/down-knock-box-drawer/3.png",
             ],
             "desc" : "The 3005FOB is a stainless steel counter face mounted fold out espresso knock box drawer for high volume coffee shops.",
             "detail" : {
@@ -81,8 +81,8 @@ var product = {
             "price" : 29,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/bigsquaretall/1.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/bigsquaretall/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/big-square-tall/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/big-square-tall/2.jpg",
             ],
             "desc" : "Airtight, stackable, space-efficient, and now completely dishwasher safe, OXO Good Grips POP Containers keep dry foods fresh and kitchens organized.",
             "detail" : {
@@ -97,10 +97,10 @@ var product = {
             "price" : 349,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/1.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/2.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/3.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/4.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/4.jpg",
             ],
             "desc" : "Made with Stainless Steel and built to last! With our rinser, any vessel with a diameter from 1 to 4½ inches can now be rinsed in seconds.",
             "detail" : {
@@ -115,10 +115,10 @@ var product = {
             "price" : 329,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/size6/1.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/size6/2.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/size6/3.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/size6/4.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/4.jpg",
             ],
             "desc" : "Made with Stainless Steel and built to last! With our rinser, any vessel with a diameter from 1 to 4½ inches can now be rinsed in seconds.",
             "detail" : {
@@ -133,10 +133,10 @@ var product = {
             "price" : 649,
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/1.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/2.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/3.jpg",
-                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/4.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/4.jpg",
             ],
             "desc" : "the Scace 2 is the next level of Scace temperature measurement tools and is exclusive to EspressoParts.com.",
             "detail" : {
@@ -157,7 +157,7 @@ var product = {
 			"price" : 59,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/book1.png",
+				"/SGU_UDW1/_public/images/tools/book/coffee-for-life.png",
 			],
 			"desc" : "Coffee for Life is a great book written by T.L.A.",
 			"detail" : {
@@ -173,7 +173,7 @@ var product = {
 			"price" : 49,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/book2.png",
+				"/SGU_UDW1/_public/images/tools/book/the-best-coffee.png",
 			],
 			"desc" : "The Best Coffee is a great book written by T.L.A.",
 			"detail" : {
@@ -189,7 +189,7 @@ var product = {
 			"price" : 59,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/book3.png",
+				"/SGU_UDW1/_public/images/tools/book/wanted-coffee.png",
 			],
 			"desc" : "Wanted Coffee is a great book written by T.L.A.",
 			"detail" : {
@@ -205,7 +205,7 @@ var product = {
 			"price" : 59,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/book4.png",
+				"/SGU_UDW1/_public/images/tools/book/f-j.png",
 			],
 			"desc" : "Food and Juice is a great book written by T.L.A.",
 			"detail" : {
@@ -587,30 +587,116 @@ var product = {
 		},
 	],
 	
-	// "brewers": [
-	// 	{
-	// 		"id" : "kalita-wave-185-glass-kit",
-	// 		"name" : "KALITA WAVE 185 GLASS KIT",
-	// 		"color" : [],
-	// 		"price" : 74.93,
-	// 		"discount": 15,
-	// 		"img" : [
-	// 			"/SGU_UDW1/_public/images/tools/brewers/_1.jpg",
-	// 			"/SGU_UDW1/_public/images/tools/brewers/_2.jpg",
-	// 			"/SGU_UDW1/_public/images/tools/brewers/_3.jpg",
-	// 			"/SGU_UDW1/_public/images/tools/brewers/_4.jpg",
-	// 			"/SGU_UDW1/_public/images/tools/brewers/_5.jpg",
-	// 			"/SGU_UDW1/_public/images/tools/brewers/_6.jpg",
-	// 		],
-	// 		"detail" : {
-	// 			"Brand" : "KALITA",
-	// 			"Includes" : "1 x Kalita Wave Glass Dripper Size 185",
-	// 			"" : "1 x Kalita Wave Filter for Size 185 Drippers, 100 Count",
-	// 			"" : "1x Kalita Glass Server with 500ml Capacity",
-	// 			"" : "1x This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
-	// 		},
-	// 	},
-	// ],
+	"brewers" : [
+		{
+			"id" : "kalita-wave-185-glass-kit",
+			"name" : "Kalita Wave 185 Glass Kit",
+			"color" : [],
+			"price" : 74.93,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.jpg\" Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/6.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Includes" : "1 x Kalita Wave Glass Dripper Size 185",
+				"" : "1 x Kalita Wave Filter for Size 185 Drippers, 100 Count",
+				"" : "1x Kalita Glass Server with 500ml Capacity",
+				"" : "1x This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "yama-french-press-kit",
+			"name" : "Yama French Press Kit",
+			"color" : [],
+			"price" : 84.18,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.jpg\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/6.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/7.jpg",
+			],
+			"detail" : {
+				"Brand" : "YAMA",
+				"Includes" : "1x (YAM0296C) Yama Glass French Press, 30oz Capacity",
+				"" : "1x (YAMA25) Stainless Steel Kettle from Yama Glass, 24oz Capacity",
+				"" : "1x (YAMES1) Bamboo Stir Stick, 9¾” Tall",
+				"" : "1x (EP33BOOK) This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "kalita-wave-style-kit",
+			"name" : "Kalita Wave Style Kit",
+			"color" : [],
+			"price" : 73.08,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave Style Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! The Kalita Wave Style Brewer brings a modern touch to the classic wave series aesthetic. Made with heat-resistant glass, a steel cage for the dripper, and a plastic grip, the Wave Style Brewer is perfect for brewing and serving. <img src \"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.jpg\" />Plus this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/5.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Includes" : "1 x (KWBREWER) Kalita Wave Style Set, Size 185",
+				"" : "1 x (KW185F) Kalita Wave Filter for Size 185 Drippers, 100 Count",
+				"" : "1 x (EP33BOOK) This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "kalita-wave-185-kit",
+			"name" : "Kalita Wave 185 Kit",
+			"color" : [],
+			"price" : 78.63,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.jpg\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/6.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Includes" : "1 x (KW185SS) Kalita Wave Stainless Steel Dripper Size 185",
+				"" : "1 x (KW185F) Kalita Wave Filter for Size 185 Drippers, 100 Count.",
+				"" : "1 x (KWSERVER) Kalita Glass Server with 500ml Capacity",
+				"" : "1 x (EP33BOOK) This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "kalita-copper-dripper-102",
+			"name" : "Kalita Style Copper Dripper 102",
+			"color" : [],
+			"price" : 45.00,
+			"discount": 0,
+			"desc" : "The Kalita 102 Copper Dripper is a classic, straight-sided pour over dripper with a cone design, but with the iconic Kalita 3-hole extraction feature. Perfect for personal use at home, or by a professional barista in a coffee shop, this cone dripper will provide a balanced, evenly extracted cup of quality coffee. The 102 dripper fits most standard decanters, and brews up to 12oz (350ml) at a time.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-copper-dripper-102.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Base" : "4in diameter",
+				"Liquid" : "8oz",
+				"Requires" : "102 Filters",
+			},
+		},
+	],
 	
 	"roasting" : [
 		{
