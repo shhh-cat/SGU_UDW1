@@ -27,6 +27,7 @@
                 }
             }
             //GET DATA
+            var id = category[i].id;
             var detail = category[i].detail;
             var name = category[i].name;
             var brand = category[i].detail.Brand;
@@ -104,3 +105,66 @@
             });
             });
             })(jQuery);
+
+// THEM VAO GIO HANG
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+var add = 0;
+    $( "#btnAdd" ).click(function() {
+        if (add == 0) {
+            var cart = getCookie("cartData");
+            if (!cart) {
+                var data = [id];
+                setCookie("cartData",JSON.stringify(data));
+            }
+            else {
+                var data = JSON.parse(cart);
+                data.push(id);
+                setCookie("cartData",JSON.stringify(data));
+            }
+        }
+        add++;
+    });
+$( "#btnBuy" ).click(function() {
+    if (add == 0) {
+        var cart = getCookie("cartData");
+        if (!cart) {
+            var data = [id];
+            setCookie("cartData",JSON.stringify(data));
+        }
+        else {
+            var data = JSON.parse(cart);
+            data.push(id);
+            setCookie("cartData",JSON.stringify(data));
+        }
+        window.location.href = "/SGU_UDW1/checkout/cart/";
+    }
+    else {
+        window.location.href = "/SGU_UDW1/checkout/cart/";
+    }
+});
+
+
+
+

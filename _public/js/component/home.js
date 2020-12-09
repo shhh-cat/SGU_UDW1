@@ -21,7 +21,7 @@ var types = [
     glinders = document.getElementById('grinder&');
     barista = document.getElementById('baristatools');
     milkjugs = document.getElementById('milkjugsand');
-    brewers = document.getElementById('milkjugsand');
+    brewers = document.getElementById('brewers');
 
 for (var u in types) {
     //GET DATA OF CATEGORY
