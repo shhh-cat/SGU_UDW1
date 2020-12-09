@@ -130,34 +130,41 @@ function getCookie(cname) {
   }
   return "";
 }
+
+function addToCart() {
+    var amount = $("input.input-spinner").val();
+    var color = $("input[name='color']:checked").val()
+
+    var product = {
+        "id" : id,
+        "amount" : amount,
+        "color" : color,
+    };
+
+    alert(amount);
+    alert(color);
+    var cart = getCookie("cartData");
+    if (!cart) {
+        var data = [product];
+        setCookie("cartData",JSON.stringify(data));
+    }
+    else {
+        var data = JSON.parse(cart);
+        data.push(product);
+        setCookie("cartData",JSON.stringify(data));
+    }
+}
+
 var add = 0;
-    $( "#btnAdd" ).click(function() {
-        if (add == 0) {
-            var cart = getCookie("cartData");
-            if (!cart) {
-                var data = [id];
-                setCookie("cartData",JSON.stringify(data));
-            }
-            else {
-                var data = JSON.parse(cart);
-                data.push(id);
-                setCookie("cartData",JSON.stringify(data));
-            }
-        }
-        add++;
-    });
+$( "#btnAdd" ).click(function() {
+    if (add == 0) {
+        addToCart();
+    }
+    add++;
+});
 $( "#btnBuy" ).click(function() {
     if (add == 0) {
-        var cart = getCookie("cartData");
-        if (!cart) {
-            var data = [id];
-            setCookie("cartData",JSON.stringify(data));
-        }
-        else {
-            var data = JSON.parse(cart);
-            data.push(id);
-            setCookie("cartData",JSON.stringify(data));
-        }
+        addToCart();
         window.location.href = "/SGU_UDW1/checkout/cart/";
     }
     else {

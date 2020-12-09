@@ -1020,7 +1020,7 @@ var product = {
 		{
 			"id" : "kalita-copper-dripper-102",
 			"name" : "Kalita Style Copper Dripper 102",
-			"color" : [],
+			"color" : ["pink"],
 			"price" : 45.00,
 			"discount": 0,
 			"desc" : "The Kalita 102 Copper Dripper is a classic, straight-sided pour over dripper with a cone design, but with the iconic Kalita 3-hole extraction feature. Perfect for personal use at home, or by a professional barista in a coffee shop, this cone dripper will provide a balanced, evenly extracted cup of quality coffee. The 102 dripper fits most standard decanters, and brews up to 12oz (350ml) at a time.",

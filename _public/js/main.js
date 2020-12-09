@@ -59,8 +59,12 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth'], function($,bootst
   //       $( "nav.navbar" ).removeClass( "fixed-top" );
   //   }
   // });
-
-
+  //Count Product for icon navbar
+  if (getCookie("cartData")) {
+    pnumber = JSON.parse(getCookie("cartData")).length;
+    $("#iconCartCount").html('<span class="num bg-success" id="iconCartCount">'+pnumber+'</span>');
+  }
+  
   //SHOW LOGGED
   var auth = document.getElementById('auth');
   if (auth) {
