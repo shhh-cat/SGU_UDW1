@@ -4,6 +4,7 @@ var product = {
             "id" : "glass-rider-for-chicken-skins",
             "name" : "Glass Rider for Chicken Skins",
             "price" : 222,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/1.jpg",
@@ -24,6 +25,7 @@ var product = {
             "id" : "squeeze-bottle",
             "name" : "Squeeze Bottle",
             "price" : 12,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/squeeze-bottle/1.jpg",
@@ -42,6 +44,7 @@ var product = {
             "id" : "3117300-oxo-cocktail-shaker-stainless",
             "name" : "(3117300) OXO Cocktail Shaker (Stainless)",
             "price" : 19,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/1.jpg",
@@ -61,6 +64,7 @@ var product = {
         	"id" : "down-knock-box-drawer",
             "name" : "Down Knock Box Drawer",
             "price" : 499,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/down-knock-box-drawer/1.png",
@@ -79,6 +83,7 @@ var product = {
            "id" : "big-square-tall",
             "name" : "Big Square Tall",
             "price" : 29,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/big-square-tall/1.jpg",
@@ -95,6 +100,7 @@ var product = {
            "id" : "espresso-parts",
             "name" : "Espresso Parts",
             "price" : 349,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/1.jpg",
@@ -113,6 +119,7 @@ var product = {
            "id" : "espresso-parts-size6",
             "name" : "Espresso Parts Size 6",
             "price" : 329,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/1.jpg",
@@ -131,6 +138,7 @@ var product = {
            "id" : "espresso-machine",
             "name" : "Espresso Machine",
             "price" : 649,
+            "color" : ["silver",],
             "discount" : 20,
             "img" : [
                 "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/1.jpg",
@@ -155,6 +163,7 @@ var product = {
 			"id" : "coffee-for-life",
 			"name" : "Coffee for Life",
 			"price" : 59,
+			"color" : ["green",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/book/coffee-for-life.png",
@@ -171,6 +180,7 @@ var product = {
 			"id" : "the-best-coffee",
 			"name" : "The Best Coffee",
 			"price" : 49,
+			"color" : ["blue",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/book/the-best-coffee.png",
@@ -187,6 +197,7 @@ var product = {
 			"id" : "wanted-coffee",
 			"name" : "Wanted Coffee",
 			"price" : 59,
+			"color" : ["green",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/book/wanted-coffee.png",
@@ -203,6 +214,7 @@ var product = {
 			"id" : "f-j",
 			"name" : "Food and Juice",
 			"price" : 59,
+			"color" : ["orange",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/book/f-j.png",
@@ -221,6 +233,7 @@ var product = {
 			"id" : "v60-02",
 			"name" : "V60-02",
 			"price" : 79,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/v60-02/1.jpg",
@@ -236,6 +249,7 @@ var product = {
 			"id" : "400z",
 			"name" : "400Z",
 			"price" : 41,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/1.jpg",
@@ -255,6 +269,7 @@ var product = {
 			"id" : "120z",
 			"name" : "12OZ ",
 			"price" : 41,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/1.jpg",
@@ -274,6 +289,7 @@ var product = {
 			"id" : "220z",
 			"name" : "22OZ ",
 			"price" : 51,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/1.jpg",
@@ -314,6 +330,7 @@ var product = {
 			"id" : "cup-and-saucer-brown-and-white",
 			"name" : "Cup & Saucer Brown and White",
 			"price" : 12,
+			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/1.jpg",
@@ -333,6 +350,7 @@ var product = {
 			"id" : "cup-and-saucer-black-wanted",
 			"name" : "Cup & Saucer Black Wanted",
 			"price" : 12,
+			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/1.jpg",
@@ -352,6 +370,7 @@ var product = {
 			"id" : "cup-and-saucer-creamy-white",
 			"name" : "CUP & SAUCER CREAMY WHITE",
 			"price" : 24,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/1.jpg",
@@ -371,6 +390,7 @@ var product = {
 			"id" : "mug-creamy-white",
 			"name" : "Mug Creamy White",
 			"price" : 29,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/mug-creamy-white/1.jpg",
@@ -388,6 +408,7 @@ var product = {
 			"id" : "cupping-bowl",
 			"name" : "Cupping Bowl",
 			"price" : 24,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cupping-bowl/1.jpg",
@@ -423,6 +444,7 @@ var product = {
 			"id" : "hutch-coffee-mug",
 			"name" : "Hutch Coffee Mug",
 			"price" : 32,
+			"color" : ["gray","blue","red",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/cups-and-mugs/hutch-coffee-mug/1.jpg",
@@ -516,6 +538,7 @@ var product = {
 			"id" : "rhinowares-pro-20z",
 			"name" : "Rhinowares Pro 20z",
 			"price" : 29,
+			"color" : ["silver",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-pro-20z/1.jpg",
@@ -550,7 +573,7 @@ var product = {
 			"name" : "Rhinowares Stealth 20y",
 			"price" : 44,
 			"discount" : 20,
-			"color" : ["red"],
+			"color" : ["black"],
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20y/1.jpg",
 			],
@@ -583,6 +606,7 @@ var product = {
 			"id" : "latte-pro-stainless-stee",
 			"name" : "Latte Pro Stainless Steel",
 			"price" : 51,
+			"color" : ["silver",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-stainless-stee/1.jpg",
@@ -599,6 +623,7 @@ var product = {
 			"id" : "latte-pro-matte-black",
 			"name" : "Latte Pro Matte Black",
 			"price" : 51,
+			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-matte-black/1.jpg",
@@ -615,6 +640,7 @@ var product = {
 			"id" : "latte-pro-gold",
 			"name" : "Latte Pro Gold",
 			"price" : 79,
+			"color" : ["yellow",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-gold/1.jpg",
@@ -631,6 +657,7 @@ var product = {
 			"id" : "latte-pro-copper",
 			"name" : "Latte Pro Copper",
 			"price" : 59,
+			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-copper/1.jpg",
@@ -649,6 +676,7 @@ var product = {
 			"id" : "black",
 			"name" : "Black",
 			"price" : 69,
+			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/black/1.jpg",
@@ -665,6 +693,7 @@ var product = {
 			"id" : "white",
 			"name" : "white",
 			"price" : 69,
+			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/white/1.jpg",
@@ -681,6 +710,7 @@ var product = {
 			"id" : "basics-flat",
 			"name" : "Basics Flat",
 			"price" : 69,
+			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/basics-flat/1.jpg",
@@ -697,6 +727,7 @@ var product = {
 			"id" : "walnut-wood",
 			"name" : "Walnut Wood",
 			"price" : 69,
+			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/walnut-wood/1.jpg",
@@ -713,6 +744,7 @@ var product = {
 			"id" : "basics",
 			"name" : "Basics",
 			"price" : 69,
+			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/basics/1.jpg",
@@ -730,6 +762,7 @@ var product = {
 			"id" : "bocote-wood",
 			"name" : "Bocote Wood",
 			"price" : 69,
+			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood/1.jpg",
@@ -746,6 +779,7 @@ var product = {
 			"id" : "bocote-wood-pro",
 			"name" : "Bocote Wood Pro",
 			"price" : 69,
+			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood-pro/1.jpg",
@@ -762,6 +796,7 @@ var product = {
 			"id" : "kino-wood",
 			"name" : "Kino Wood",
 			"price" : 69,
+			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/tamper/kino-wood/1.jpg",
@@ -772,6 +807,488 @@ var product = {
 			"detail" : {
 				"Brand" : "Espresso Tamper",
 				"Material" : "304 Stainless Steel",
+			},
+		},
+
+	],
+	"brewers" : [
+		{
+			"id" : "kalita-wave-185-glass-kit",
+			"name" : "Kalita Wave 185 Glass Kit",
+			"color" : ["white",],
+			"price" : 74.93,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.jpg\" Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/6.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Includes" : "1 x Kalita Wave Glass Dripper Size 185",
+				"" : "1 x Kalita Wave Filter for Size 185 Drippers, 100 Count",
+				"" : "1x Kalita Glass Server with 500ml Capacity",
+				"" : "1x This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "yama-french-press-kit",
+			"name" : "Yama French Press Kit",
+			"color" : ["white",],
+			"price" : 84.18,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.jpg\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/6.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/7.jpg",
+			],
+			"detail" : {
+				"Brand" : "YAMA",
+				"Includes" : "1x (YAM0296C) Yama Glass French Press, 30oz Capacity",
+				"" : "1x (YAMA25) Stainless Steel Kettle from Yama Glass, 24oz Capacity",
+				"" : "1x (YAMES1) Bamboo Stir Stick, 9¾” Tall",
+				"" : "1x (EP33BOOK) This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "kalita-wave-style-kit",
+			"name" : "Kalita Wave Style Kit",
+			"color" : ["white",],
+			"price" : 73.08,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave Style Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! The Kalita Wave Style Brewer brings a modern touch to the classic wave series aesthetic. Made with heat-resistant glass, a steel cage for the dripper, and a plastic grip, the Wave Style Brewer is perfect for brewing and serving. <img src \"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.jpg\" />Plus this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/5.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Includes" : "1 x (KWBREWER) Kalita Wave Style Set, Size 185",
+				"" : "1 x (KW185F) Kalita Wave Filter for Size 185 Drippers, 100 Count",
+				"" : "1 x (EP33BOOK) This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "kalita-wave-185-kit",
+			"name" : "Kalita Wave 185 Kit",
+			"color" : ["white",],
+			"price" : 78.63,
+			"discount": 15,
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.jpg\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/6.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Includes" : "1 x (KW185SS) Kalita Wave Stainless Steel Dripper Size 185",
+				"" : "1 x (KW185F) Kalita Wave Filter for Size 185 Drippers, 100 Count.",
+				"" : "1 x (KWSERVER) Kalita Glass Server with 500ml Capacity",
+				"" : "1 x (EP33BOOK) This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format.",
+			},
+		},
+		{
+			"id" : "kalita-copper-dripper-102",
+			"name" : "Kalita Style Copper Dripper 102",
+			"color" : ["brown",],
+			"price" : 45.00,
+			"discount": 0,
+			"desc" : "The Kalita 102 Copper Dripper is a classic, straight-sided pour over dripper with a cone design, but with the iconic Kalita 3-hole extraction feature. Perfect for personal use at home, or by a professional barista in a coffee shop, this cone dripper will provide a balanced, evenly extracted cup of quality coffee. The 102 dripper fits most standard decanters, and brews up to 12oz (350ml) at a time.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-copper-dripper-102.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Base" : "4in diameter",
+				"Liquid" : "8oz",
+				"Requires" : "102 Filters",
+			},
+		},
+	],
+	"filters":[
+		{
+			"id" : "paper-coffee-filter",
+			"name" : "Paper Cofee Filter",
+			"color" : ["white",],
+			"price" : 26,
+			"discount": 0,
+			"desc" : "These filters use firm, crepe textured paper filters absorb oils and remove gritty sediments.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/2.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/3.jpg",
+			],
+			"detail" : {
+				"Brand" : "Rockline",
+				"Size" : "Short",
+			},
+		},
+		{
+			"id" : "kalita-wave-185-paper-filter",
+			"name" : "Kalita Wave 185 Paper Filter",
+			"color" : ["white",],
+			"price" : 14,
+			"discount": 0,
+			"desc" : "Kalita Wave 185 Filters are made with high quality paper. Both material and shape design help to pull impurities out of the grounds and leave you with a pure, delicious cup of coffee.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/2.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/3.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Size" : "Short",
+			},
+		},
+		{
+			"id" : "kalita-102-paper-filter-white",
+			"name" : "Kalita 102 Paper Filter White",
+			"color" : ["white",],
+			"price" : 12,
+			"discount": 0,
+			"desc" : "102 Kalita Coffee Filters are made with high quality paper made to pull the impurities from your coffee as you brew.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/2.jpg",
+			],
+			"detail" : {
+				"Brand" : "KALITA",
+				"Size" : "Short",
+			},
+		},
+		{
+			"id" : "ceramic-filter",
+			"name" : "Ceramic filter",
+			"color" : ["white",],
+			"price" : 21,
+			"discount": 0,
+			"desc" : "High quality ceramic filter for all Yama Glass cold brew coffee makers and the Silverton. It measures just over 39 mm and is just over 5 mm thick.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/ceramic-filter/1.jpg",
+			],
+			"detail" : {
+				"Brand" : "Ceramic",
+				"Size" : "Short",
+			},
+		},
+		{
+			"id" : "mesh-screen-filter-for-yama-syphons",
+			"name" : "Mesh Screen Filter for Yama Syphons",
+			"color" : ["white",],
+			"price" : 9,
+			"discount": 0,
+			"desc" : "This Mesh Screen Filter is designed specifically for Yama Glass Syphon Brewers. This replacement does not include the screen assembly.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/mesh-screen-filter-for-yama-syphons/1.jpg",
+			],
+			"detail" : {
+				"Brand" : "Yama",
+				"Size" : "Short",
+				"diameter" : "2.5\"",
+			},
+		},
+		{
+			"id" : "stainless-steel-filter-cone",
+			"name" : "Stainless Steel Filter Cone",
+			"color" : ["white",],
+			"price" : 31,
+			"discount": 0,
+			"desc" : "This stainless steel, double walled filter cone from Yama Glass serves as a replacement for both the Yama Silverton Brewer and the Yama Hermiston Brewer.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/2.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/3.jpg",
+			],
+			"detail" : {
+				"Brand" : "Yama",
+				"Size" : "6 in x 5 in x 4 in",
+				"Material" : "Stainless Steel",
+			},
+		},
+		{
+			"id" : "yama-coffee-stainless-filter",
+			"name" : "Yama Coffee Stainless Filter",
+			"color" : ["white",],
+			"price" : 49,
+			"discount": 0,
+			"desc" : "This beautiful 20oz Coffee Drip Pot from Yama Glass comes with a reusable Stainless Steel cone filter, creating an elegant display of modern aesthetic style.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/2.jpg",
+			],
+			"detail" : {
+				"Brand" : "Yama",
+				"Size" : "10\"",
+				"Material" : "Double Walled Mesh Filter",
+
+			},
+		},
+		{
+			"id" : "yama-coffee-glass-and-stainless-filter",
+			"name" : "Yama Coffee Glass and Stainless Filter",
+			"color" : ["white",],
+			"price" : 26,
+			"discount": 0,
+			"desc" : "This beautiful 30oz Coffee Drip Pot from Yama Glass comes with a Stainless Steel cone filter, creating an elegant display of modern aesthetic style.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/2.jpg",
+			],
+			"detail" : {
+				"Brand" : "Yama",
+				"Size" : "Short",
+				"Size" : "10.6\"",
+				"Material" : "Double Walled Mesh Filter and Borosilicate glass",
+			},
+		},
+	],
+	"grinders-and-accessories" : [
+		{
+			"id" : "automatic-coffee-tamper-white",
+			"name" : "Atomatic Coffee Tamper White",
+			"color" : ["white",],
+			"price" : 1200,
+			"discount": 0,
+			"desc" : "The new Q2 Puqpress automatic coffee tamper offers the latest in precision technology to provide a consistent tamping experience for every cup of coffee.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/3.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/TTautomatic-coffee-tamper-white/4.jpg",
+			],
+			"detail" : {
+				"Brand" : "PuqPress",
+				"Adjustable " : "22-66lbs",
+				"Material" : "Stainless Steel",
+			},
+		},
+		{
+			"id" : "automatic-coffee-tamper-black",
+			"name" : "Atomatic Coffee Tamper Black",
+			"color" : ["black",],
+			"price" : 1220,
+			"discount": 0,
+			"desc" : "The new Q2 Puqpress automatic coffee tamper offers the latest in precision technology to provide a consistent tamping experience for every cup of coffee..",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/1.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/3.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/4.jpg",
+			],
+			"detail" : {
+				"Brand" : "YPuqPressama",
+				"Adjustable " : "22-66lbs",
+				"Material" : "Stainless Steel",
+			},
+		},
+		{
+			"id" : "ns-mythos-grinder",
+			"name" : "NS Mythos Grinder",
+			"color" : ["black",],
+			"price" : 1299,
+			"discount": 0,
+			"desc" : "The unparalleled engineering and state-of-the-art design of the Puqpress automatic tamper ensures perfectly compressed coffee grounds and a precisely level tamp - every time.",
+			"" : "Puqpress is taking the specialty coffee industry by storm!",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/1.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/3.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/4.jpg",
+			],
+			"detail" : {
+				"Brand" : "PUQ ",
+				"Adjustable " : "22-66lbs (+/- 2.2lbs)",
+				"Material" : "Stainless Steel",
+				"Tamper Shape" : "Flat bottom",
+				"Warranty" : "12-month",
+				"Net Weight" : "5kg / 13lbs",
+			},
+		},
+		{
+			"id" : "electronic-doser-commercial-grinder-black",
+			"name" : "Electronic Doser Commercial Grinder Black",
+			"color" : ["black",],
+			"price" : 3699,
+			"discount": 0,
+			"desc" : "Mazzer has come to stand for highest-quality and performance coffee grinders and are proven in the high end coffee market.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/electronic-doser-commercial-grinder-black/1.png",
+			],
+			"detail" : {
+				"Brand" : "Mazzer Kold",
+				"Power " : "900 Watt",
+				"Speed" : "420 r.p.m. (50 Hz)",
+				"Capacity" : "1,5 Kg (3,3 lbs)",
+				"Net weight" : "30 kg (66 lbs)",
+			},
+		},
+		{
+			"id" : "la-marzocco-lux-d-white",
+			"name" : "La Marzocco LUX D White",
+			"color" : ["white",],
+			"price" : 999,
+			"discount": 0,
+			"desc" : "The Lux D grinder is the result of a collaboration between La Marzocco Home and Mazzer to build an optimized home espresso grinder.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/1.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/2.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/3.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/4.png",
+			],
+			"detail" : {
+				"Brand" : "Mazzer LUX",
+				"Power " : "250 Watt",
+				"Speed" : "1400 r.p.m.",
+				"Capacity" : "1,2 Kg (2,7 lbs)",
+				"Net weight" : "11 Kg (24,5 lbs)",
+			},
+		},
+		{
+			"id" : "la-marzocco-lux-d-polished-metallic-silver",
+			"name" : "La Marzocco LUX D Polished Metallic Silver",
+			"color" : ["silver",],
+			"price" : 1099,
+			"discount": 0,
+			"desc" : "The Lux D grinder is the result of a collaboration between La Marzocco Home and Mazzer to build an optimized home espresso grinder.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/1.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/2.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/3.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/4.png",
+			],
+			"detail" : {
+				"Brand" : "Mazzer LUX",
+				"Power " : "250 Watt",
+				"Speed" : "1400 r.p.m.",
+				"Capacity" : "1,2 Kg (2,7 lbs)",
+				"Net weight" : "11 Kg (24,5 lbs)",
+			},
+		},
+		{
+			"id" : "baratza-vario",
+			"name" : "baratza-vario",
+			"color" : ["black",],
+			"price" : 499,
+			"discount": 0,
+			"desc" : "The New Baratza Vario is a commercial grinder with 54 mm ceramic flat burrs and a throughput of 1.6 - 2.2 grams per second as well as an innovative, macro/micro grind adjustment with 230 settings.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/1.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/3.jpg",
+			],
+			"detail" : {
+				"Brand" : "Baratza",
+				"Power " : "220-240VAC 50/60 Hz",
+				"Speed" : "	1.6g/sec.—2.2g/sec",
+				"Capacity" : "6.3 oz. (180 g)",
+				"Net weight" : "9 lbs. (4.1 kg)",
+			},
+		},
+		{
+			"id" : "nuova-simonelli-mythos-basic-grinder",
+			"name" : "Nuova Simonelli Mythos Basic Grinder",
+			"color" : ["black",],
+			"price" : 2599,
+			"discount": 0,
+			"desc" : "The Mythos Basic grinder has a \"grind on demand\" system that brings out all the aroma and flavor out of a coffee bean, and is considered one of the best espresso grinders available.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/nuova-simonelli-mythos-basic-grinder/1.png",
+			],
+			"detail" : {
+				"Brand" : "Baratza",
+				"Power " : "220-240VAC 50/60 Hz",
+				"Speed" : "	1.6g/sec.—2.2g/sec",
+				"Capacity" : "6.3 oz. (180 g)",
+				"Net weight" : "9 lbs. (4.1 kg)",
+			},
+		},
+
+	],
+	"kattles-and-scales" : [
+		{
+			"id" : "stainless-steel-kettle",
+			"name" : "Stainless Steel Kettle",
+			"color" : ["silver",],
+			"price" : 30,
+			"discount": 0,
+			"desc" : "This Stainless Steel Kettle from Yama Glass is a sturdy and stylish addition to any barista’s arsenal.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/1.jpg",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/2.jpg",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/3.jpg",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/4.jpg",
+			],
+			"detail" : {
+				"Brand" : "Yama",
+				"Diameter " : "8.5 in x 4in x 7.5 in",
+				"Material" : "Stainless Steel",
+				"Holds" : "24 oz",
+			},
+		},
+		{
+			"id" : "leather-wrap",
+			"name" : "leather-wrap",
+			"color" : ["brown",],
+			"price" : 144,
+			"discount": 0,
+			"desc" : "Kalita Wave Stainless Steel Kettle 1L - Leather Wrap",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/leather-wrap/1.jpg",
+			],
+			"detail" : {
+				"Brand" : "Kalita",
+				"Size " : "1l",
+				"Material" : "Stainless Steel and Leather",
+				"Holds" : "27 oz",
+			},
+		},
+		{
+			"id" : "glass-sassy-petite",
+			"name" : "Glass Sassy Petite",
+			"color" : ["white",],
+			"price" : 29,
+			"discount": 0,
+			"desc" : "The Yama Glass “Sassy Petite” Tea Kettle is a beautiful, hand blown teapot that feels at home in any setting; from classy to casual. ",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/glass-sassy-petite/1.jpg",
+			],
+			"detail" : {
+				"Brand" : "Yama",
+				"Diameter " : "8.5 in x 4in x 7.5 in",
+				"Material" : "Glass",
+				"Holds" : "12 oz",
+			},
+		},
+		{
+			"id" : "doserless-mod",
+			"name" : "Doserless Mod",
+			"color" : ["white",],
+			"price" : 2599,
+			"discount": 0,
+			"desc" : "Grocery style spout for Mazzer Super Jolly grinders. Older models of the Major, as well as the Mini model will not accept this mod.",
+			"img" : [
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/doserless-mod/1.jpg",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/doserless-mod/2.jpg",
+			],
+			"detail" : {
+				"Brand" : "Mazzer",
+				"Material" : "Stainless Steel",
 			},
 		},
 
@@ -925,6 +1442,7 @@ var product = {
 		},
 	],
 	
+<<<<<<< HEAD
 	"brewers" : [
 		{
 			"id" : "kalita-wave-185-glass-kit",
@@ -1036,6 +1554,8 @@ var product = {
 		},
 	],
 	
+=======
+>>>>>>> origin/master
 	"roasting" : [
 		{
 			"id" : "ascaso-steel-grinder-black",
