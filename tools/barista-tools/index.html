@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
     <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
     <link rel="stylesheet" href="/SGU_UDW1/_public/css/component/category.css">
+    <title>Wanted Coffee</title>
     <link rel="shortcut icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
     <link rel="icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
-    <title>Wanted Coffee</title>
 </head>
 <body>
     <!-- ============= MENU ============== -->
@@ -24,7 +24,7 @@
                 <ol class="breadcrumb bg-white">
                     <li class="breadcrumb-item"><a href="/SGU_UDW1/index.html" class="text-brown">Home</a></li>
                     <li class="breadcrumb-item"><a href="#" class="text-brown">Tools</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Barista Tools</li>
+                    <li class="breadcrumb-item active" aria-current="page" id="bCategory"></li>
                 </ol>
             </nav>
         </div>
@@ -36,24 +36,6 @@
         <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
         <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
         <script src="/SGU_UDW1/_data/data.js"></script>
-        <script type="text/javascript">
-            var e = document.getElementById('category');
-            var baristaTools = product.baristaTools;
-            for(var i in baristaTools){
-                e.insertAdjacentHTML('beforeend','<a href="'+baristaTools[i].id+'" class="text-decoration-none text-dark">'+
-                '<div class="col-md-3 card-deck product-card m-0 p-0 float-left">'+
-                    '<div class="card-body p-4">'+
-                        '<img src="'+baristaTools[i].img+'" class="card-img-top" alt="test">'+
-                        '<h5 class="card-title text-brown opensans mt-3"><strong>'+baristaTools[i].detail.Brand+'</strong> - '+baristaTools[i].name+'</h5>'+
-                        '<div class="card-text fsize-24">$'+baristaTools[i].price+'</div>'+
-                        '<div class="row no-gutters mt-3">'+
-                            '<a href="#" class="btn btn-outline-dark mr-1 col">Buy now</a>'+
-                            '<a href="#" class="btn btn-outline-brown col">Add to cart</a>'+
-                        '</div>'+
-                    '</div>'+
-                '</div>'+
-            '</a>');
-            }
-        </script>
+        <script src="/SGU_UDW1/_public/js/component/category.js"></script>
 </body>
 </html>

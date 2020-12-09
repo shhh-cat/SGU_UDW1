@@ -1,8 +1,159 @@
 var product = {
+	"barista-tools": [
+		{
+            "id" : "glass-rider-for-chicken-skins",
+            "name" : "Glass Rider for Chicken Skins",
+            "price" : 222,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/rica/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/rica/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/rica/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/rica/4.jpg",
+            ],
+            "desc" : "Made with Stainless Steel and built to last! With the RINSER, any vessel with a diameter from 1 to 3.6 inches can now be rinsed in seconds. In most homes, restaurants, coffee shops, and cafes, the rinsing of wine glasses, baby bottles, travel cups, pitchers, and cups is a task that is repeated many times a day. We have developed the rinser to save you time and money, making the rinse process an effortless task.",
+            "detail" : {
+                "Brand" : "Rica",
+                "Manufacturer" : "Espresso Partsl",
+                "Diameter" : "3.6",
+                "Water Source" : "Cold or Hot",
+                "Materials" : "tainless Steel Pan and Sprayer",
+            },
+        },
+        {
+            "id" : "squeeze=bottle",
+            "name" : "Squeeze Bottle",
+            "price" : 12,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/ox/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/ox/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/ox/3.jpg",
+                //"/SGU_UDW1/_public/images/tools/barista-tools/ox/4.jpg",
+            ],
+            "desc" : "Whether you’re adding house made vanilla syrup to that crated latte, drizzling chocolate on whipcream, or squeezing honey into tea, the OXO Good Grips Chef’s Squeeze Bottles provide one-handed precision.",
+            "detail" : {
+                "Brand" : "OX Good",
+                "Size" : "2.5\"L x 2.5\" W x 9\"H",
+                "Materials" : "plastic",
+            },
+        },
+        {
+            "id" : "3117300",
+            "name" : "3117300",
+            "price" : 29,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/oxo/4.jpg",
+            ],
+            "desc" : "OXO Cocktail Shaker Single-wall Stainless Steel cocktail Shaker features two silicone gaskets to create a leak-proof seal in a18oz capacity.",
+            "detail" : {
+                "Brand" : "OXO Cocktail Shaker",
+                "Size" : "3.5\"L x 3.5\" W x 9.5\"H",
+                "Materials" : " stainless steel",
+                "Capacity " : "18 oz",
+            },
+        },
+        {
+        	"id" : "down-knock-box-drawer",
+            "name" : "Down Knock Box Drawer",
+            "price" : 499,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/drawer/1.png",
+                "/SGU_UDW1/_public/images/tools/barista-tools/drawer/2.png",
+				"/SGU_UDW1/_public/images/tools/barista-tools/drawer/3.png",
+            ],
+            "desc" : "The 3005FOB is a stainless steel counter face mounted fold out espresso knock box drawer for high volume coffee shops.",
+            "detail" : {
+                "Brand" : "Stainless Steel Fold",
+                "Dimensions" : "345 wide x 235 deep x 277 mm tall",
+                "Mounting hole" : "345 x 278 mm",
+                "Manufacturer" : "Priolinox",
+            },
+        },
+        {
+           "id" : "big-square-tall",
+            "name" : "Big Square Tall",
+            "price" : 29,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/bigsquaretall/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/bigsquaretall/2.jpg",
+            ],
+            "desc" : "Airtight, stackable, space-efficient, and now completely dishwasher safe, OXO Good Grips POP Containers keep dry foods fresh and kitchens organized.",
+            "detail" : {
+                "Brand" : "OXO Good",
+                "Size" : "6.3\"L x 6.3\" W x 13.1\"H",
+                "Materials" : "glass",
+            },
+        },
+        {
+           "id" : "espresso-parts",
+            "name" : "Espresso Parts",
+            "price" : 349,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/rinser/4.jpg",
+            ],
+            "desc" : "Made with Stainless Steel and built to last! With our rinser, any vessel with a diameter from 1 to 4½ inches can now be rinsed in seconds.",
+            "detail" : {
+                "Brand" : "Rinser NSF",
+                "Size" : "7\"x24\"",
+                "Materials" : "steel",
+            },
+        },
+        {
+           "id" : "espresso-parts-size6",
+            "name" : "Espresso Parts Size 6",
+            "price" : 329,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/size6/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/size6/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/size6/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/size6/4.jpg",
+            ],
+            "desc" : "Made with Stainless Steel and built to last! With our rinser, any vessel with a diameter from 1 to 4½ inches can now be rinsed in seconds.",
+            "detail" : {
+                "Brand" : "Rinser NSF",
+                "Size" : "7\"x20\"",
+                "Materials" : "steel",
+            },
+        },
+        {
+           "id" : "espresso-machine",
+            "name" : "Espresso Machine",
+            "price" : 649,
+            "discount" : 20,
+            "img" : [
+                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/1.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/2.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/3.jpg",
+                "/SGU_UDW1/_public/images/tools/barista-tools/scace2/4.jpg",
+            ],
+            "desc" : "the Scace 2 is the next level of Scace temperature measurement tools and is exclusive to EspressoParts.com.",
+            "detail" : {
+                "Brand" : "Scace 2",
+                "Size" : "7\"x24\"",
+                "Manufacturer" : "Espresso Research",
+                "Materials" : "steel",
+            },
+        },
+
+
+
+	],
 	"books": [
 		{
 			"id" : "coffee-for-life",
-			"name" : "Coffee for life",
+			"name" : "Coffee for Life",
 			"price" : 59,
 			"discount" : 20,
 			"img" : [
@@ -18,7 +169,7 @@ var product = {
 		},
 		{
 			"id" : "the-best-coffee",
-			"name" : "The best coffee",
+			"name" : "The Best Coffee",
 			"price" : 49,
 			"discount" : 20,
 			"img" : [
