@@ -812,11 +812,11 @@ var product = {
 			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.png\" Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/2.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/4.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/5.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/6.png",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/6.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -835,12 +835,12 @@ var product = {
 			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.png\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.png",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/3.png",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/4.png",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/5.png",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/6.png",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/7.png",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/6.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/7.jpg",
 			],
 			"detail" : {
 				"Brand" : "YAMA",
@@ -859,10 +859,10 @@ var product = {
 			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave Style Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! The Kalita Wave Style Brewer brings a modern touch to the classic wave series aesthetic. Made with heat-resistant glass, a steel cage for the dripper, and a plastic grip, the Wave Style Brewer is perfect for brewing and serving. <img src \"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.png\" />Plus this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/2.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/3.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/5.png",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/5.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -880,11 +880,11 @@ var product = {
 			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.png\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/2.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/3.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/4.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/5.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/6.png",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/2.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/3.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/4.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/5.jpg",
+				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/6.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -921,9 +921,9 @@ var product = {
 			"discount": 0,
 			"desc" : "These filters use firm, crepe textured paper filters absorb oils and remove gritty sediments.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/1.png",
-				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/2.png",
-				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/3.png",
+				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/2.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "Rockline",
@@ -938,9 +938,9 @@ var product = {
 			"discount": 0,
 			"desc" : "Kalita Wave 185 Filters are made with high quality paper. Both material and shape design help to pull impurities out of the grounds and leave you with a pure, delicious cup of coffee.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/1.png",
-				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/2.png",
-				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/3.png",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/2.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -955,8 +955,8 @@ var product = {
 			"discount": 0,
 			"desc" : "102 Kalita Coffee Filters are made with high quality paper made to pull the impurities from your coffee as you brew.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/1.png",
-				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/2.png",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -971,7 +971,7 @@ var product = {
 			"discount": 0,
 			"desc" : "High quality ceramic filter for all Yama Glass cold brew coffee makers and the Silverton. It measures just over 39 mm and is just over 5 mm thick.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/ceramic-filter/1.png",
+				"/SGU_UDW1/_public/images/tools/filters/ceramic-filter/1.jpg",
 			],
 			"detail" : {
 				"Brand" : "Ceramic",
@@ -1002,9 +1002,9 @@ var product = {
 			"discount": 0,
 			"desc" : "This stainless steel, double walled filter cone from Yama Glass serves as a replacement for both the Yama Silverton Brewer and the Yama Hermiston Brewer.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/1.png",
-				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/2.png",
-				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/3.png",
+				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/2.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1020,8 +1020,8 @@ var product = {
 			"discount": 0,
 			"desc" : "This beautiful 20oz Coffee Drip Pot from Yama Glass comes with a reusable Stainless Steel cone filter, creating an elegant display of modern aesthetic style.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/1.png",
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/2.png",
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1038,8 +1038,8 @@ var product = {
 			"discount": 0,
 			"desc" : "This beautiful 30oz Coffee Drip Pot from Yama Glass comes with a Stainless Steel cone filter, creating an elegant display of modern aesthetic style.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/1.png",
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/2.png",
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/1.jpg",
+				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1059,9 +1059,9 @@ var product = {
 			"desc" : "The new Q2 Puqpress automatic coffee tamper offers the latest in precision technology to provide a consistent tamping experience for every cup of coffee.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/2.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/3.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/TTautomatic-coffee-tamper-white/4.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/3.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/4.jpg",
 			],
 			"detail" : {
 				"Brand" : "PuqPress",
@@ -1069,6 +1069,7 @@ var product = {
 				"Material" : "Stainless Steel",
 			},
 		},
+
 		{
 			"id" : "automatic-coffee-tamper-black",
 			"name" : "Atomatic Coffee Tamper Black",
@@ -1078,12 +1079,12 @@ var product = {
 			"desc" : "The new Q2 Puqpress automatic coffee tamper offers the latest in precision technology to provide a consistent tamping experience for every cup of coffee..",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/2.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/3.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/4.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/3.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/4.jpg",
 			],
 			"detail" : {
-				"Brand" : "YPuqPressama",
+				"Brand" : "PuqPress",
 				"Adjustable " : "22-66lbs",
 				"Material" : "Stainless Steel",
 			},
@@ -1094,13 +1095,12 @@ var product = {
 			"color" : ["black",],
 			"price" : 1299,
 			"discount": 0,
-			"desc" : "The unparalleled engineering and state-of-the-art design of the Puqpress automatic tamper ensures perfectly compressed coffee grounds and a precisely level tamp - every time.",
-			"" : "Puqpress is taking the specialty coffee industry by storm!",
+			"desc" : "The unparalleled engineering and state-of-the-art design of the Puqpress automatic tamper ensures perfectly compressed coffee grounds and a precisely level tamp every time.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/2.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/3.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/4.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/3.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/4.jpg",
 			],
 			"detail" : {
 				"Brand" : "PUQ ",
@@ -1180,8 +1180,8 @@ var product = {
 			"desc" : "The New Baratza Vario is a commercial grinder with 54 mm ceramic flat burrs and a throughput of 1.6 - 2.2 grams per second as well as an innovative, macro/micro grind adjustment with 230 settings.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/2.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/3.png",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/2.jpg",
+				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "Baratza",
@@ -1221,9 +1221,9 @@ var product = {
 			"desc" : "This Stainless Steel Kettle from Yama Glass is a sturdy and stylish addition to any barista’s arsenal.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/1.png",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/2.png",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/3.png",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/4.png",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/2.jpg",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/3.jpg",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/4.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1275,7 +1275,7 @@ var product = {
 			"desc" : "Grocery style spout for Mazzer Super Jolly grinders. Older models of the Major, as well as the Mini model will not accept this mod.",
 			"img" : [
 				"/SGU_UDW1/_public/images/tools/kattles-and-scales/doserless-mod/1.png",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/doserless-mod/2.png",
+				"/SGU_UDW1/_public/images/tools/kattles-and-scales/doserless-mod/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "Mazzer",

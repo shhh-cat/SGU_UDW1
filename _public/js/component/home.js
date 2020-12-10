@@ -10,7 +10,7 @@ function capitalizeFirstLetter(string) {
 var types = [
     "machine" ,
     "roasting" ,
-    "glinders-and-accessories",
+    "grinders-and-accessories",
     "barista-tools" ,
     "milk-jugs-and-latte-art" ,
     "brewers" ,
