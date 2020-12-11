@@ -1515,13 +1515,7 @@ var product = {
 			"price" : 399,
 			"discount" : 20,
 			"img" : ["/SGU_UDW1/_public/images/tools/roasting/ascaso-steel-grinder-black.png"],
-            "desc":"With a service life of over 1,300 lbs, the i-STEEL grinder is both durable and precisional. i-STEEL Grinder components are professionally milled with the same steel used in professional high-performance coffee grinders. The micrometric adjustment system allows for maximum control over your grind while the professional level grinding groups promise pure results.",
-
-                    "Looking for a grinder that can do it all? The i-STEEL Grinder line fits the bill.",
-
-                    "This coffee grinder offers the professional results that any barista would approve of. The micrometric adjustment system allows for maximum control over your grind. Constructed of the highest quality materials the i-STEEL is the workhorse grinder perfect for any home brewing set-up. With a 12-month warranty, we guarantee all products against defects caused by faulty workmanship and materials for twelve months of domestic use.",
-
-                    "The grinder body is manufactured in aluminum and polished by hand. The cast aluminum and brass grinding chamber produce professional results and enhanced noise reduction when compared to grinders that utilize plastics in the chamber. The 54mm hardened steel burrs are engineered for professional espresso and longevity.",
+            "desc":"With a service life of over 1,300 lbs, the i-STEEL grinder is both durable and precisional. i-STEEL Grinder components are professionally milled with the same steel used in professional high-performance coffee grinders. The micrometric adjustment system allows for maximum control over your grind while the professional level grinding groups promise pure results. Looking for a grinder that can do it all? The i-STEEL Grinder line fits the bill.The grinder body is manufactured in aluminum and polished by hand. The cast aluminum and brass grinding chamber produce professional results and enhanced noise reduction when compared to grinders that utilize plastics in the chamber. The 54mm hardened steel burrs are engineered for professional espresso and longevity.",
 			"detail" : {
 				"Brand" : "ASCASO",
 				"Manufacturer": "Ascaso",
@@ -1548,6 +1542,7 @@ var product = {
 			"price" : 2200,
 			"discount" : 20,
 			"img" : ["/SGU_UDW1/_public/images/tools/roasting/mahlkonig-e65s-next-generation-matte-black.png"],
+            "desc":"Mahlkonig has done it again! We would like to introduce the E65S in matte black to you. This is the Next Generation of Espresso Grinders, are you ready for this? he E65s has taken all the things we love about the K30 collection and improved them! The size had been refined to have a smaller foot print on the bar and is available in matte white and matte black. Programming is intuitive and cleaning is a snap!", 
 			"detail" : {
 				"Brand" : "MAHLKONIG",
 				"Voltage" :  "220 - 240 V",
@@ -1572,6 +1567,7 @@ var product = {
 			"price" : 2700,
 			"discount" : 20,
 			"img" : ["/SGU_UDW1/_public/images/tools/roasting/mahlkonig-ek43-retail-grinder-black-mahlkoenig.png"],
+            "desc":"An exceptionally robust grinder with high grinding capacity. It produces outstanding particle size spreads to feature high extraction rates and the best possible taste.These come with premium cast steel burrs, suitable for the entire range of grinding applications: filter, espresso, or turkish-fine coffee grinding, and the grind adjustment is easy and precise.Outstanding particle size spreads feature high extraction rates and the best possible taste. Premium cast steel grinding discs. Robust grinder with high grinding capacity.Suitable for different applications: filter, espresso, or turkish-fine coffee grinding. Grinding of other grits such as spices, grain, poppy-seed and linseed is possible with individual grinding discs. Easy and precise grind adjustment. Operation: Bags are simply clamped into the bag holder – no need to hold bags during the grinding process. The cleaning of the spout is simply done with the bag holder. Grind adjustment to the desired fineness is easily done by turning the grind adjustment knob. The hoppers can be locked with a slide plate to enable an easy exchange of hoppers with different grinding goods. Matte White and Copper version are also available.",
 			"detail" : {
 				"Brand" : "MAHLKONIG",
 				"Voltage" :  "220 - 240 V",
@@ -1596,6 +1592,7 @@ var product = {
 			"price" : 882,
 			"discount" : 20,
 			"img" : ["/SGU_UDW1/_public/images/tools/roasting/bunn-g1-hd-bulk-bean-coffee-grinder-1-pound-capacity.png"],
+            "desc":"The BUNN G1HD can hold up to 1 pound of fresh coffee beans, and grind them in less than 30 seconds! Its heavy-duty, precision burrs produce high quality grinds in less time. This reduces the risk of overheating the beans during the grinding process. Overheated beans are less flavorful. Users can select from a wide range of grinds from coarse to fine to match the type of brew desired. A convenient cleaning lever removes all coffee from the grind chamber, preventing cross-contamination of different gourmet coffee flavors. Additionally, a bag safety switch stops the motor when the bag is removed and prevents it from starting with no bag in place.",
 			"detail" : { 
 				"Brand" : "BUNN",
 				"Features":"",
