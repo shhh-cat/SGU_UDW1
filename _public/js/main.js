@@ -97,48 +97,49 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       '</div>');
     }
   
+  //
+  var dataSearch = getAllProduct(product);
+  function search(nameKey){
+    var result = [];
+    for (var i=0; i < dataSearch.length; i++) {
+        if (dataSearch[i].name.toLowerCase().includes(nameKey.toLowerCase())) {
+            result.push(dataSearch[i]);
+        }
+    }
+    return result;
+  }
+  $( "#search-bar" ).on("input",function() {
+    var input = $(this).val();
+    var searched = [];
+    $('#search-result').html("");
+    if (input) {
+      searched = search(input);
+    }
+    else searched = [];
 
+    for (var i in searched) {
+        var item = $('<a></a>').addClass('comefromtop list-group-item list-group-item-action').attr('href','/SGU_UDW1/tools/'+searched[i].key+'/'+searched[i].id).text(searched[i].name);
+        $('#search-result').prepend(item).addClass('pushdown');
+      }
+             
+      
+      setTimeout(function () {
+      $('#search-result').removeClass('pushdown');
+      }, 600);
+    
+  });
+  $(document).on("click", function(event){
+        if(!$(event.target).closest("#searchzone").length){
+            $('#search-result').html("");
+            $( "#search-bar" ).val("");
+        }
+    });
+  
   
   // enable
   logout('login');
   login();
 
-
-
-    f  = $('form'),
-    a = $('.after'),
-    m = $('h4');
-
-s.focus(function(){
-  if( f.hasClass('open') ) return;
-  f.addClass('in');
-  setTimeout(function(){
-    f.addClass('open');
-    f.removeClass('in');
-  }, 1300);
-});
-
-a.on('click', function(e){
-  e.preventDefault();
-  if( !f.hasClass('open') ) return;
-   s.val('');
-  f.addClass('close');
-  f.removeClass('open');
-  setTimeout(function(){
-    f.removeClass('close');
-  }, 1300);
-})
-
-f.submit(function(e){
-  e.preventDefault();
-  m.html('Thanks, high five!').addClass('show');
-  f.addClass('explode');
-  setTimeout(function(){
-    s.val('');
-    f.removeClass('explode');
-    m.removeClass('show');
-  }, 3000);
-})
   //
 });
 

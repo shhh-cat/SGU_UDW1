@@ -1605,3 +1605,17 @@ var product = {
 
 ],
 };
+
+
+function getAllProduct(product) {
+    var data = [];
+    for (var key in product) {
+        var category = product[key];
+        for(var i in category) {
+            Object.assign(category[i], {"key":key});
+            data.push(category[i]);
+        }
+    }
+    return data;
+}
+
