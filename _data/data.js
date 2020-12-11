@@ -1515,6 +1515,13 @@ var product = {
 			"price" : 399,
 			"discount" : 20,
 			"img" : ["/SGU_UDW1/_public/images/tools/roasting/ascaso-steel-grinder-black.png"],
+            "desc":"With a service life of over 1,300 lbs, the i-STEEL grinder is both durable and precisional. i-STEEL Grinder components are professionally milled with the same steel used in professional high-performance coffee grinders. The micrometric adjustment system allows for maximum control over your grind while the professional level grinding groups promise pure results.",
+
+                    "Looking for a grinder that can do it all? The i-STEEL Grinder line fits the bill.",
+
+                    "This coffee grinder offers the professional results that any barista would approve of. The micrometric adjustment system allows for maximum control over your grind. Constructed of the highest quality materials the i-STEEL is the workhorse grinder perfect for any home brewing set-up. With a 12-month warranty, we guarantee all products against defects caused by faulty workmanship and materials for twelve months of domestic use.",
+
+                    "The grinder body is manufactured in aluminum and polished by hand. The cast aluminum and brass grinding chamber produce professional results and enhanced noise reduction when compared to grinders that utilize plastics in the chamber. The 54mm hardened steel burrs are engineered for professional espresso and longevity.",
 			"detail" : {
 				"Brand" : "ASCASO",
 				"Manufacturer": "Ascaso",
