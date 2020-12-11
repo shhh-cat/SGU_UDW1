@@ -89,7 +89,7 @@ function addToCart(id,color,skip) {
         myModal.open();
         return;
     }
-    if (JSON.parse(cart).findIndex(x => x.id === product.id)) {
+    if (JSON.parse(cart).findIndex(x => x.id === product.id) != -1) {
         if(!skip) {
             var myModal = new jBox('Modal', {
               content: 'Product has been added to cart already'
