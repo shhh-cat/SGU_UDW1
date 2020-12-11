@@ -6,8 +6,8 @@
                 return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
             }
 
-            var currentCategory = window.location.pathname.split("/")[3];
-            var currentProduct = window.location.pathname.split("/")[4];
+            var currentCategory = window.location.pathname.split("/")[2];
+            var currentProduct = window.location.pathname.split("/")[3];
 
             //GET DATA OF CATEGORY
             var category;
@@ -49,7 +49,7 @@
 
             //SET BREADCRUMB
             breadcrumbCategory.insertAdjacentHTML('afterbegin',capitalizeFirstLetter(currentCategory));
-            breadcrumbCategory.setAttribute("href","/SGU_UDW1/tools/"+currentCategory);
+            breadcrumbCategory.setAttribute("href","/SGU_UDW1/"+currentCategory);
             breadcrumbProduct.insertAdjacentHTML('afterbegin',name);
 
             //IMAGE DATA
@@ -185,7 +185,6 @@ $( "#btnBuy" ).click(function() {
 });
 
 
-//CHAN BUG
-$(".star-rating").html('<span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt"></span>');
+
 
 

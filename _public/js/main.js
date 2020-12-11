@@ -118,7 +118,13 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
     else searched = [];
 
     for (var i in searched) {
-        var item = $('<a></a>').addClass('comefromtop list-group-item list-group-item-action').attr('href','/SGU_UDW1/tools/'+searched[i].key+'/'+searched[i].id).text(searched[i].name);
+        var link;
+        if (searched[i].key === "coffee") {
+          link = '/SGU_UDW1/coffee/'+searched[i].id;
+        }
+        else
+          link = '/SGU_UDW1/tools/'+searched[i].key+'/'+searched[i].id;
+        var item = $('<a></a>').addClass('comefromtop list-group-item list-group-item-action').attr('href',link).text(searched[i].name);
         $('#search-result').prepend(item).addClass('pushdown');
       }
              
