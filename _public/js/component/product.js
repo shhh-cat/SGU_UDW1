@@ -48,9 +48,9 @@
             var breadcrumbProduct = document.getElementById('bProduct');
 
             //SET BREADCRUMB
-            breadcrumbCategory.insertAdjacentHTML('afterbegin',capitalizeFirstLetter(currentCategory));
+            breadcrumbCategory.insertAdjacentHTML('afterbegin',capitalizeFirstLetter(currentCategory).replace(/-/g,' '));
             breadcrumbCategory.setAttribute("href","/SGU_UDW1/tools/"+currentCategory);
-            breadcrumbProduct.insertAdjacentHTML('afterbegin',name);
+            breadcrumbProduct.insertAdjacentHTML('afterbegin',name.replace(/-/g,' '));
 
             //IMAGE DATA
             eImage.insertAdjacentHTML('beforeend','<img class="xzoom" src="'+image[0]+'" xoriginal="'+image[0]+'" width="100%" />');

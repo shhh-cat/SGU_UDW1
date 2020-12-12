@@ -17,7 +17,7 @@ for (var i in product) {
     }
 }
 var breadcrumbCategory = document.getElementById('bCategory');
-breadcrumbCategory.insertAdjacentHTML('afterbegin',capitalizeFirstLetter(currentCategory));
+breadcrumbCategory.insertAdjacentHTML('afterbegin',capitalizeFirstLetter(currentCategory).replace(/-/g,' '));
 
 
 var e = document.getElementById('category');

@@ -119,9 +119,14 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
     $('#search-result').html("");
     if (input) {
       searched = search(input);
+      $('#search-result').addClass('scroll');
     }
-    else searched = [];
+    else {
+      searched = [];
+      $('#search-result').html("").removeClass('scroll');
+    }
 
+    
     for (var i in searched) {
         var link;
         if (searched[i].key === "coffee") {
@@ -138,14 +143,23 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       $('#search-result').removeClass('pushdown');
       }, 600);
     
+    
   });
   $(document).on("click", function(event){
         if(!$(event.target).closest("#searchzone").length){
-            $('#search-result').html("");
+            $('#ad-search').hide();
+            $('#search-result').html("").removeClass('scroll');
             $( "#search-bar" ).val("");
         }
     });
-  
+  $( "#search-bar" )
+    .focus(function () {
+      $('#ad-search').show();
+    })
+  $(".search").click(function () {
+    $('#ad-search').hide();
+    $('#search-result').html("").removeClass('scroll');
+  })
   
   // enable
   logout('login');
