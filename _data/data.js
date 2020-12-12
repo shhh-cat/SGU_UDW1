@@ -12,7 +12,7 @@ var product = {
             ],
             "desc" : "Bio Coffee isis one of the tried and true recommendations for a healthy diet, and for good reason.  Eating plenty of vegetables can help you ward off heart disease and stroke, control blood pressure, prevent some types of cancer, strengthen your immune system and provide many other “life saving benefits.”  However, if you are among the 9 out of 10 people who fail to eat at least 3-5 servings of GREEN vegetables every day, you clearly could use a convenient source of greens.  Bio Coffee is that source!  Bio Coffee contains wheatgrass, one of nature’s super foods, and consuming at least one cup of Bio Coffee per day can put you on the path to optimal health. ",
             "detail" : {
-                "Brand" : "Bag",
+                "Brand" : "Wanted Coffee",
                 "Roasting level" : "medium",
                 "Weight" : "200g",
                 "Location" : "Playku",
@@ -30,7 +30,7 @@ var product = {
             ],
             "desc" : "A rare, old-world coffee that lives up to its legendary expectations. Elegant and aromatic, with refined acidity and ornately layered sweetness.",
             "detail" : {
-                "Brand" : "Bag",
+                "Brand" : "Wanted Coffee",
                 "Roasting level" : "medium",
                 "Weight" : "200g",
                 "Location" : "Daklak",
@@ -48,7 +48,7 @@ var product = {
             ],
             "desc" : "This is one unique mid Vietnam coffee just by the monsooning process. Coffee beans are harvested, processed, and laid to age in monsoon weather (June through September), and this mellows the green coffee beans and turns them a golden tan. Tasting it would make you imagine they processed nuts right along with the coffee, as it has a pronounced nutty flavor.",
             "detail" : {
-                "Brand" : "Bag",
+                "Brand" : "Wanted Coffee",
                 "Roasting level" : "no roasting",
                 "Weight" : "200g",
                 "Location" : "Playku",
@@ -66,7 +66,7 @@ var product = {
             ],
             "desc" : "One of our heritage blends, the recipe has remained largely unchanged since inception in the 90’s. Taking a blend of mid VietNam and south VietNam, roasted medium-dark, it creates a well-rounded coffee that cuts well through milk with hints of chocolate and plum and also as an espresso with its rich dark crema.",
             "detail" : {
-                "Brand" : "Bag",
+                "Brand" : "Wanted Coffee",
                 "Roasting level" : "medium",
                 "Weight" : "200g",
                 "Location" : "Daklak",

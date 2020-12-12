@@ -25,7 +25,7 @@ for(var i in category){
     var price = '$'+numberWithCommas(parseFloat(category[i].price).toFixed(2));
     discount = '';
     if (category[i].discount > 0) {
-        discount = '<span class="fsize-12 ml-2 text-white bg-danger rounded p-1 font-weight-bold">-'+category[i].discount+'%</span>';
+        discount = '<span class="badge badge-danger ml-1">-'+category[i].discount+'%</span>';
         var priceBefore = category[i].price / ((100-category[i].discount)/100);
         price += '<del class="fsize-16 ml-2">$'+numberWithCommas(parseFloat(priceBefore).toFixed(2))+'</del>';
     }
@@ -35,7 +35,7 @@ for(var i in category){
     '<div class="col-md-3 card-deck product-card m-0 p-0 float-left">'+
         '<div class="card-body p-4">'+
             '<img src="'+category[i].img[0]+'" class="card-img-top" alt="test">'+
-            '<h5 class="card-title text-brown opensans mt-3 fsize-16"><strong>'+category[i].detail.Brand+'</strong> - '+category[i].name+ discount+'</h5>'+
+            '<h5 class="card-title text-brown opensans mt-3 fsize-16 text-wrap"><strong>'+category[i].detail.Brand+'</strong> - '+category[i].name+ discount+'</h5>'+
             '<div class="card-text fsize-20">'+price+'</div>'+
             '<div class="row no-gutters mt-3">'+
                 '<a href="#" class="btn btn-outline-dark mr-1 col btnBuy" product="'+category[i].id+'" color="'+category[i].color[0]+'">Buy now</a>'+

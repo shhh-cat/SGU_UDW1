@@ -799,3 +799,19 @@ border-color: #95551c; }
   0%   { /*opacity:0;*/ -webkit-transform: translateY(-10%); }
   100% { /*opacity:1;*/ -webkit-transform: translateY(0);   }
 }
+.back-to-top {
+    position: fixed;
+    top: auto;
+    left: auto;
+    right: 15px;
+    bottom: 15px;
+    font-size: 32px;
+    opacity: 0.8;
+    z-index: 9999;
+    cursor: pointer;
+    color: #000;
+}
+
+.back-to-top:hover {
+    opacity: 1;
+}

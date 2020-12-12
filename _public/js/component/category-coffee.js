@@ -25,7 +25,7 @@ for(var i in category){
     var price = '$'+numberWithCommas(parseFloat(category[i].price).toFixed(2));
     discount = '';
     if (category[i].discount > 0) {
-        discount = '<span class="fsize-12 ml-2 text-white bg-danger rounded p-1 font-weight-bold">-'+category[i].discount+'%</span>';
+        discount = '<span class="badge badge-danger ml-1">-'+category[i].discount+'%</span>';
         var priceBefore = category[i].price / ((100-category[i].discount)/100);
         price += '<del class="fsize-16 ml-2">$'+numberWithCommas(parseFloat(priceBefore).toFixed(2))+'</del>';
     }
