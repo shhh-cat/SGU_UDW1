@@ -538,7 +538,7 @@ var product = {
 	"milk-jugs-and-latte-art" : [
 		{
 			"id" : "coffee-accessories",
-			"name" : "Coffee -accessories",
+			"name" : "Coffee accessories",
 			"price" : 39,
 			"discount" : 20,
 			"color" : ["black","white",],
