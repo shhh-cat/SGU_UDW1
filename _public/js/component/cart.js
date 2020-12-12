@@ -24,7 +24,9 @@ function getCookie(cname) {
 function numberWithCommas(x) {
                 return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
             }
-
+if (getCookie("username") != "user") {
+                window.location = "/SGU_UDW1/login";
+              }
 
 var cart = getCookie("cartData");
 

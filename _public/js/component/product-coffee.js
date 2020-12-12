@@ -176,10 +176,16 @@ function addToCart(skip) {
 }
 
 $( "#btnAdd" ).click(function() {
+    if (getCookie("username") != "user") {
+                window.location = "/SGU_UDW1/login";
+              }
         addToCart(false);
         updateCart();
 });
 $( "#btnBuy" ).click(function() {
+    if (getCookie("username") != "user") {
+                window.location = "/SGU_UDW1/login";
+              }
     addToCart(true);
     window.location.href = "/SGU_UDW1/checkout/cart/";
 });
@@ -188,3 +194,4 @@ $( "#btnBuy" ).click(function() {
 
 
 
+$(".star-rating").html('<span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star"></span><span class="fas fa-star-half-alt"></span>');

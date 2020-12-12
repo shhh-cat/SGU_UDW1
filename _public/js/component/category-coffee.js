@@ -114,12 +114,18 @@ function addToCart(id,color,skip) {
 }
 
 $( ".btnAdd" ).click(function() {
+    if (getCookie("username") != "user") {
+                window.location = "/SGU_UDW1/login";
+              }
     var id = $(this).attr("product");
     var color = $(this).attr("color");
     addToCart(id,color,false);
     updateCart();
 });
 $( ".btnBuy" ).click(function() {
+    if (getCookie("username") != "user") {
+                window.location = "/SGU_UDW1/login";
+              }
     var id = $(this).attr("product");
     var color = $(this).attr("color");
     addToCart(id,color,true);

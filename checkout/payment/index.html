@@ -31,8 +31,11 @@
       <!-- Card -->
       <div class="card mb-3">
         <div class="card-body pt-4">
-
-          <h5 class="mb-4">Billing address</h5>
+          <div class="d-flex justify-content-between">
+            <h5 class="mb-4">Billing address</h5>
+            <a href="/SGU_UDW1/checkout/cart" class="text-brown text-decoration-none"><i class="mr-1 fas fa-chevron-left"></i>Back to cart</a>
+          </div>
+          
 
           <form>
             <div class="form-row">
@@ -278,6 +281,27 @@
     </div>
         <div insert-html="/SGU_UDW1/_template/footer.html"></div>
         <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript">
+          
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+          if (getCookie("username") != "user") {
+                window.location = "/SGU_UDW1/login";
+              }
+        </script>
         <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
 </body>
 </html>

@@ -35,7 +35,7 @@ function checkCookie() {
 
 function updateCart() {
   //Count Product for icon navbar
-  if (getCookie("cartData")) {
+  if (getCookie("cartData") && getCookie("username") == "user") {
     pnumber = JSON.parse(getCookie("cartData")).length;
     $("#iconCartCount").html('<span class="num bg-success" id="iconCartCount">'+pnumber+'</span>');
   }
