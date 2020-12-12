@@ -121,6 +121,7 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       $('#search-result').html("").removeClass('scroll');
     }
 
+    
     for (var i in searched) {
         var link;
         if (searched[i].key === "coffee") {
@@ -136,6 +137,7 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       setTimeout(function () {
       $('#search-result').removeClass('pushdown');
       }, 600);
+    
     
   });
   $(document).on("click", function(event){
