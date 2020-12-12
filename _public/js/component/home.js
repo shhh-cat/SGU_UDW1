@@ -100,8 +100,8 @@ for (var u in types) {
                 '<h5 class="card-title text-brown opensans mt-3 fsize-16"><strong>'+category[i].detail.Brand+'</strong> - '+category[i].name+ discount+'</h5>'+
                 '<div class="card-text fsize-20">'+price+'</div>'+
                 '<div class="row no-gutters mt-3">'+
-                    '<a href="#" class="btn btn-outline-dark mr-1 col">Buy now</a>'+
-                    '<a href="#" class="btn btn-outline-brown col">Add to cart</a>'+
+                    '<a href="#!" class="btn btn-outline-dark mr-1 col btnBuy" product="'+category[i].id+'" color="'+category[i].color[0]+'">Buy now</a>'+
+                    '<a href="#!" class="btn btn-outline-brown col btnAdd" product="'+category[i].id+'" color="'+category[i].color[0]+'">Add to cart</a>'+
                 '</div>'+
             '</div>'+
         '</div>'+
@@ -109,3 +109,83 @@ for (var u in types) {
     }
 }
 
+
+// THEM VAO GIO HANG
+
+function setCookie(cname, cvalue, exdays) {
+  var d = new Date();
+  d.setTime(d.getTime() + (exdays*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i <ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+
+function addToCart(id,color,skip) {
+
+    var product = {
+        "id" : id,
+        "amount" : 1,
+        "color" : color,
+    };
+    var cart = getCookie("cartData");
+    if (!cart) {
+        var data = [product];
+        setCookie("cartData",JSON.stringify(data));
+        var myModal = new jBox('Modal', {
+          content: 'Added'
+        });
+         
+        myModal.open();
+        return;
+    }
+    if (JSON.parse(cart).findIndex(x => x.id === product.id) != -1) {
+        if(!skip) {
+            var myModal = new jBox('Modal', {
+              content: 'Product has been added to cart already'
+            });
+             
+            myModal.open();
+
+        }
+            
+        return;
+    }
+ 
+    var data = JSON.parse(cart);
+    data.push(product);
+    setCookie("cartData",JSON.stringify(data));
+    var myModal = new jBox('Modal', {
+      content: 'Added'
+    });
+     
+    myModal.open();
+    
+}
+
+$( ".btnAdd" ).click(function() {
+    var id = $(this).attr("product");
+    var color = $(this).attr("color");
+    addToCart(id,color,false);
+    updateCart();
+});
+$( ".btnBuy" ).click(function() {
+    var id = $(this).attr("product");
+    var color = $(this).attr("color");
+    addToCart(id,color,true);
+    window.location.href = "/SGU_UDW1/checkout/cart/";
+});

@@ -24,9 +24,9 @@
     <!-- =========================== -->
     
 
-    <div class="container bg-white py-3 mt-4">
+    <div class="container bg-white pb-3 mt-4">
         <div class="row">
-            <div class="col-md-12 mb-3 text-center">
+            <div class="col-md-12 mb-3 pt-1 text-white bg-brown">
                 <h2>Advanced Search</h2>
             </div>
             <div class="col-md-6">
@@ -40,22 +40,23 @@
                 <label for="price">Price</label>
                 <div class="input-group input-group-sm mb-3">
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-brown text-white" id="price-from">From</span>
+                        <span class="input-group-text" id="price-from">From</span>
                     </div>
                     <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="price-from" min="0" id="from" value="0" max="20000">
                     <div class="mx-1"></div>
                     <div class="input-group-prepend">
-                        <span class="input-group-text bg-brown text-white" id="price-to">To</span>
+                        <span class="input-group-text" id="price-to">To</span>
                     </div>
                     <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="price-to" min="0" id="to" value="20000" max="20000">
                 </div>
             </div>
             <div class="col"></div>
             <div class="col-md-4">
-                <button class="btn btn-block btn-primary" id="submit-search">Search</button>
+                <button class="btn btn-block btn-sm btn-brown" id="submit-search"><i class="mr-1 fas fa-search"></i>Search</button>
             </div>
+            <div class="col"></div>
             <div class="col-md-12 mt-3">
-                <table class="table opensans" style="display: none;" id="table-result">
+                <table class="table opensans fsize-16" style="display: none;" id="table-result">
                     <thead class="bg-brown text-white">
                         <tr>
                         <th scope="col">Type</th>

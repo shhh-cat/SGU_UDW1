@@ -13,7 +13,7 @@ $("#submit-search").click(function () {
 	var category = $("#category").val();
 	var from = $("#from").val();
 	var to = $("#to").val();
-	$('#table-result').hide(500).fadeIn();
+	$('#table-result').hide(250).fadeOut();
 	$("#result").html("");
 	
 	var data = [];
@@ -56,5 +56,8 @@ $("#submit-search").click(function () {
 	      	$("#result").prepend('<tr> <td>'+capitalizeFirstLetter(data[i].key).replace(/-/g,' ')+'</td> <td>'+data[i].name+'</td> <td><strong>$'+numberWithCommas(parseFloat(data[i].price).toFixed(2))+'</strong></td> <td><a href="'+link+'" class="nav-link text-brown">Go<i class="ml-2 fas fa-external-link-alt"></i></a></td> </tr>');
 		}
 	}
+	else 
+		$('#table-result').show(1000).fadeIn();
+		$("#result").prepend('<tr class="text-center"> <td colspan="4" class="fsize-20">No record found</td></tr>');
 	
 });

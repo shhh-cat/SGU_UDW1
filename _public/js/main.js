@@ -103,6 +103,9 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
     }
   
   //
+  function capitalizeFirstLetter(string) {
+      return string.charAt(0).toUpperCase() + string.slice(1);
+  }
   var dataSearch = getAllProduct(product);
   function search(nameKey){
     var result = [];
@@ -122,26 +125,30 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       $('#search-result').addClass('scroll');
     }
     else {
-      searched = [];
       $('#search-result').html("").removeClass('scroll');
     }
 
-    
-    for (var i in searched) {
+    if (searched.length) {
+      for (var i in searched) {
         var link;
         if (searched[i].key === "coffee") {
           link = '/SGU_UDW1/coffee/'+searched[i].id;
         }
         else
           link = '/SGU_UDW1/tools/'+searched[i].key+'/'+searched[i].id;
-        var item = $('<a></a>').addClass('comefromtop list-group-item list-group-item-action').attr('href',link).text(searched[i].name);
-        $('#search-result').prepend(item).addClass('pushdown');
+        var item = $('<a></a>').addClass(/*comefromtop*/ 'list-group-item list-group-item-action').attr('href',link).html('<strong>['+capitalizeFirstLetter(searched[i].key).replace(/-/g,' ')+']</strong> '+searched[i].name);
+        $('#search-result').prepend(item);//.addClass('pushdown');
       }
+    }
+    else if(input)
+      $('#search-result').prepend('<li class="list-group-item">No record found</li>');
+    
+    
              
       
-      setTimeout(function () {
-      $('#search-result').removeClass('pushdown');
-      }, 600);
+      // setTimeout(function () {
+      // $('#search-result').removeClass('pushdown');
+      // }, 600);
     
     
   });
