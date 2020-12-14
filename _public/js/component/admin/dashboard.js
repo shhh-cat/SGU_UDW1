@@ -17,19 +17,19 @@
                 data: {
                     labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May'],
                     datasets: [{
-                        label: '2018 Sales',
+                        label: '2020 Sales',
                         data: [300, 700, 450, 750, 1200],
                         borderColor: color(colors.orange).alpha(0.5).rgbString(),
                         fill: false,
                         },
                         {
-                        label: '2017 Sales',
+                        label: '2019 Sales',
                         data: [200, 450, 900, 600, 1000],
                         borderColor: color(colors.green).alpha(0.5).rgbString(),
                         fill: false,
                         },
                         {
-                        label: '2019 Sales',
+                        label: '2018 Sales',
                         data: [400, 900, 1000, 500, 700],
                         borderColor: color(colors.blue).alpha(0.5).rgbString(),
                         fill: false,
@@ -51,16 +51,20 @@
                 type: 'doughnut',
                 data: {
                     labels: [
-                        'Ho Chi Minh',
-                        'Ha Noi',
-                        'Da Nang'
+                        'Coffee',
+                        'Machine',
+                        'Barista',
+                        'Brewing',
+                        'Roasting',
                     ],
                     datasets: [{
-                        data: [10, 20, 30],
+                        data: [24, 11, 5,5,5],
                         backgroundColor: [
                             color(colors.red).alpha(0.5).rgbString(),
                             color(colors.green).alpha(0.5).rgbString(),
                             color(colors.yellow).alpha(0.5).rgbString(),
+                            color(colors.orange).alpha(0.5).rgbString(),
+                            color(colors.blue).alpha(0.5).rgbString(),
                         ],
                         hoverBorderWidth: 8,
                         hoverBorderColor: '#ffffff',
@@ -73,7 +77,7 @@
                     },
                     title: {
                         display: true,
-                        text: 'Location Chart'
+                        text: 'Product chart'
                     }
                 }
             });
@@ -90,13 +94,13 @@
                         },
                         {
                         label: '20 - 60 age customer',
-                        data: [200, 450, 900, 600],
+                        data: [200, 450, 600, 900],
                         backgroundColor: color(colors.blue).alpha(0.5).rgbString(),
                         fill: false,
                         },
                         {
                         label: '> 60 age customer',
-                        data: [400, 900, 1000, 500],
+                        data: [400, 500, 900, 1000],
                         backgroundColor: color(colors.green).alpha(0.5).rgbString(),
                         fill: false,
                         }],
@@ -115,10 +119,10 @@
             var chart4 = new Chart(ctx4.getContext('2d'), {
                 type: 'polarArea',
                 data: {
-                    labels: ['Ho Chi Minh', 'Ha Noi', 'Can tho', 'Da nang', 'Hai Phong'],
+                    labels: ['Ho Chi Minh', 'Ha Noi', 'Da nang', 'Hai Phong', 'Orther'],
                     datasets: [{
                         label: '< 20 age customer',
-                        data: [500,400,100,200,150],
+                        data: [500,400,200,200,50],
                         backgroundColor: [
                             color(colors.red).alpha(0.5).rgbString(),
                             color(colors.orange).alpha(0.5).rgbString(),

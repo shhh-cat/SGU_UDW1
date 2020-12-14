@@ -20,18 +20,43 @@
     <div insert-html="/SGU_UDW1/_template/admin_navbar.html"></div>
     <!-- =========================== -->
     <div class="row" id="app">
+        <div class="col-12">
+
+            
+        </div>
         <div class="col-md-12">
             <div class="card outer-card">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
                         <div class="card-title h2 m-0 mb-3">Order management</div>
                     </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Month</label>
+                            <select class="form-control form-control-sm">
+                                <option value="starter" selected>All </option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                                <option value="6">6</option>
+                                <option value="7">7</option>
+                                <option value="8">8</option>
+                                <option value="9">9</option>
+                                <option value="10">10</option>
+                                <option value="11">11</option>
+                                <option value="12">12</option>
+                            </select>
+                        </div>
+                    </div> 
                     <table class="table">
                         <thead class="thead-dark">
                         <tr>
                             <th>ID</th>
                             <th>Status</th>
                             <th>User</th>
+                            <th>Time</th>
                             <th>#</th>
                             <th width="150">&nbsp;</th>
                         </tr>
@@ -41,7 +66,8 @@
                             <td>A121212</td>
                             <td>Confirm</td>
                             <td>Mona Lisa</td>
-                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>12/12/2020</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none text-dark">Detail >></a></td>
                             <td>
                                 <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
                                     Block
@@ -56,7 +82,8 @@
                             <td>A161616</td>
                             <td class="text-danger">Not confirm yet</td>
                             <td>Diluc</td>
-                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>12/12/2020</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none text-dark">Detail >></a></td>
                             <td>
                                 <a href="#" class="btn btn-sm btn-block btn-outline-success m-1" data-confirm="Do you really want to confirm this order?"><i class="mr-1 fas fa-check"></i>
                                     Confirm
@@ -74,7 +101,8 @@
                             <td>A131333</td>
                             <td>Delivered</td>
                             <td>Amber</td>
-                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>1/12/2020</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none text-dark">Detail >></a></td>
                             <td>
                                 <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
                                     Block
@@ -89,7 +117,8 @@
                             <td>A141414</td>
                             <td>Delivering</td>
                             <td>Venti</td>
-                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>20/11/2020</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none text-dark">Detail >></a></td>
                             <td>
                                 <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
                                     Block
@@ -104,7 +133,8 @@
                             <td>A155155</td>
                             <td class="text-danger">Not confirm yet</td>
                             <td>Beidou</td>
-                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>20/10/2020</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none text-dark">Detail >></a></td>
                             <td>
                                 <a href="#" class="btn btn-sm btn-block btn-outline-success m-1" data-confirm="Do you really want to confirm this order?"><i class="mr-1 fas fa-check"></i>
                                     Confirm
@@ -124,15 +154,15 @@
                         <nav aria-label="Page navigation example">
                           <ul class="pagination">
                             <li class="page-item">
-                              <a class="page-link" href="#" aria-label="Previous">
+                              <a class="page-link text-brown" href="#" aria-label="Previous">
                                 <span aria-hidden="true">&laquo;</span>
                               </a>
                             </li>
-                            <li class="page-item"><a class="page-link" href="#">1</a></li>
-                            <li class="page-item"><a class="page-link" href="#">2</a></li>
-                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link text-brown" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link text-brown" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link text-brown" href="#">3</a></li>
                             <li class="page-item">
-                              <a class="page-link" href="#" aria-label="Next">
+                              <a class="page-link text-brown" href="#" aria-label="Next">
                                 <span aria-hidden="true">&raquo;</span>
                               </a>
                             </li>

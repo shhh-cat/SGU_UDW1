@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/animate.min.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/component/admin.css">
+    <link rel="stylesheet" href="/SGU_UDW1/_public/css/jBox.all.min.css">
+    <title>Wanted Coffee</title>
+    <link rel="shortcut icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
+    <script src="/SGU_UDW1/_public/js/lib/chart.min.js"></script>
+</head>
+<body>
+    <!-- ============= MENU ============== -->
+    <div insert-html="/SGU_UDW1/_template/admin_navbar.html"></div>
+    <!-- =========================== -->
+    <div class="row" id="app">
+        <div class="col-md-12">
+            <div class="card outer-card">
+                <div class="card-body">
+                    <div class="justify-content-between">
+                        <div class="card-title text-center h2 m-0 my-3">Statictical</div>
+                    </div>
+                    <table class="table">
+                        <thead class="thead-dark">
+                        <tr>
+                            <th>Month</th>
+                            <th>Access times</th>
+                            <th>Orders</th>
+                            <th>Total</th>
+
+                        </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Jan / 2020</td>
+                                <td>1230</td>
+                                <td>103</td>
+                                <td>200000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Feb / 2020</td>
+                                <td>3030</td>
+                                <td>153</td>
+                                <td>500000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Mar / 2020</td>
+                                <td>3430</td>
+                                <td>161</td>
+                                <td>550000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Apr / 2020</td>
+                                <td>3080</td>
+                                <td>123</td>
+                                <td>400500$</td>                            
+                            </tr>
+                            <tr>
+                                <td>May / 2020</td>
+                                <td>2800</td>
+                                <td>121</td>
+                                <td>250000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Jun / 2020</td>
+                                <td>3330</td>
+                                <td>150</td>
+                                <td>300000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Jul / 2020</td>
+                                <td>2990</td>
+                                <td>145</td>
+                                <td>289000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Aug / 2020</td>
+                                <td>3560</td>
+                                <td>180</td>
+                                <td>500000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Sep / 2020</td>
+                                <td>5400</td>
+                                <td>237</td>
+                                <td>657000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Oct  / 2020</td>
+                                <td>7000</td>
+                                <td>280</td>
+                                <td>699000$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Nov / 2020</td>
+                                <td>10970</td>
+                                <td>309</td>
+                                <td>999999$</td>                            
+                            </tr>
+                            <tr>
+                                <td>Dec / 2020</td>
+                                <td>15000</td>
+                                <td>430</td>
+                                <td>1400000$</td>                            
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="d-flex justify-content-center">
+                        <nav aria-label="Page navigation example">
+                          <ul class="pagination">
+                            <li class="page-item">
+                              <a class="page-link text-brown" href="#" aria-label="Previous">
+                                <span aria-hidden="true">&laquo;</span>
+                              </a>
+                            </li>
+                            <li class="page-item"><a class="page-link text-brown" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link text-brown" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link text-brown" href="#">3</a></li>
+                            <li class="page-item">
+                              <a class="page-link text-brown" href="#" aria-label="Next">
+                                <span aria-hidden="true">&raquo;</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </nav>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+        <div insert-html="/SGU_UDW1/_template/footer.html"></div>
+        <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
+        <script src="/SGU_UDW1/_public/js/lib/jBox.all.min.js"></script>
+        <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
+        <script type="text/javascript">
+            function getCookie(cname) {
+              var name = cname + "=";
+              var decodedCookie = decodeURIComponent(document.cookie);
+              var ca = decodedCookie.split(';');
+              for(var i = 0; i <ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                  c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                  return c.substring(name.length, c.length);
+                }
+              }
+              return "";
+            }
+            if (getCookie("admin") != "admin") {
+                window.location = "/SGU_UDW1/admin/login";
+              }
+var jbox = new jBox('Confirm', {
+  confirmButton: 'Yes, I sure',
+  cancelButton: 'Nope'
+});
+        </script>
+        <script src="/SGU_UDW1/_public/js/component/admin/nav.js"></script>
+</body>
+</html>
