@@ -24,69 +24,27 @@
             <div class="card outer-card">
                 <div class="card-body">
                     <div class="d-flex justify-content-between">
-                        <div class="card-title h2 m-0">User list</div>
-                        <div class="form-group">
-                        <a href="/SGU_UDW1/admin/user/add" class="btn btn-outline-dark">Create new user</a>
-                        </div>
+                        <div class="card-title h2 m-0 mb-3">Order management</div>
                     </div>
                     <table class="table">
                         <thead class="thead-dark">
                         <tr>
-                            <th>Full Name</th>
-                            <th>Birthday</th>
-                            <th>Gender</th>
-                            <th>Role</th>
+                            <th>ID</th>
+                            <th>Status</th>
+                            <th>User</th>
+                            <th>#</th>
                             <th width="150">&nbsp;</th>
                         </tr>
                         </thead>
                         <tbody>
                         <tr>
-                            <td>Nguyễn Văn A</td>
-                            <td>29/01/1999</td>
-                            <td>Nam</td>
-                            <td>None</td>
+                            <td>A121212</td>
+                            <td>Confirm</td>
+                            <td>Mona Lisa</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
                             <td>
                                 <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
                                     Block
-                                </a>
-                                <a href="/SGU_UDW1/admin/user/edit" class="btn btn-sm btn-block btn-outline-primary m-1"><i class="mr-1 fas fa-edit"></i>
-                                    Edit
-                                </a>
-                                <a href="#"
-                                   class="btn btn-sm btn-block btn-outline-dark m-1" onclick="doit()" data-confirm="Do you really want to remove this record?"><i class="mr-1 fas fa-trash-alt"></i>
-                                    Delete
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Nguyễn Thị B</td>
-                            <td>09/10/1979</td>
-                            <td>Nữ</td>
-                            <td>Co-superadmin</td>
-                            <td>
-                                <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
-                                    Block
-                                </a>
-                                <a href="/SGU_UDW1/admin/user/edit" class="btn btn-sm btn-block btn-outline-primary m-1"><i class="mr-1 fas fa-edit"></i>
-                                    Edit
-                                </a>
-                                <a href="#"
-                                   class="btn btn-sm btn-block btn-outline-dark m-1" onclick="doit()" data-confirm="Do you really want to remove this record?"><i class="mr-1 fas fa-trash-alt"></i>
-                                    Delete
-                                </a>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Nguyễn Văn C</td>
-                            <td>11/03/1972</td>
-                            <td>Nam</td>
-                            <td>Admin</td>
-                            <td>
-                                <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
-                                    Block
-                                </a>
-                                <a href="/SGU_UDW1/admin/user/edit" class="btn btn-sm btn-block btn-outline-primary m-1"><i class="mr-1 fas fa-edit"></i>
-                                    Edit
                                 </a>
                                 <a href="#"
                                    class="btn btn-sm btn-block btn-outline-dark m-1" data-confirm="Do you really want to remove this record?"><i class="mr-1 fas fa-trash-alt"></i>
@@ -95,16 +53,64 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Nguyễn Thị D</td>
-                            <td>29/01/2000</td>
-                            <td>Nữ</td>
-                            <td>Manager</td>
+                            <td>A161616</td>
+                            <td class="text-danger">Not confirm yet</td>
+                            <td>Diluc</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-block btn-outline-success m-1" data-confirm="Do you really want to confirm this order?"><i class="mr-1 fas fa-check"></i>
+                                    Confirm
+                                </a>
+                                <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
+                                    Block
+                                </a>
+                                <a href="#"
+                                   class="btn btn-sm btn-block btn-outline-dark m-1" data-confirm="Do you really want to remove this record?"><i class="mr-1 fas fa-trash-alt"></i>
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A131333</td>
+                            <td>Delivered</td>
+                            <td>Amber</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
                             <td>
                                 <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
                                     Block
                                 </a>
-                                <a href="/SGU_UDW1/admin/user/edit" class="btn btn-sm btn-block btn-outline-primary m-1"><i class="mr-1 fas fa-edit"></i>
-                                    Edit
+                                <a href="#"
+                                   class="btn btn-sm btn-block btn-outline-dark m-1" data-confirm="Do you really want to remove this record?"><i class="mr-1 fas fa-trash-alt"></i>
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A141414</td>
+                            <td>Delivering</td>
+                            <td>Venti</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
+                                    Block
+                                </a>
+                                <a href="#"
+                                   class="btn btn-sm btn-block btn-outline-dark m-1" data-confirm="Do you really want to remove this record?"><i class="mr-1 fas fa-trash-alt"></i>
+                                    Delete
+                                </a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>A155155</td>
+                            <td class="text-danger">Not confirm yet</td>
+                            <td>Beidou</td>
+                            <td><a href="detail" class="fsize-20 text-decoration-none">Detail >></a></td>
+                            <td>
+                                <a href="#" class="btn btn-sm btn-block btn-outline-success m-1" data-confirm="Do you really want to confirm this order?"><i class="mr-1 fas fa-check"></i>
+                                    Confirm
+                                </a>
+                                <a href="#" class="btn btn-sm btn-block btn-outline-danger m-1" data-confirm="Do you really want to block this record?"><i class="mr-1 fas fa-ban"></i>
+                                    Block
                                 </a>
                                 <a href="#"
                                    class="btn btn-sm btn-block btn-outline-dark m-1" data-confirm="Do you really want to remove this record?"><i class="mr-1 fas fa-trash-alt"></i>

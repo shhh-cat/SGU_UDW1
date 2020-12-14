@@ -82,7 +82,8 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       '<div class="dropdown">'+
         '<a class="nav-link py-3 mr-2 text-light dropdown-toggle" href="#" id="usermenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="opensans fsize-16">Hi !</span> Mona Lisa</a>'+
         '<div class="dropdown-menu dropdown-menu-right opensans fsize-16" aria-labelledby="usermenu">'+
-            '<a href="/SGU_UDW1/profile" class="dropdown-item"><i class="fas fa-user mr-2"></i>Profile</a>'+
+            '<a href="/SGU_UDW1/user/" class="dropdown-item"><i class="fas fa-user mr-2"></i>Profile</a>'+
+            '<a href="/SGU_UDW1/user/orders" class="dropdown-item"><i class="fas fa-file-alt mr-2"></i>Order history</a>'+
             '<a href="#" class="dropdown-item" id="logoutbtn"><i class="fas fa-sign-out-alt mr-2"></i>Log out</a>'+
         '</div>'+
       '</div>');

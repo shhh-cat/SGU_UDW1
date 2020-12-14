@@ -13,6 +13,7 @@ $("#submit-search").click(function () {
 	var category = $("#category").val();
 	var from = $("#from").val();
 	var to = $("#to").val();
+	var name = $("#name").val();
 	$('#table-result').hide(250).fadeOut();
 	$("#result").html("");
 	
@@ -25,7 +26,7 @@ $("#submit-search").click(function () {
         myModal.open();
 	}
 	else {
-		var dataForSearch = []
+		var dataForSearch = [];
 		if (category === "*") {
 			dataForSearch = getAllProduct(product);
 		}
@@ -39,12 +40,21 @@ $("#submit-search").click(function () {
 		for (var i in dataForSearch) {
 			var pricee = dataForSearch[i].price;
 			if (pricee >= from && pricee <= to) {
-				data.push(dataForSearch[i]);
+				if (name.length) {
+					if (dataForSearch[i].name.toLowerCase().includes(name.toLowerCase())) {
+						data.push(dataForSearch[i]);
+					}
+				}
+				else
+					data.push(dataForSearch[i]);
 			}
 		}
 	}
-	//alert(JSON.stringify(data));
-	if (data) {
+
+
+
+
+	if (data.length) {
 		$('#table-result').show(1000).fadeIn();
 		for (var i in data) {
 			var link;
@@ -56,8 +66,10 @@ $("#submit-search").click(function () {
 	      	$("#result").prepend('<tr> <td>'+capitalizeFirstLetter(data[i].key).replace(/-/g,' ')+'</td> <td>'+data[i].name+'</td> <td><strong>$'+numberWithCommas(parseFloat(data[i].price).toFixed(2))+'</strong></td> <td><a href="'+link+'" class="nav-link text-brown">Go<i class="ml-2 fas fa-external-link-alt"></i></a></td> </tr>');
 		}
 	}
-	else 
+	else {
 		$('#table-result').show(1000).fadeIn();
 		$("#result").prepend('<tr class="text-center"> <td colspan="4" class="fsize-20">No record found</td></tr>');
+	}
+		
 	
 });

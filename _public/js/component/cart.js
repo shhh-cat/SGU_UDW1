@@ -87,6 +87,7 @@ $( "input.input-spinner" ).change(function() {
 
 
 $('#timeShip').prepend(a.toDateString() + " - " + b.toDateString());
+
 var jbox = new jBox('Confirm', {
   confirmButton: 'Yes, I sure',
   cancelButton: 'Nope'
