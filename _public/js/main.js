@@ -58,6 +58,14 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
   }
   $("input[type='number'].input-spinner").inputSpinner(cfgInSpiner);
   
+
+  var aaa =window.location.pathname.split("/").length;
+      var fixlink = aaa-4;
+      var back = '';
+      for (var i = 0; i < fixlink; i++) {
+        back += '../';
+      }
+
   //FIX NAVBAR
 
   //   $(window).scroll(function() {
@@ -82,14 +90,16 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       '<div class="dropdown">'+
         '<a class="nav-link py-3 mr-2 text-light dropdown-toggle" href="#" id="usermenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="opensans fsize-16">Hi !</span> Mona Lisa</a>'+
         '<div class="dropdown-menu dropdown-menu-right opensans fsize-16" aria-labelledby="usermenu">'+
-            '<a href="/SGU_UDW1/user/" class="dropdown-item"><i class="fas fa-user mr-2"></i>Profile</a>'+
-            '<a href="/SGU_UDW1/user/orders" class="dropdown-item"><i class="fas fa-file-alt mr-2"></i>Order history</a>'+
+            '<a href="'+back+'user/" class="dropdown-item"><i class="fas fa-user mr-2"></i>Profile</a>'+
+            '<a href="'+back+'user/orders" class="dropdown-item"><i class="fas fa-file-alt mr-2"></i>Order history</a>'+
             '<a href="#" class="dropdown-item" id="logoutbtn"><i class="fas fa-sign-out-alt mr-2"></i>Log out</a>'+
         '</div>'+
       '</div>');
     }
-    else
-      auth.insertAdjacentHTML('afterbegin','<a class="nav-link py-3 mr-2 text-light" href="/SGU_UDW1/login">LOGIN</a>');
+    else {
+      
+      auth.insertAdjacentHTML('afterbegin','<a class="nav-link py-3 mr-2 text-light" href="'+back+'login">LOGIN</a>');
+    }
   }
   var authadmin = document.getElementById('admin-auth');
   if(authadmin)
@@ -133,10 +143,10 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
       for (var i in searched) {
         var link;
         if (searched[i].key === "coffee") {
-          link = '/SGU_UDW1/coffee/'+searched[i].id;
+          link = back+'coffee/'+searched[i].id;
         }
         else
-          link = '/SGU_UDW1/tools/'+searched[i].key+'/'+searched[i].id;
+          link = back+'tools/'+searched[i].key+'/'+searched[i].id;
         var item = $('<a></a>').addClass(/*comefromtop*/ 'list-group-item list-group-item-action').attr('href',link).html('<strong>['+capitalizeFirstLetter(searched[i].key).replace(/-/g,' ')+']</strong> '+searched[i].name);
         $('#search-result').prepend(item);//.addClass('pushdown');
       }
@@ -170,7 +180,7 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
   })
   
   // enable
-  logout('login');
+  logout(back+'login');
   login();
 
   //
