@@ -49,13 +49,13 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-6 form-group">
-                                <label class="control-label">Information</label>
+                                <label class="control-label">Description</label>
                                 <input type="text" v-model="plant.plant_name" class="form-control" value="Information">
                             </div>  
                             <div class="col-sm-6 form-group">
                                 <label class="control-label">Details</label>
-                                <input type="text" v-model="plant.plant_name" class="form-control" value="Details">
-                            </div>  
+                                <a href="#" class="badge badge-success" id="addDetail"><i class="fas fa-plus mr-1"></i>Add</a>
+                            </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
@@ -91,6 +91,9 @@
         		window.location = "../../../admin/login";
 			  }
 
+              $('#addDetail').click(function () {
+                  
+              })
         </script>
         <script src="../../../_public/js/component/admin/nav.js"></script>
 </body>
