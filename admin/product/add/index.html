@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/SGU_UDW1/_public/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/SGU_UDW1/_public/fontawesome/css/all.min.css">
-    <link rel="stylesheet" href="/SGU_UDW1/_public/hover/css/hover-min.css">
-    <link rel="stylesheet" href="/SGU_UDW1/_public/css/utilities.css">
-    <link rel="stylesheet" href="/SGU_UDW1/_public/css/animate.min.css">
-    <link rel="stylesheet" href="/SGU_UDW1/_public/css/component/admin.css">
+    <link rel="stylesheet" href="../../../_public/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../../_public/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="../../../_public/hover/css/hover-min.css">
+    <link rel="stylesheet" href="../../../_public/css/utilities.css">
+    <link rel="stylesheet" href="../../../_public/css/animate.min.css">
+    <link rel="stylesheet" href="../../../_public/css/component/admin.css">
     <title>Wanted Coffee</title>
-    <link rel="shortcut icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="/SGU_UDW1/_public/images/logo/favicon.ico" type="image/x-icon">
-    <script src="/SGU_UDW1/_public/js/lib/chart.min.js"></script>
+    <link rel="shortcut icon" href="../../../_public/images/logo/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="../../../_public/images/logo/favicon.ico" type="image/x-icon">
+    <script src="../../../_public/js/lib/chart.min.js"></script>
 </head>
 <body>
     <!-- ============= MENU ============== -->
-    <div insert-html="/SGU_UDW1/_template/admin_navbar.html"></div>
+    <div insert-html="../../../_template/admin_navbar_pro_pro.html"></div>
     <!-- =========================== -->
     <div class="row" id="app">
         <div class="col-md-12">
@@ -48,9 +48,19 @@
                             </div>
                         </div>
                         <div class="row">
+                            <div class="col-sm-6 form-group">
+                                <label class="control-label">Information</label>
+                                <input type="text" v-model="plant.plant_name" class="form-control">
+                            </div>  
+                            <div class="col-sm-6 form-group">
+                                <label class="control-label">Details</label>
+                                <input type="text" v-model="plant.plant_name" class="form-control">
+                            </div>  
+                        </div>
+                        <div class="row">
                             <div class="col-sm-12 form-group">
-                                <a href="/SGU_UDW1/admin/product" class="m-1 btn btn-outline-secondary">Back</a>
-                                <a href="/SGU_UDW1/admin/product" class="m-1 btn btn-outline-primary">Create</a>
+                                <a href="../../../admin/product" class="m-1 btn btn-outline-secondary">Back</a>
+                                <a href="../../../admin/product" class="m-1 btn btn-outline-primary">Create</a>
                             </div>
                         </div>
                     </form>
@@ -58,9 +68,9 @@
             </div>
         </div>
     </div>
-        <div insert-html="/SGU_UDW1/_template/footer.html"></div>
-        <script src="/SGU_UDW1/_public/js/lib/jquery-3.5.1.min.js"></script>
-        <script data-main="/SGU_UDW1/_public/js/main" src="/SGU_UDW1/_public/js/require.js"></script>
+        <div insert-html="../../../_template/footer_product.html"></div>
+        <script src="../../../_public/js/lib/jquery-3.5.1.min.js"></script>
+        <script data-main="../../../_public/js/main" src="../../../_public/js/require.js"></script>
         <script type="text/javascript">
         	function getCookie(cname) {
 			  var name = cname + "=";
@@ -78,10 +88,10 @@
 			  return "";
 			}
         	if (getCookie("admin") != "admin") {
-        		window.location = "/SGU_UDW1/admin/login";
+        		window.location = "../../../admin/login";
 			  }
 
         </script>
-        <script src="/SGU_UDW1/_public/js/component/admin/nav.js"></script>
+        <script src="../../../_public/js/component/admin/nav.js"></script>
 </body>
 </html>
