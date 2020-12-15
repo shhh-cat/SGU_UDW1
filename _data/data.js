@@ -581,7 +581,6 @@ var product = {
 			"color" : ["white","pink",],
 			"img" : [
 				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/1.png",
-				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/2.png",
 			],
 			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – White.",
 			"detail" : {
@@ -599,7 +598,6 @@ var product = {
 			"color" : ["red"],
 			"img" : [
 				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/1.png",
-				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/2.png",
 			],
 			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – White.",
 			"detail" : {

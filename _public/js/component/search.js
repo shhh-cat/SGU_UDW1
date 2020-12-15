@@ -59,10 +59,10 @@ $("#submit-search").click(function () {
 		for (var i in data) {
 			var link;
 	        if (data[i].key === "coffee") {
-	          link = '../coffee/'+data[i].id;
+	          link = 'coffee/'+data[i].id;
 	        }
 	        else
-	          link = '../tools/'+data[i].key+'/'+data[i].id;
+	          link = 'tools/'+data[i].key+'/'+data[i].id;
 	      	$("#result").prepend('<tr> <td>'+capitalizeFirstLetter(data[i].key).replace(/-/g,' ') +'</td> <td>' +data[i].name +'</td> <td> <img src="../'+data[i].img[0]+' " height="100px" width="100px" alt="product"></td> +<td><strong>$'+numberWithCommas(parseFloat(data[i].price).toFixed(2))+'</strong></td> <td><a href="../'+link+'" class="nav-link text-brown">Go<i class="ml-2 fas fa-external-link-alt"></i></a></td> </tr>');
 		}
 	}
