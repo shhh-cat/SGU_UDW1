@@ -52,15 +52,25 @@
                                 <label class="control-label">Description</label>
                                 <input type="text" v-model="plant.plant_name" class="form-control" value="Information">
                             </div>  
-                            <div class="col-sm-6 form-group">
+                            <div class="col-sm-6 form-group" id="detailItem">
                                 <label class="control-label">Details</label>
                                 <a href="#" class="badge badge-success" id="addDetail"><i class="fas fa-plus mr-1"></i>Add</a>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text">Title and content</span>
+                                    </div>
+                                    <input type="text" aria-label="First name" class="form-control" value="Brand" disabled>
+                                    <input type="text" aria-label="Last name" class="form-control">
+                                    <div class="input-group-append" id="button-addon4">
+                                        <button class="btn btn-outline-danger" type="button" disabled><i class="fas fa-trash"></i></button>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-12 form-group">
-                                <a href="../../../admin/product" class="m-1 btn btn-outline-secondary">Back</a>
-                                <a href="../../../admin/product" class="m-1 btn btn-outline-primary">Edit</a>
+                                <a href="../../../admin/category" class="m-1 btn btn-outline-secondary">Back</a>
+                                <a href="../../../admin/category" class="m-1 btn btn-outline-primary">Edit</a>
                             </div>
                         </div>
                     </form>
@@ -90,10 +100,16 @@
         	if (getCookie("admin") != "admin") {
         		window.location = "../../../admin/login";
 			  }
-
+              var detailCount = 0;
               $('#addDetail').click(function () {
-                  
+                detailCount++;
+                  $('#detailItem').append('<div class="input-group mt-2" id="detail-'+detailCount+'"><div class="input-group-prepend"><span class="input-group-text">Title and content</span> </div><input type="text" aria-label="First name" class="form-control"><input type="text" aria-label="Last name" class="form-control"><div class="input-group-append" id="button-addon4"><button class="btn btn-outline-danger deleteDetail" type="button" detail="'+detailCount+'"><i class="fas fa-trash"></i></button></div></div>');
+                  $('.deleteDetail').click(function () {
+                    var del = $(this).attr("detail");
+                    $('#detail-'+del).remove();
+                  });
               })
+
         </script>
         <script src="../../../_public/js/component/admin/nav.js"></script>
 </body>
