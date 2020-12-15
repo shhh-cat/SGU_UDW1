@@ -7,8 +7,8 @@ var product = {
             "color" : ["brown",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/coffee/bio-coffee/1.jpg",
-                "/SGU_UDW1/_public/images/tools/coffee/bio-coffee/2.jpg",	
+                "_public/images/tools/coffee/bio-coffee/1.jpg",
+                "_public/images/tools/coffee/bio-coffee/2.jpg",	
             ],
             "desc" : "Bio Coffee isis one of the tried and true recommendations for a healthy diet, and for good reason.  Eating plenty of vegetables can help you ward off heart disease and stroke, control blood pressure, prevent some types of cancer, strengthen your immune system and provide many other “life saving benefits.”  However, if you are among the 9 out of 10 people who fail to eat at least 3-5 servings of GREEN vegetables every day, you clearly could use a convenient source of greens.  Bio Coffee is that source!  Bio Coffee contains wheatgrass, one of nature’s super foods, and consuming at least one cup of Bio Coffee per day can put you on the path to optimal health. ",
             "detail" : {
@@ -25,8 +25,8 @@ var product = {
             "color" : ["brown",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/coffee/single-origins/1.jpg",
-                "/SGU_UDW1/_public/images/tools/coffee/single-origins/2.jpg",	
+                "_public/images/tools/coffee/single-origins/1.jpg",
+                "_public/images/tools/coffee/single-origins/2.jpg",	
             ],
             "desc" : "A rare, old-world coffee that lives up to its legendary expectations. Elegant and aromatic, with refined acidity and ornately layered sweetness.",
             "detail" : {
@@ -43,8 +43,8 @@ var product = {
             "color" : ["brown",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/coffee/green-coffee/1.jpg",
-                "/SGU_UDW1/_public/images/tools/coffee/green-coffee/2.jpg",	
+                "_public/images/tools/coffee/green-coffee/1.jpg",
+                "_public/images/tools/coffee/green-coffee/2.jpg",	
             ],
             "desc" : "This is one unique mid Vietnam coffee just by the monsooning process. Coffee beans are harvested, processed, and laid to age in monsoon weather (June through September), and this mellows the green coffee beans and turns them a golden tan. Tasting it would make you imagine they processed nuts right along with the coffee, as it has a pronounced nutty flavor.",
             "detail" : {
@@ -61,8 +61,8 @@ var product = {
             "color" : ["brown",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/coffee/bio-coffee/1.jpg",
-                "/SGU_UDW1/_public/images/tools/coffee/bio-coffee/2.jpg",	
+                "_public/images/tools/coffee/bio-coffee/1.jpg",
+                "_public/images/tools/coffee/bio-coffee/2.jpg",	
             ],
             "desc" : "One of our heritage blends, the recipe has remained largely unchanged since inception in the 90’s. Taking a blend of mid VietNam and south VietNam, roasted medium-dark, it creates a well-rounded coffee that cuts well through milk with hints of chocolate and plum and also as an espresso with its rich dark crema.",
             "detail" : {
@@ -82,10 +82,10 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/2.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/3.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/glass-rider-for-chicken-skins/4.png",
+                "_public/images/tools/barista-tools/glass-rider-for-chicken-skins/1.png",
+                "_public/images/tools/barista-tools/glass-rider-for-chicken-skins/2.png",
+                "_public/images/tools/barista-tools/glass-rider-for-chicken-skins/3.png",
+                "_public/images/tools/barista-tools/glass-rider-for-chicken-skins/4.png",
             ],
             "desc" : "Made with Stainless Steel and built to last! With the RINSER, any vessel with a diameter from 1 to 3.6 inches can now be rinsed in seconds. In most homes, restaurants, coffee shops, and cafes, the rinsing of wine glasses, baby bottles, travel cups, pitchers, and cups is a task that is repeated many times a day. We have developed the rinser to save you time and money, making the rinse process an effortless task.",
             "detail" : {
@@ -103,10 +103,10 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/squeeze-bottle/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/squeeze-bottle/2.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/squeeze-bottle/3.png",
-                //"/SGU_UDW1/_public/images/tools/barista-tools/ox/4.png",
+                "_public/images/tools/barista-tools/squeeze-bottle/1.png",
+                "_public/images/tools/barista-tools/squeeze-bottle/2.png",
+                "_public/images/tools/barista-tools/squeeze-bottle/3.png",
+                //"_public/images/tools/barista-tools/ox/4.png",
             ],
             "desc" : "Whether you’re adding house made vanilla syrup to that crated latte, drizzling chocolate on whipcream, or squeezing honey into tea, the OXO Good Grips Chef’s Squeeze Bottles provide one-handed precision.",
             "detail" : {
@@ -122,10 +122,10 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/2.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/3.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/4.png",
+                "_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/1.png",
+                "_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/2.png",
+                "_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/3.png",
+                "_public/images/tools/barista-tools/3117300-oxo-cocktail-shaker-stainless/4.png",
             ],
             "desc" : "OXO Cocktail Shaker Single-wall Stainless Steel cocktail Shaker features two silicone gaskets to create a leak-proof seal in a18oz capacity.",
             "detail" : {
@@ -142,9 +142,9 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/down-knock-box-drawer/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/down-knock-box-drawer/2.png",
-				"/SGU_UDW1/_public/images/tools/barista-tools/down-knock-box-drawer/3.png",
+                "_public/images/tools/barista-tools/down-knock-box-drawer/1.png",
+                "_public/images/tools/barista-tools/down-knock-box-drawer/2.png",
+				"_public/images/tools/barista-tools/down-knock-box-drawer/3.png",
             ],
             "desc" : "The 3005FOB is a stainless steel counter face mounted fold out espresso knock box drawer for high volume coffee shops.",
             "detail" : {
@@ -161,8 +161,8 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/big-square-tall/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/big-square-tall/2.png",
+                "_public/images/tools/barista-tools/big-square-tall/1.png",
+                "_public/images/tools/barista-tools/big-square-tall/2.png",
             ],
             "desc" : "Airtight, stackable, space-efficient, and now completely dishwasher safe, OXO Good Grips POP Containers keep dry foods fresh and kitchens organized.",
             "detail" : {
@@ -178,10 +178,10 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/2.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/3.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts/4.png",
+                "_public/images/tools/barista-tools/espresso-parts/1.png",
+                "_public/images/tools/barista-tools/espresso-parts/2.png",
+                "_public/images/tools/barista-tools/espresso-parts/3.png",
+                "_public/images/tools/barista-tools/espresso-parts/4.png",
             ],
             "desc" : "Made with Stainless Steel and built to last! With our rinser, any vessel with a diameter from 1 to 4½ inches can now be rinsed in seconds.",
             "detail" : {
@@ -197,10 +197,10 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/2.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/3.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-parts-size6/4.png",
+                "_public/images/tools/barista-tools/espresso-parts-size6/1.png",
+                "_public/images/tools/barista-tools/espresso-parts-size6/2.png",
+                "_public/images/tools/barista-tools/espresso-parts-size6/3.png",
+                "_public/images/tools/barista-tools/espresso-parts-size6/4.png",
             ],
             "desc" : "Made with Stainless Steel and built to last! With our rinser, any vessel with a diameter from 1 to 4½ inches can now be rinsed in seconds.",
             "detail" : {
@@ -216,10 +216,10 @@ var product = {
             "color" : ["silver",],
             "discount" : 20,
             "img" : [
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/1.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/2.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/3.png",
-                "/SGU_UDW1/_public/images/tools/barista-tools/espresso-machine/4.png",
+                "_public/images/tools/barista-tools/espresso-machine/1.png",
+                "_public/images/tools/barista-tools/espresso-machine/2.png",
+                "_public/images/tools/barista-tools/espresso-machine/3.png",
+                "_public/images/tools/barista-tools/espresso-machine/4.png",
             ],
             "desc" : "the Scace 2 is the next level of Scace temperature measurement tools and is exclusive to EspressoParts.com.",
             "detail" : {
@@ -241,7 +241,7 @@ var product = {
 			"color" : ["green",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/coffee-for-life.png",
+				"_public/images/tools/book/coffee-for-life.png",
 			],
 			"desc" : "Coffee for Life is a great book written by T.L.A.",
 			"detail" : {
@@ -258,7 +258,7 @@ var product = {
 			"color" : ["blue",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/the-best-coffee.png",
+				"_public/images/tools/book/the-best-coffee.png",
 			],
 			"desc" : "The Best Coffee is a great book written by T.L.A.",
 			"detail" : {
@@ -275,7 +275,7 @@ var product = {
 			"color" : ["green",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/wanted-coffee.png",
+				"_public/images/tools/book/wanted-coffee.png",
 			],
 			"desc" : "Wanted Coffee is a great book written by T.L.A.",
 			"detail" : {
@@ -292,7 +292,7 @@ var product = {
 			"color" : ["orange",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/book/f-j.png",
+				"_public/images/tools/book/f-j.png",
 			],
 			"desc" : "Food and Juice is a great book written by T.L.A.",
 			"detail" : {
@@ -311,7 +311,7 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/v60-02/1.png",
+				"_public/images/tools/cups-and-mugs/v60-02/1.png",
 			],
 			"desc" : "The Hario V60 Single-Serve Kit is ideal for brewing 16-20oz of flavorful, full-bodied coffee.",
 			"detail" : {
@@ -327,10 +327,10 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/3.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/400z/4.png",
+				"_public/images/tools/cups-and-mugs/400z/1.png",
+				"_public/images/tools/cups-and-mugs/400z/2.png",
+				"_public/images/tools/cups-and-mugs/400z/3.png",
+				"_public/images/tools/cups-and-mugs/400z/4.png",
 			],
 			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 40 oz of flavorful, full-bodied tea.",
 			"detail" : {
@@ -347,10 +347,10 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/3.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/120z/4.png",
+				"_public/images/tools/cups-and-mugs/120z/1.png",
+				"_public/images/tools/cups-and-mugs/120z/2.png",
+				"_public/images/tools/cups-and-mugs/120z/3.png",
+				"_public/images/tools/cups-and-mugs/120z/4.png",
 			],
 			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 12 oz of flavorful, full-bodied tea.",
 			"detail" : {
@@ -367,10 +367,10 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/3.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/220z/4.png",
+				"_public/images/tools/cups-and-mugs/220z/1.png",
+				"_public/images/tools/cups-and-mugs/220z/2.png",
+				"_public/images/tools/cups-and-mugs/220z/3.png",
+				"_public/images/tools/cups-and-mugs/220z/4.png",
 			],
 			"desc" : "The Yama Glass Tea Brewing Kit is ideal for brewing 22 oz of flavorful, full-bodied tea.",
 			"detail" : {
@@ -387,10 +387,10 @@ var product = {
 			"discount" : 20,
 			"color" : ["brown","black","blue","gray",],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/3.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/ep-porcelain/4.png",
+				"_public/images/tools/cups-and-mugs/ep-porcelain/1.png",
+				"_public/images/tools/cups-and-mugs/ep-porcelain/2.png",
+				"_public/images/tools/cups-and-mugs/ep-porcelain/3.png",
+				"_public/images/tools/cups-and-mugs/ep-porcelain/4.png",
 			],
 			"desc" : "The EP Porcelain diner coffee mug is a high-quality porcelain mug that has been manufactured to our exact specifications by one of the best porcelain manufacturers in the world.",
 			"detail" : {
@@ -408,10 +408,10 @@ var product = {
 			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/3.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/4.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/1.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/2.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/3.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-brown-and-white/4.png",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -428,10 +428,10 @@ var product = {
 			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/3.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/4.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/1.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/2.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/3.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-black-wanted/4.png",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -448,10 +448,10 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/3.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/4.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/1.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/2.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/3.png",
+				"_public/images/tools/cups-and-mugs/cup-and-saucer-creamy-white/4.png",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -468,8 +468,8 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/mug-creamy-white/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/mug-creamy-white/2.png",
+				"_public/images/tools/cups-and-mugs/mug-creamy-white/1.png",
+				"_public/images/tools/cups-and-mugs/mug-creamy-white/2.png",
 			],
 			"desc" : "The finish on these cafe cups is amazing and surpasses anything we ever imported from Europe.",
 			"detail" : {
@@ -486,9 +486,9 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cupping-bowl/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cupping-bowl/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/cupping-bowl/3.png",
+				"_public/images/tools/cups-and-mugs/cupping-bowl/1.png",
+				"_public/images/tools/cups-and-mugs/cupping-bowl/2.png",
+				"_public/images/tools/cups-and-mugs/cupping-bowl/3.png",
 			],
 			"desc" : "Working with the Specialty Coffee Association (SCA), we have produced the next generation of cupping bowls.",
 			"detail" : {
@@ -505,7 +505,7 @@ var product = {
 			"discount" : 20,
 			"color" : ["yellow","brown","black","blue","gray","white",],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/lino-coffee-mug/1.png",
+				"_public/images/tools/cups-and-mugs/lino-coffee-mug/1.png",
 			],
 			"desc" : "LINO was designed by notNeutral in collaboration with award-winning baristas to create the perfect cups for specialty coffee.",
 			"detail" : {
@@ -522,9 +522,9 @@ var product = {
 			"color" : ["gray","blue","red",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/hutch-coffee-mug/1.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/hutch-coffee-mug/2.png",
-				"/SGU_UDW1/_public/images/tools/cups-and-mugs/hutch-coffee-mug/3.png",
+				"_public/images/tools/cups-and-mugs/hutch-coffee-mug/1.png",
+				"_public/images/tools/cups-and-mugs/hutch-coffee-mug/2.png",
+				"_public/images/tools/cups-and-mugs/hutch-coffee-mug/3.png",
 			],
 			"desc" : "The Loveramics 250 ml Hutch Coffee Mug takes a contemporary spin on a classic diner mug design.",
 			"detail" : {
@@ -543,10 +543,10 @@ var product = {
 			"discount" : 20,
 			"color" : ["black","white",],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/1.png",
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/2.png",
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/3.png",
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/4.png",
+				"_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/2.png",
+				"_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/3.png",
+				"_public/images/tools/milk-jugs-and-latte-art/coffee-accessories/4.png",
 			],
 			"desc" : "These new milk jugs by Coffee Accessories are made from stainless steel and finished in an automotive grade paint (black & white). Durable and hard wearing these jugs are perfect for home or cafe use.",
 			"detail" : {
@@ -563,7 +563,7 @@ var product = {
 			"discount" : 20,
 			"color" : ["yellow	","white",],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhino-pro-milk-pitcher-gold/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhino-pro-milk-pitcher-gold/1.png",
 			],
 			"desc" : "The Rhino Pro Milk Pitcher Gold is designed by baristas, for baristas.",
 			"detail" : {
@@ -580,8 +580,8 @@ var product = {
 			"discount" : 20,
 			"color" : ["white","pink",],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/1.png",
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/2.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-white/2.png",
 			],
 			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – White.",
 			"detail" : {
@@ -598,8 +598,8 @@ var product = {
 			"discount" : 20,
 			"color" : ["red"],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/1.png",
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/2.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-milk-pitcher-red/2.png",
 			],
 			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – White.",
 			"detail" : {
@@ -616,7 +616,7 @@ var product = {
 			"color" : ["silver",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-pro-20z/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-pro-20z/1.png",
 			],
 			"desc" : "The Rhinowares Professional Milk Jug 600ml is designed by baristas, for baristas.",
 			"detail" : {
@@ -633,7 +633,7 @@ var product = {
 			"discount" : 20,
 			"color" : ["green"],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20x/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20x/1.png",
 			],
 			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Jug – 600ml/20oz – Green.",
 			"detail" : {
@@ -650,7 +650,7 @@ var product = {
 			"discount" : 20,
 			"color" : ["black"],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20y/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20y/1.png",
 			],
 			"desc" : "Designed by baristas in busy cafes, the Rhinowares Black Stealth Milk Jug 600ml is built to maintain your high standards for hours and hours.",
 			"detail" : {
@@ -667,7 +667,7 @@ var product = {
 			"discount" : 20,
 			"color" : ["blue"],
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20z/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/rhinowares-stealth-20z/1.png",
 			],
 			"desc" : "Add some colour to your espresso setup with the Rhinowares Stealth Milk Pitcher – 600ml/20oz – Blue.",
 			"detail" : {
@@ -684,7 +684,7 @@ var product = {
 			"color" : ["silver",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-stainless-stee/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/latte-pro-stainless-stee/1.png",
 			],
 			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
 			"detail" : {
@@ -701,7 +701,7 @@ var product = {
 			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-matte-black/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/latte-pro-matte-black/1.png",
 			],
 			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
 			"detail" : {
@@ -718,7 +718,7 @@ var product = {
 			"color" : ["yellow",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-gold/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/latte-pro-gold/1.png",
 			],
 			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
 			"detail" : {
@@ -735,7 +735,7 @@ var product = {
 			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/milk-jugs-and-latte-art/latte-pro-copper/1.png",
+				"_public/images/tools/milk-jugs-and-latte-art/latte-pro-copper/1.png",
 			],
 			"desc" : "The beloved Latte Pro Milk Pitcher comes with an integrated milk thermometer to ensure quality milk steaming to precise temperatures every time.",
 			"detail" : {
@@ -754,8 +754,8 @@ var product = {
 			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/black/1.png",
-				"/SGU_UDW1/_public/images/tools/tamper/black/2.png",
+				"_public/images/tools/tamper/black/1.png",
+				"_public/images/tools/tamper/black/2.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -770,8 +770,8 @@ var product = {
 			"color" : ["white",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/white/1.png",
-				"/SGU_UDW1/_public/images/tools/tamper/white/2.png",
+				"_public/images/tools/tamper/white/1.png",
+				"_public/images/tools/tamper/white/2.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -786,7 +786,7 @@ var product = {
 			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/basics-flat/1.png",
+				"_public/images/tools/tamper/basics-flat/1.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -801,8 +801,8 @@ var product = {
 			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/walnut-wood/1.png",
-				"/SGU_UDW1/_public/images/tools/tamper/walnut-wood/2.png",
+				"_public/images/tools/tamper/walnut-wood/1.png",
+				"_public/images/tools/tamper/walnut-wood/2.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -817,8 +817,8 @@ var product = {
 			"color" : ["black",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/basics/1.png",
-				"/SGU_UDW1/_public/images/tools/tamper/basics/2.png",
+				"_public/images/tools/tamper/basics/1.png",
+				"_public/images/tools/tamper/basics/2.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -834,8 +834,8 @@ var product = {
 			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood/1.png",
-				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood/2.png",
+				"_public/images/tools/tamper/bocote-wood/1.png",
+				"_public/images/tools/tamper/bocote-wood/2.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -850,8 +850,8 @@ var product = {
 			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood-pro/1.png",
-				"/SGU_UDW1/_public/images/tools/tamper/bocote-wood-pro/2.png",
+				"_public/images/tools/tamper/bocote-wood-pro/1.png",
+				"_public/images/tools/tamper/bocote-wood-pro/2.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -866,8 +866,8 @@ var product = {
 			"color" : ["brown",],
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/tamper/kino-wood/1.png",
-				"/SGU_UDW1/_public/images/tools/tamper/kino-wood/2.png",
+				"_public/images/tools/tamper/kino-wood/1.png",
+				"_public/images/tools/tamper/kino-wood/2.png",
 			],
 			"desc" : "The Design 5 Black espresso tamp handle is precision machine milled from solid aluminum.",
 			"detail" : {
@@ -884,14 +884,14 @@ var product = {
 			"color" : ["white",],
 			"price" : 74.93,
 			"discount": 15,
-			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.png\" Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"_public/images/tools/brewers/kalita-wave-185-glass-kit/3.png\" Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/2.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/3.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/4.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/5.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-glass-kit/6.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-glass-kit/1.png",
+				"_public/images/tools/brewers/kalita-wave-185-glass-kit/2.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-glass-kit/3.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-glass-kit/4.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-glass-kit/5.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-glass-kit/6.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -907,15 +907,15 @@ var product = {
 			"color" : ["white",],
 			"price" : 84.18,
 			"discount": 15,
-			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.png\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Glass Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src=\"_public/images/tools/brewers/yama-french-press-kit/2.png\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/2.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/3.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/4.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/5.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/6.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/yama-french-press-kit/7.jpg",
+				"_public/images/tools/brewers/yama-french-press-kit/1.png",
+				"_public/images/tools/brewers/yama-french-press-kit/2.jpg",
+				"_public/images/tools/brewers/yama-french-press-kit/3.jpg",
+				"_public/images/tools/brewers/yama-french-press-kit/4.jpg",
+				"_public/images/tools/brewers/yama-french-press-kit/5.jpg",
+				"_public/images/tools/brewers/yama-french-press-kit/6.jpg",
+				"_public/images/tools/brewers/yama-french-press-kit/7.jpg",
 			],
 			"detail" : {
 				"Brand" : "YAMA",
@@ -931,13 +931,13 @@ var product = {
 			"color" : ["white",],
 			"price" : 73.08,
 			"discount": 15,
-			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave Style Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! The Kalita Wave Style Brewer brings a modern touch to the classic wave series aesthetic. Made with heat-resistant glass, a steel cage for the dripper, and a plastic grip, the Wave Style Brewer is perfect for brewing and serving. <img src \"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.png\" />Plus this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave Style Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! The Kalita Wave Style Brewer brings a modern touch to the classic wave series aesthetic. Made with heat-resistant glass, a steel cage for the dripper, and a plastic grip, the Wave Style Brewer is perfect for brewing and serving. <img src \"_public/images/tools/brewers/kalita-wave-style-kit/4.png\" />Plus this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/2.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/3.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/4.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-style-kit/5.jpg",
+				"_public/images/tools/brewers/kalita-wave-style-kit/1.png",
+				"_public/images/tools/brewers/kalita-wave-style-kit/2.jpg",
+				"_public/images/tools/brewers/kalita-wave-style-kit/3.jpg",
+				"_public/images/tools/brewers/kalita-wave-style-kit/4.jpg",
+				"_public/images/tools/brewers/kalita-wave-style-kit/5.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -952,14 +952,14 @@ var product = {
 			"color" : ["white",],
 			"price" : 78.63,
 			"discount": 15,
-			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src\"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.png\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
+			"desc" : "We bundled so you can save up to 10% on select kits! The Kalita Wave 185 Kit is ideal for brewing 16-26 oz of flavorful, full-bodied coffee. Designed with a flat-bottomed coffee bed, three small extraction holes, and a patented wave filter, the Kalita Wave dripper pulls a rich, evenly extracted, 2-4 cups (about 500-700ml). This convenient coffee kit includes everything you need to get started making the perfect cup of coffee at home! <img src\"_public/images/tools/brewers/kalita-wave-185-kit/1.png\" /> Including this one of a kind copy of 33 Cups of Coffee! This coffee journal provides an easy way to quickly record coffee tasting notes in a small, convenient notebook format. 33 Cups of Coffee is perfect for coffee aficionados, geeks, nerds, layabouts, and other fans of the roaster's art.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/1.png",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/2.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/3.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/4.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/5.jpg",
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-wave-185-kit/6.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-kit/1.png",
+				"_public/images/tools/brewers/kalita-wave-185-kit/2.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-kit/3.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-kit/4.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-kit/5.jpg",
+				"_public/images/tools/brewers/kalita-wave-185-kit/6.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -977,7 +977,7 @@ var product = {
 			"discount": 0,
 			"desc" : "The Kalita 102 Copper Dripper is a classic, straight-sided pour over dripper with a cone design, but with the iconic Kalita 3-hole extraction feature. Perfect for personal use at home, or by a professional barista in a coffee shop, this cone dripper will provide a balanced, evenly extracted cup of quality coffee. The 102 dripper fits most standard decanters, and brews up to 12oz (350ml) at a time.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/brewers/kalita-copper-dripper-102.png",
+				"_public/images/tools/brewers/kalita-copper-dripper-102.png",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -996,9 +996,9 @@ var product = {
 			"discount": 0,
 			"desc" : "These filters use firm, crepe textured paper filters absorb oils and remove gritty sediments.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/1.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/2.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/paper-coffee-filter/3.jpg",
+				"_public/images/tools/filters/paper-coffee-filter/1.jpg",
+				"_public/images/tools/filters/paper-coffee-filter/2.jpg",
+				"_public/images/tools/filters/paper-coffee-filter/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "Rockline",
@@ -1013,9 +1013,9 @@ var product = {
 			"discount": 0,
 			"desc" : "Kalita Wave 185 Filters are made with high quality paper. Both material and shape design help to pull impurities out of the grounds and leave you with a pure, delicious cup of coffee.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/1.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/2.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/kalita-wave-185-paper-filter/3.jpg",
+				"_public/images/tools/filters/kalita-wave-185-paper-filter/1.jpg",
+				"_public/images/tools/filters/kalita-wave-185-paper-filter/2.jpg",
+				"_public/images/tools/filters/kalita-wave-185-paper-filter/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -1030,8 +1030,8 @@ var product = {
 			"discount": 0,
 			"desc" : "102 Kalita Coffee Filters are made with high quality paper made to pull the impurities from your coffee as you brew.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/1.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/kalita-102-paper-filter-white/2.jpg",
+				"_public/images/tools/filters/kalita-102-paper-filter-white/1.jpg",
+				"_public/images/tools/filters/kalita-102-paper-filter-white/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "KALITA",
@@ -1046,7 +1046,7 @@ var product = {
 			"discount": 0,
 			"desc" : "High quality ceramic filter for all Yama Glass cold brew coffee makers and the Silverton. It measures just over 39 mm and is just over 5 mm thick.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/ceramic-filter/1.jpg",
+				"_public/images/tools/filters/ceramic-filter/1.jpg",
 			],
 			"detail" : {
 				"Brand" : "Ceramic",
@@ -1061,7 +1061,7 @@ var product = {
 			"discount": 0,
 			"desc" : "This Mesh Screen Filter is designed specifically for Yama Glass Syphon Brewers. This replacement does not include the screen assembly.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/mesh-screen-filter-for-yama-syphons/1.png",
+				"_public/images/tools/filters/mesh-screen-filter-for-yama-syphons/1.png",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1077,9 +1077,9 @@ var product = {
 			"discount": 0,
 			"desc" : "This stainless steel, double walled filter cone from Yama Glass serves as a replacement for both the Yama Silverton Brewer and the Yama Hermiston Brewer.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/1.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/2.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/stainless-steel-filter-cone/3.jpg",
+				"_public/images/tools/filters/stainless-steel-filter-cone/1.jpg",
+				"_public/images/tools/filters/stainless-steel-filter-cone/2.jpg",
+				"_public/images/tools/filters/stainless-steel-filter-cone/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1095,8 +1095,8 @@ var product = {
 			"discount": 0,
 			"desc" : "This beautiful 20oz Coffee Drip Pot from Yama Glass comes with a reusable Stainless Steel cone filter, creating an elegant display of modern aesthetic style.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/1.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-stainless-filter/2.jpg",
+				"_public/images/tools/filters/yama-coffee-stainless-filter/1.jpg",
+				"_public/images/tools/filters/yama-coffee-stainless-filter/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1113,8 +1113,8 @@ var product = {
 			"discount": 0,
 			"desc" : "This beautiful 30oz Coffee Drip Pot from Yama Glass comes with a Stainless Steel cone filter, creating an elegant display of modern aesthetic style.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/1.jpg",
-				"/SGU_UDW1/_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/2.jpg",
+				"_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/1.jpg",
+				"_public/images/tools/filters/yama-coffee-glass-and-stainless-filter/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1133,10 +1133,10 @@ var product = {
 			"discount": 0,
 			"desc" : "The new Q2 Puqpress automatic coffee tamper offers the latest in precision technology to provide a consistent tamping experience for every cup of coffee.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/2.jpg",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/3.jpg",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/4.jpg",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/1.png",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/2.jpg",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/3.jpg",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-white/4.jpg",
 			],
 			"detail" : {
 				"Brand" : "PuqPress",
@@ -1153,10 +1153,10 @@ var product = {
 			"discount": 0,
 			"desc" : "The new Q2 Puqpress automatic coffee tamper offers the latest in precision technology to provide a consistent tamping experience for every cup of coffee..",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/2.jpg",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/3.jpg",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/4.jpg",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/1.png",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/2.jpg",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/3.jpg",
+				"_public/images/tools/grinders-and-accessories/automatic-coffee-tamper-black/4.jpg",
 			],
 			"detail" : {
 				"Brand" : "PuqPress",
@@ -1172,10 +1172,10 @@ var product = {
 			"discount": 0,
 			"desc" : "The unparalleled engineering and state-of-the-art design of the Puqpress automatic tamper ensures perfectly compressed coffee grounds and a precisely level tamp every time.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/2.jpg",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/3.jpg",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/ns-mythos-grinder/4.jpg",
+				"_public/images/tools/grinders-and-accessories/ns-mythos-grinder/1.png",
+				"_public/images/tools/grinders-and-accessories/ns-mythos-grinder/2.jpg",
+				"_public/images/tools/grinders-and-accessories/ns-mythos-grinder/3.jpg",
+				"_public/images/tools/grinders-and-accessories/ns-mythos-grinder/4.jpg",
 			],
 			"detail" : {
 				"Brand" : "PUQ ",
@@ -1194,7 +1194,7 @@ var product = {
 			"discount": 0,
 			"desc" : "Mazzer has come to stand for highest-quality and performance coffee grinders and are proven in the high end coffee market.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/electronic-doser-commercial-grinder-black/1.png",
+				"_public/images/tools/grinders-and-accessories/electronic-doser-commercial-grinder-black/1.png",
 			],
 			"detail" : {
 				"Brand" : "Mazzer Kold",
@@ -1212,10 +1212,10 @@ var product = {
 			"discount": 0,
 			"desc" : "The Lux D grinder is the result of a collaboration between La Marzocco Home and Mazzer to build an optimized home espresso grinder.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/2.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/3.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/4.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/1.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/2.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/3.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-white/4.png",
 			],
 			"detail" : {
 				"Brand" : "Mazzer LUX",
@@ -1233,10 +1233,10 @@ var product = {
 			"discount": 0,
 			"desc" : "The Lux D grinder is the result of a collaboration between La Marzocco Home and Mazzer to build an optimized home espresso grinder.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/2.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/3.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/4.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/1.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/2.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/3.png",
+				"_public/images/tools/grinders-and-accessories/la-marzocco-lux-d-polished-metallic-silver/4.png",
 			],
 			"detail" : {
 				"Brand" : "Mazzer LUX",
@@ -1254,9 +1254,9 @@ var product = {
 			"discount": 0,
 			"desc" : "The New Baratza Vario is a commercial grinder with 54 mm ceramic flat burrs and a throughput of 1.6 - 2.2 grams per second as well as an innovative, macro/micro grind adjustment with 230 settings.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/1.png",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/2.jpg",
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/baratza-vario/3.jpg",
+				"_public/images/tools/grinders-and-accessories/baratza-vario/1.png",
+				"_public/images/tools/grinders-and-accessories/baratza-vario/2.jpg",
+				"_public/images/tools/grinders-and-accessories/baratza-vario/3.jpg",
 			],
 			"detail" : {
 				"Brand" : "Baratza",
@@ -1274,7 +1274,7 @@ var product = {
 			"discount": 0,
 			"desc" : "The Mythos Basic grinder has a \"grind on demand\" system that brings out all the aroma and flavor out of a coffee bean, and is considered one of the best espresso grinders available.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/grinders-and-accessories/nuova-simonelli-mythos-basic-grinder/1.png",
+				"_public/images/tools/grinders-and-accessories/nuova-simonelli-mythos-basic-grinder/1.png",
 			],
 			"detail" : {
 				"Brand" : "Baratza",
@@ -1295,10 +1295,10 @@ var product = {
 			"discount": 0,
 			"desc" : "This Stainless Steel Kettle from Yama Glass is a sturdy and stylish addition to any barista’s arsenal.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/1.png",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/2.jpg",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/3.jpg",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/stainless-steel-kettle/4.jpg",
+				"_public/images/tools/kattles-and-scales/stainless-steel-kettle/1.png",
+				"_public/images/tools/kattles-and-scales/stainless-steel-kettle/2.jpg",
+				"_public/images/tools/kattles-and-scales/stainless-steel-kettle/3.jpg",
+				"_public/images/tools/kattles-and-scales/stainless-steel-kettle/4.jpg",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1315,7 +1315,7 @@ var product = {
 			"discount": 0,
 			"desc" : "Kalita Wave Stainless Steel Kettle 1L - Leather Wrap",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/leather-wrap/1.png",
+				"_public/images/tools/kattles-and-scales/leather-wrap/1.png",
 			],
 			"detail" : {
 				"Brand" : "Kalita",
@@ -1332,7 +1332,7 @@ var product = {
 			"discount": 0,
 			"desc" : "The Yama Glass “Sassy Petite” Tea Kettle is a beautiful, hand blown teapot that feels at home in any setting; from classy to casual. ",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/glass-sassy-petite/1.png",
+				"_public/images/tools/kattles-and-scales/glass-sassy-petite/1.png",
 			],
 			"detail" : {
 				"Brand" : "Yama",
@@ -1349,8 +1349,8 @@ var product = {
 			"discount": 0,
 			"desc" : "Grocery style spout for Mazzer Super Jolly grinders. Older models of the Major, as well as the Mini model will not accept this mod.",
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/doserless-mod/1.png",
-				"/SGU_UDW1/_public/images/tools/kattles-and-scales/doserless-mod/2.jpg",
+				"_public/images/tools/kattles-and-scales/doserless-mod/1.png",
+				"_public/images/tools/kattles-and-scales/doserless-mod/2.jpg",
 			],
 			"detail" : {
 				"Brand" : "Mazzer",
@@ -1367,7 +1367,7 @@ var product = {
 			"price" : 7250,
 			"discount" : 20,
 			"img" : [
-				"/SGU_UDW1/_public/images/tools/machine/core200-500x500.png",
+				"_public/images/tools/machine/core200-500x500.png",
 			],
 			"desc": "With Core200, espresso has a new design. Astoria’s heart beats inside Core, a blend of tradition, technology and passion for espresso. A solid and reliable product with a minimal and contemporary design.",
 			"detail" : {
@@ -1388,7 +1388,7 @@ var product = {
 			"color" : ["blue","black","white"],
 			"price" : 10778,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/machine/core600-500x500.png"],
+			"img" : ["_public/images/tools/machine/core600-500x500.png"],
 			"desc" :"Core reinterprets the elegance of Astoria through simple lines and a modern shape that makes it immediately recognizable. With Core, the Italian tradition of espresso coffee is sublimated into a functional design object that can become the protagonist in every environment. Astoria’s heart beats inside Core600, a blend of tradition, technology and passion for espresso. With Core, espresso has a new design.",
 			"detail" : {
 				"Brand" : "ASTORIA",
@@ -1408,7 +1408,7 @@ var product = {
 			"color" : ["red","white"],
 			"price" : 2003,
 			"discount" : 10,
-			"img" : ["/SGU_UDW1/_public/images/tools/machine/greta-500x500.png"],
+			"img" : ["_public/images/tools/machine/greta-500x500.png"],
 			"desc" : "Great is the small versatile machine, suitable for both professional and semi-professional use.",
 			"detail" : {
 				"Brand" : "ASTORIA",
@@ -1429,7 +1429,7 @@ var product = {
 			"color" : ["red,steel","white,black","gray,black"],
 			"price" : 9680,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/machine/plus4youts.png"],
+			"img" : ["_public/images/tools/machine/plus4youts.png"],
 						"desc" : "Plus 4 You TS is a model that belongs to the Astoria high range that stands out for its dynamic and energetic lines that enhance excellent performance in terms of quality in the cup and energy saving.",
 			"detail" : {
 				"Brand" : "ASTORIA",
@@ -1452,7 +1452,7 @@ var product = {
 			"color" : ["red,steel","white,black","gray,black"],
 			"price" : 9680,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/machine/tanyar.png"],
+			"img" : ["_public/images/tools/machine/tanyar.png"],
 			"desc": "With a simple yet harmonious aesthetics, durable materials and details optimized for professional use, Tanya R is the ideal solution for those looking for the essence of quality and the best combination of simplicity and reliability. Available in the SAE electronic version with volumetric dosage of 4 coffee doses, programmable directly from the keypad, and in the AEP semi-automatic version, with manual override button.",
 			"detail" : {
 				"Brand" : "ASTORIA",
@@ -1472,7 +1472,7 @@ var product = {
 			"color" : ["black"],
 			"price" : 4499,
 			"discount" : 10,
-			"img" : ["/SGU_UDW1/_public/images/tools/machine/PraticAvant.png"],
+			"img" : ["_public/images/tools/machine/PraticAvant.png"],
 			"desc" : "Distinguished by a simple and linear style, Pratic Avant is a model with slender and modern lines, for timeless taste. A soberly elegant design, embellished with shimmering chrome details that complete the character with an extremely refined look. All the Astoria experience and technology guarantee professional performance and high reliability for a final result of excellent beverage quality. Also available with raised groups option and new grids to support easily removable flap cups, in addition to lighting the large worktop.",
 			"detail" : {
 				"Brand" : "ASTORIA",
@@ -1492,7 +1492,7 @@ var product = {
 			"color" : ["black"],
 			"price" : 2920,
 			"discount" : 10,
-			"img" : ["/SGU_UDW1/_public/images/tools/machine/TanyaRCaps.png"],
+			"img" : ["_public/images/tools/machine/TanyaRCaps.png"],
 			"desc" : "Tanya R Caps is the Astoria coffee machine perfect for low traffic areas, who want to offer their customers a good coffee in a comfortable and practical way.",
 			"detail" : {
 				"Brand" : "ASTORIA",
@@ -1514,7 +1514,7 @@ var product = {
 			"color" : ["black"],
 			"price" : 399,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/roasting/ascaso-steel-grinder-black.png"],
+			"img" : ["_public/images/tools/roasting/ascaso-steel-grinder-black.png"],
             "desc":"With a service life of over 1,300 lbs, the i-STEEL grinder is both durable and precisional. i-STEEL Grinder components are professionally milled with the same steel used in professional high-performance coffee grinders. The micrometric adjustment system allows for maximum control over your grind while the professional level grinding groups promise pure results. Looking for a grinder that can do it all? The i-STEEL Grinder line fits the bill.The grinder body is manufactured in aluminum and polished by hand. The cast aluminum and brass grinding chamber produce professional results and enhanced noise reduction when compared to grinders that utilize plastics in the chamber. The 54mm hardened steel burrs are engineered for professional espresso and longevity.",
 			"detail" : {
 				"Brand" : "ASCASO",
@@ -1541,7 +1541,7 @@ var product = {
 			"color" : ["black"],
 			"price" : 2200,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/roasting/mahlkonig-e65s-next-generation-matte-black.png"],
+			"img" : ["_public/images/tools/roasting/mahlkonig-e65s-next-generation-matte-black.png"],
             "desc":"Mahlkonig has done it again! We would like to introduce the E65S in matte black to you. This is the Next Generation of Espresso Grinders, are you ready for this? he E65s has taken all the things we love about the K30 collection and improved them! The size had been refined to have a smaller foot print on the bar and is available in matte white and matte black. Programming is intuitive and cleaning is a snap!", 
 			"detail" : {
 				"Brand" : "MAHLKONIG",
@@ -1566,7 +1566,7 @@ var product = {
 			"color" : ["black"],
 			"price" : 2700,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/roasting/mahlkonig-ek43-retail-grinder-black-mahlkoenig.png"],
+			"img" : ["_public/images/tools/roasting/mahlkonig-ek43-retail-grinder-black-mahlkoenig.png"],
             "desc":"An exceptionally robust grinder with high grinding capacity. It produces outstanding particle size spreads to feature high extraction rates and the best possible taste.These come with premium cast steel burrs, suitable for the entire range of grinding applications: filter, espresso, or turkish-fine coffee grinding, and the grind adjustment is easy and precise.Outstanding particle size spreads feature high extraction rates and the best possible taste. Premium cast steel grinding discs. Robust grinder with high grinding capacity.Suitable for different applications: filter, espresso, or turkish-fine coffee grinding. Grinding of other grits such as spices, grain, poppy-seed and linseed is possible with individual grinding discs. Easy and precise grind adjustment. Operation: Bags are simply clamped into the bag holder – no need to hold bags during the grinding process. The cleaning of the spout is simply done with the bag holder. Grind adjustment to the desired fineness is easily done by turning the grind adjustment knob. The hoppers can be locked with a slide plate to enable an easy exchange of hoppers with different grinding goods. Matte White and Copper version are also available.",
 			"detail" : {
 				"Brand" : "MAHLKONIG",
@@ -1591,7 +1591,7 @@ var product = {
 			"color" : ["black"],
 			"price" : 882,
 			"discount" : 20,
-			"img" : ["/SGU_UDW1/_public/images/tools/roasting/bunn-g1-hd-bulk-bean-coffee-grinder-1-pound-capacity.png"],
+			"img" : ["_public/images/tools/roasting/bunn-g1-hd-bulk-bean-coffee-grinder-1-pound-capacity.png"],
             "desc":"The BUNN G1HD can hold up to 1 pound of fresh coffee beans, and grind them in less than 30 seconds! Its heavy-duty, precision burrs produce high quality grinds in less time. This reduces the risk of overheating the beans during the grinding process. Overheated beans are less flavorful. Users can select from a wide range of grinds from coarse to fine to match the type of brew desired. A convenient cleaning lever removes all coffee from the grind chamber, preventing cross-contamination of different gourmet coffee flavors. Additionally, a bag safety switch stops the motor when the bag is removed and prevents it from starting with no bag in place.",
 			"detail" : { 
 				"Brand" : "BUNN",

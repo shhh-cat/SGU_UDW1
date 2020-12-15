@@ -93,7 +93,7 @@ for (var u in types) {
         }
             
 
-        e.insertAdjacentHTML('afterend','<a href="/SGU_UDW1/tools/'+types[u]+'/'+category[i].id+'" class="text-decoration-none text-dark">'+
+        e.insertAdjacentHTML('afterend','<a href="tools/'+types[u]+'/'+category[i].id+'" class="text-decoration-none text-dark">'+
         '<div class="col-md-3 card-deck product-card m-0 p-0 float-left">'+
             '<div class="card-body p-4">'+
                 '<img src="'+category[i].img[0]+'" class="card-img-top" alt="test">'+
@@ -179,7 +179,7 @@ function addToCart(id,color,skip) {
 
 $( ".btnAdd" ).click(function() {
     if (getCookie("username") != "user") {
-                window.location = "/SGU_UDW1/login";
+                window.location = "login";
               }
     var id = $(this).attr("product");
     var color = $(this).attr("color");
@@ -188,10 +188,10 @@ $( ".btnAdd" ).click(function() {
 });
 $( ".btnBuy" ).click(function() {
     if (getCookie("username") != "user") {
-                window.location = "/SGU_UDW1/login";
+                window.location = "login";
               }
     var id = $(this).attr("product");
     var color = $(this).attr("color");
     addToCart(id,color,true);
-    window.location.href = "/SGU_UDW1/checkout/cart/";
+    window.location.href = "checkout/cart/";
 });

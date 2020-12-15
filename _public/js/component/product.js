@@ -6,8 +6,8 @@
                 return x.toString().replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ",");
             }
 
-            var currentCategory = window.location.pathname.split("/")[3];
-            var currentProduct = window.location.pathname.split("/")[4];
+            var currentCategory = window.location.pathname.split("/")[4];
+            var currentProduct = window.location.pathname.split("/")[5];
 
             //GET DATA OF CATEGORY
             var category;
@@ -49,15 +49,15 @@
 
             //SET BREADCRUMB
             breadcrumbCategory.insertAdjacentHTML('afterbegin',capitalizeFirstLetter(currentCategory).replace(/-/g,' '));
-            breadcrumbCategory.setAttribute("href","/SGU_UDW1/tools/"+currentCategory);
+            breadcrumbCategory.setAttribute("href","../../../tools/"+currentCategory);
             breadcrumbProduct.insertAdjacentHTML('afterbegin',name.replace(/-/g,' '));
 
             //IMAGE DATA
-            eImage.insertAdjacentHTML('beforeend','<img class="xzoom" src="'+image[0]+'" xoriginal="'+image[0]+'" width="100%" />');
+            eImage.insertAdjacentHTML('beforeend','<img class="xzoom" src="../../../'+image[0]+'" xoriginal="../../../'+image[0]+'" width="100%" />');
             if (image.length > 1) {
                 eImage.insertAdjacentHTML('beforeend','<div class="row mt-2 no-gutters" id="thumb">');
                 for (var i in image) {
-                    eImage.insertAdjacentHTML('beforeend','<a href="'+image[i]+'" class="col"><img class="xzoom-gallery" src="'+image[i]+'" width="22%"/></a>');
+                    eImage.insertAdjacentHTML('beforeend','<a href="../../../'+image[i]+'" class="col"><img class="xzoom-gallery" src="../../../'+image[i]+'" width="22%"/></a>');
                 }
                 eImage.insertAdjacentHTML('beforeend','</div">');
             }
@@ -177,17 +177,17 @@ function addToCart(skip) {
 
 $( "#btnAdd" ).click(function() {
     if (getCookie("username") != "user") {
-                window.location = "/SGU_UDW1/login";
+                window.location = "../../../login";
               }
         addToCart(false);
         updateCart();
 });
 $( "#btnBuy" ).click(function() {
     if (getCookie("username") != "user") {
-                window.location = "/SGU_UDW1/login";
+                window.location = "../../../login";
               }
     addToCart(true);
-    window.location.href = "/SGU_UDW1/checkout/cart/";
+    window.location.href = "../../../checkout/cart/";
 });
 
 
