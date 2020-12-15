@@ -181,6 +181,7 @@ requirejs(['jquery','bootstrap','inputSpinner','data','auth','search'], function
   
   // enable
   logout(back+'login');
+  logoutadmin(back+'admin/login')
   login();
 
   //

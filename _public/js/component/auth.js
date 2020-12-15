@@ -13,7 +13,7 @@ function login() {
   $( "form#admin-login-form" ).submit(function( event ) {
     if ( $( "input#user-username" ).val() === "admin" && $( "input#user-password" ).val() === "iamadmin") {
       setCookie("admin","admin",30);
-      window.location.href = '../admin/';
+      window.location.href = '../';
     }
     else {
       $("div.alert").text("This account is invalid").show();
@@ -27,6 +27,9 @@ function logout(back) {
     setCookie("username","user",-1);
     window.location.href = back;
   });
+}
+
+function logoutadmin(back) {
   $( "#logoutbtn-admin" ).click(function() {
     setCookie("admin","admin",-1);
     window.location.href = back;
